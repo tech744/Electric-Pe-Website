@@ -34,5 +34,17 @@ yarn-error.log*
 pdf_content.txt
 *.tsbuildinfo
 
+# internal docs / briefs / audits — these don't belong in source.
+# Keep README.md and public/llms.txt (explicit allow).
+*.pdf
+*.xlsx
+*.xls
+*.docx
+*.docs
+/docs/
+/Electricpe-*.png
+!README.md
+!public/llms.txt
+
 # vercel
 .vercel
