@@ -65,13 +65,6 @@ const VALUES = [
   },
 ];
 
-const LEADERSHIP = [
-  { name: "Raghav Rohila", role: "Founder & CEO", initials: "RR" },
-  { name: "Avinash Sharma", role: "Co-founder & COO", initials: "AS" },
-  { name: "Nimesh Jha", role: "Head of Retail", initials: "NJ" },
-  { name: "Priyanka Dhingra", role: "Head of Customer Experience", initials: "PD" },
-];
-
 export default function AboutPage() {
   return (
     <>
@@ -149,21 +142,6 @@ export default function AboutPage() {
                 {title}
               </h3>
               <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{text}</p>
-            </Card>
-          ))}
-        </div>
-      </Section>
-
-      <Section className="bg-[var(--color-surface-muted)]">
-        <SectionHeader eyebrow="Leadership" title="Meet the team" />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">
-          {LEADERSHIP.map((p) => (
-            <Card key={p.name} className="p-6 text-center">
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-[var(--color-brand)] text-white text-lg font-display font-bold mb-3">
-                {p.initials}
-              </div>
-              <p className="font-display font-bold text-[var(--color-text)]">{p.name}</p>
-              <p className="text-sm text-[var(--color-text-muted)]">{p.role}</p>
             </Card>
           ))}
         </div>

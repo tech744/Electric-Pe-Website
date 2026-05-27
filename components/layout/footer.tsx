@@ -24,8 +24,6 @@ const FOOTER_LINKS = {
   ],
   Network: [
     { label: "Store Locator", href: "/stores" },
-    { label: "Charging Stations", href: "/ev-charging-stations" },
-    { label: "Download App", href: "/app" },
   ],
   Company: [
     { label: "About Us", href: "/about-us" },
