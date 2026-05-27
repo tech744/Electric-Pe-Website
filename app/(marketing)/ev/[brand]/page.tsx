@@ -39,7 +39,7 @@ export async function generateMetadata({
   }).format(minPrice);
 
   const title = `${theme.displayName} Electric Scooter | From ${formattedPrice} | ElectricPe`;
-  const description = `${theme.positioning} Starting from ${formattedPrice}. ARAI-approved, no licence required, component-level warranty. Book a free test ride.`;
+  const description = `${theme.positioning} Starting from ${formattedPrice}. Road-legal, no licence required, component-level warranty. Book a free test ride.`;
 
   return {
     title: { absolute: title },

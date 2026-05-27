@@ -27,7 +27,7 @@ const PILLARS = [
   {
     icon: ClipboardList,
     title: "Certification-ready",
-    text: "We help with BIS, CE, ARAI paperwork for the Indian market if you're entering new.",
+    text: "We help with BIS, CE and Indian regulatory paperwork if you're entering this market for the first time.",
   },
 ];
 

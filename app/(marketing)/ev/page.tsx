@@ -18,7 +18,7 @@ import type { BrandSlug, Scooter, UseCase } from "@/content/types";
 export const metadata: Metadata = {
   title: { absolute: "Electric Scooters in India | Xypro, Jett, 4ALL | ElectricPe" },
   description:
-    "Affordable low-speed electric scooters from Xypro, Jett and 4ALL. No licence required, low running cost, component-level warranty, 126+ service centres across India.",
+    "Best-value low-speed electric scooters from Xypro, Jett and 4ALL. No licence required, low running cost, component-level warranty, 30+ service centres across India.",
   alternates: { canonical: "/ev" },
 };
 
@@ -93,7 +93,7 @@ export default async function EvListingPage({
             Electric scooters for every Indian ride
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[var(--color-text-muted)]">
-            Xypro, Jett and 4ALL: affordable, low-speed, no-licence EVs tuned
+            Xypro, Jett and 4ALL: best-value, low-speed, no-licence EVs tuned
             to how Indians actually commute. Backed by a real store network and
             component-level warranty in writing.
           </p>

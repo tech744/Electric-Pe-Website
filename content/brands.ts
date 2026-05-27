@@ -64,12 +64,12 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
   xypro: {
     slug: "xypro",
     displayName: "Xypro",
-    tagline: "Most affordable. No licence, no registration.",
+    tagline: "Best price. No licence, no registration.",
     cutout: "/img/cutouts/xypro_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-sky-100 via-indigo-100 to-rose-100",
     onTint: "text-slate-900",
     positioning:
-      "Affordable everyday ride for first-time EV owners. Available in lead-acid, lithium-ion and battery-swap variants.",
+      "Best-value everyday ride for first-time EV owners. Available in lead-acid, lithium-ion and battery-swap variants.",
     storyTitle: "Built for the everyday Indian commute",
     storyBody:
       "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Three variants cover three budgets, all starting at ₹36,000 with 80 km+ real-world range and a 4-hour charge: the lead-acid Xypro for proven chemistry, the lithium-ion version for lighter weight and faster charging, and the Xypro Swap with battery-as-a-service.",
@@ -90,11 +90,11 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "ShieldCheck",
         title: "No licence, no RTO",
         proof:
-          "All three Xypro variants are ≤25 km/h and ARAI-classified low-speed. Ride home the same day, no DL or registration.",
+          "All three Xypro variants are ≤25 km/h, classified low-speed under Indian motor-vehicle rules. Ride home the same day, no DL or registration.",
       },
     ],
     bestFor: ["Daily commute", "Students", "First-time EV riders"],
-    trustChips: ["ARAI-approved", "Made in India", "Low running cost", "No licence required"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 
   jett: {
@@ -130,7 +130,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       },
     ],
     bestFor: ["Family", "Daily commute", "Weekend errands"],
-    trustChips: ["ARAI-approved", "Made in India", "Low running cost", "No licence required"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 
   "4all": {
@@ -166,7 +166,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       },
     ],
     bestFor: ["Long commutes", "Daily family use", "Range anxiety, fixed"],
-    trustChips: ["ARAI-approved", "Made in India", "Low running cost", "No licence required"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 };
 

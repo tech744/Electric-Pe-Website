@@ -21,7 +21,6 @@ import {
   Truck,
   Fuel,
   Leaf,
-  FileCheck,
   type LucideIcon,
 } from "lucide-react";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -518,7 +517,7 @@ export function BrandLanding({ brand }: { brand: BrandTheme }) {
                 Book a free test ride. No licence, no RTO, no pressure.
               </h2>
               <p className="mt-4 text-base md:text-lg leading-relaxed opacity-90">
-                ARAI-approved. Warrantied in writing. Serviced at 30+ ElectricPe
+                Road-legal. Warrantied in writing. Serviced at 30+ ElectricPe
                 Mobility Centres across India.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
@@ -557,11 +556,6 @@ const INCLUDED_ITEMS: {
     icon: Zap,
     title: "Battery + AC charger",
     detail: "Detachable battery pack and a regular 5A home charger. No special wall-socket, no installer visit.",
-  },
-  {
-    icon: FileCheck,
-    title: "ARAI compliance certificate",
-    detail: "Physical certificate of homologation with every scooter, the only paperwork you'll ever need.",
   },
   {
     icon: ShieldCheck,

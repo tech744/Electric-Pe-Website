@@ -114,11 +114,15 @@ export function Hero() {
             initial={reduced ? false : { opacity: 0, y: 10 }}
             animate={reduced ? undefined : { opacity: 1, y: 0 }}
             transition={{ duration: reduced ? 0 : 0.6, delay: reduced ? 0 : 0.1, ease: EASE }}
-            className="font-display font-bold text-[var(--color-text)] tracking-[-0.035em] leading-[1.02]"
-            style={{ fontSize: "clamp(2.5rem, 6vw, 4.75rem)" }}
+            className="font-display font-bold text-[var(--color-text)] tracking-[-0.035em] leading-[1.08] text-balance"
+            style={{ fontSize: "clamp(2rem, 5.2vw, 4.25rem)" }}
           >
-            <span className="text-[var(--color-brand)]">Affordable</span> Electric
-            Scooters for India.
+            <span className="block">
+              The <span className="text-[var(--color-brand)]">best</span> electric scooter.
+            </span>
+            <span className="block">
+              At the <span className="text-[var(--color-brand)]">best</span> price.
+            </span>
           </motion.h1>
 
           <motion.p

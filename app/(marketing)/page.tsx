@@ -21,7 +21,7 @@ import { HomepageNap } from "@/components/marketing/homepage-nap";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "ElectricPe | Affordable Electric Scooters & Mobility Centers India",
+      "ElectricPe | Best Electric Scooters at Best Price | India",
   },
   description:
     "Reliable, easy-to-ride EV scooters with trusted service and stores near you. No licence required, low running cost. Book a free test ride today.",

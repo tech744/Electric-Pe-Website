@@ -20,7 +20,7 @@ export const scooters: Scooter[] = [
       wheelSize: "10 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 3y / 10,000 km · Motor & Controller 1y",
     },
     colors: [
@@ -77,7 +77,7 @@ export const scooters: Scooter[] = [
       wheelSize: "10 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 12 months · Motor & Controller 1y",
     },
     colors: [
@@ -110,7 +110,7 @@ export const scooters: Scooter[] = [
       "sonipat",
     ],
     seo: {
-      title: "Xypro Lead Acid | Affordable 80 km+ EV Scooter | ElectricPe",
+      title: "Xypro Lead Acid | Best-Value 80 km+ EV Scooter | ElectricPe",
       description:
         "Xypro Lead Acid electric scooter. 80 km+ range, 25 km/h top speed, component-level warranty. No licence required. EMI from ₹1,299/month. Book a free test ride.",
     },
@@ -134,7 +134,7 @@ export const scooters: Scooter[] = [
       wheelSize: "12 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 3y / 10,000 km · Motor & Controller 1y",
     },
     colors: [
@@ -186,7 +186,7 @@ export const scooters: Scooter[] = [
       wheelSize: "12 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 12 months · Motor & Controller 1y",
     },
     colors: [
@@ -212,7 +212,7 @@ export const scooters: Scooter[] = [
       "mysuru",
     ],
     seo: {
-      title: "Jett Lead Acid | Affordable Family EV Scooter | ElectricPe",
+      title: "Jett Lead Acid | Best-Value Family EV Scooter | ElectricPe",
       description:
         "Jett Lead Acid electric scooter. 80 km+ range, 12-inch wheels, 10kg storage. Component-level warranty. EMI from ₹1,899/month.",
     },
@@ -236,7 +236,7 @@ export const scooters: Scooter[] = [
       wheelSize: "10 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 3y / 10,000 km · Motor & Controller 1y",
     },
     colors: [
@@ -288,7 +288,7 @@ export const scooters: Scooter[] = [
       wheelSize: "10 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Battery 12 months · Motor & Controller 1y",
     },
     colors: [
@@ -315,7 +315,7 @@ export const scooters: Scooter[] = [
       "mathura",
     ],
     seo: {
-      title: "4ALL Lead Acid | 80 km+ Affordable EV Scooter | ElectricPe",
+      title: "4ALL Lead Acid | 80 km+ Best-Value EV Scooter | ElectricPe",
       description:
         "4ALL Lead Acid electric scooter. 80 km+ range, no licence required. Component-level warranty. EMI from ₹1,999/month.",
     },
@@ -339,7 +339,7 @@ export const scooters: Scooter[] = [
       wheelSize: "10 inch",
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
-      certification: "ARAI approved",
+      certification: "Road-legal (low-speed EV)",
       warranty: "Vehicle 1y · Battery via subscription",
     },
     colors: [

@@ -327,7 +327,7 @@ export function ServicePromise() {
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
             <p className="text-xs text-[var(--color-text-subtle)]">
-              ARAI-approved · Made in India
+              Road-legal · Made in India
             </p>
           </div>
         </div>

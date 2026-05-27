@@ -1,6 +1,6 @@
 # ElectricPe
 
-> India's largest trusted EV retail network. We sell affordable low-speed electric scooters (Xypro, Jett, 4ALL) — all licence-free and registration-free under Indian motor-vehicle law — through 30+ branded Mobility Centers across India. Owned and operated by Wattapp Technologies Pvt. Ltd., headquartered in Bengaluru.
+> India's largest trusted EV retail network. We sell best-value low-speed electric scooters (Xypro, Jett, 4ALL) — all licence-free and registration-free under Indian motor-vehicle law — through 30+ branded Mobility Centers across India. Owned and operated by Wattapp Technologies Pvt. Ltd., headquartered in Bengaluru.
 
 Every scooter in the catalogue is speed-limited to 25 km/h, which qualifies it as a low-speed EV under Indian regulation. No driving licence, no RTO registration, no road tax. Same-day delivery from any store.
 
