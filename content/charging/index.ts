@@ -21,6 +21,13 @@ export type ChargingPageType =
 
 export type ChargingPriority = "critical" | "high" | "medium";
 
+/** A long-form content section rendered as an <h2> with paragraphs + optional bullets. */
+export type ChargingSection = {
+  heading: string;
+  body: string[];
+  bullets?: string[];
+};
+
 export type ChargingPage = {
   /** Flat URL slug, e.g. "ev-charging-stations-bengaluru" (no leading slash). */
   slug: string;
@@ -55,6 +62,8 @@ export type ChargingPage = {
   route?: { from: string; to: string; distanceKm?: number };
   /** Extra charging FAQ ids to render (in addition to the category default). */
   faqIds?: string[];
+  /** Long-form, research-backed body content (1,000–1,500 words across sections). */
+  longform?: ChargingSection[];
 };
 
 /** Partner charging networks aggregated in the app (shared with the hub page). */
@@ -119,6 +128,75 @@ export const chargingPages: ChargingPage[] = [
       "ev-charging-stations-mangaluru",
     ],
     storeCitySlug: "bengaluru",
+    longform: [
+      {
+        heading: "Bengaluru's EV charging network at a glance",
+        body: [
+          "Karnataka leads India on public EV charging, and Bengaluru is the centre of gravity. The city has the densest concentration of public charge points in the country, spread across shopping malls, tech-park basements, metro stations, fuel stations and pay-and-park lots. For a daily rider, that means charging has shifted from a rare, planned event to a routine pit-stop you barely think about.",
+          "The catch is fragmentation. Those chargers belong to dozens of different operators, each with its own app, wallet and pricing. ElectricPe solves that by aggregating every major network onto one map, so instead of installing a separate app for Tata Power, Statiq, Jio-bp, ChargeZone and the rest, you see them all in one place, with live status and one payment method.",
+        ],
+      },
+      {
+        heading: "Where to find charging stations across Bengaluru",
+        body: [
+          "Charger density tracks where the city actually works and shops. The tech corridors are the best-covered: along the Outer Ring Road, Whitefield, Electronic City, Manyata Tech Park and the Sarjapur–Marathahalli belt, you will rarely be more than a few minutes from a working point. Central and retail districts add a second dense layer.",
+          "Inside the ElectricPe app you can filter that map down to exactly what you need, rather than driving to a charger only to find it occupied or offline.",
+        ],
+        bullets: [
+          "Tech corridors: Outer Ring Road, Whitefield, Electronic City, Manyata, Sarjapur Road",
+          "Retail and lifestyle hubs: Indiranagar, Koramangala, MG Road, large malls",
+          "Transit points: select Namma Metro stations and major public parking lots",
+          "Residential clusters: apartment complexes and gated communities with shared chargers",
+        ],
+      },
+      {
+        heading: "Connector types and charging speeds in Bengaluru",
+        body: [
+          "Which charger you need depends on your vehicle. Electric two-wheelers like the Ola S1, Ather 450X and TVS iQube charge mostly on AC points, while electric cars increasingly use DC fast chargers for quick top-ups. Bengaluru's public mix leans toward AC, which suits the city's huge two-wheeler base, with a growing share of DC fast chargers along high-traffic and highway routes.",
+          "ElectricPe lets you filter by connector and power output so you only see points your vehicle can actually use, removing the guesswork that catches out first-time EV owners.",
+        ],
+        bullets: [
+          "AC charging: Type-2 and Bharat AC-001, ideal for overnight and top-up charging of two-wheelers",
+          "DC fast charging: CCS2 and CHAdeMO, for quick high-power top-ups, mostly used by cars",
+          "Power output ranges from 3.3 kW home-style points up to 150 kW fast chargers",
+        ],
+      },
+      {
+        heading: "What it costs to charge in Bengaluru, and how to pay less",
+        body: [
+          "Public charging in Bengaluru is priced per unit of electricity, and the rate varies by operator and by whether the point is slow AC or fast DC. Karnataka's power utility offers a dedicated tariff category for EV charging, which has helped keep public charging meaningfully cheaper than running a petrol vehicle over the same distance.",
+          "Even so, prices differ from one network to the next, so the cost-conscious move is to compare before you plug in. ElectricPe shows the tariff up front, and its charging subscription brings a lower per-unit rate across the networks it supports, so frequent chargers save on every session instead of paying whatever rate they happen to land on.",
+          "A few factors decide what a session actually costs you, and it pays to know them before you commit to a particular point:",
+        ],
+        bullets: [
+          "Charger type: DC fast charging usually costs more per unit than slower AC charging",
+          "Operator pricing: each network sets its own tariff, and they are not the same",
+          "Location: chargers inside malls or premium parking may add a parking or convenience fee",
+          "Your plan: a charging subscription lowers the per-unit rate you pay everywhere it is accepted",
+        ],
+      },
+      {
+        heading: "Charging at home and at work in Bengaluru",
+        body: [
+          "Most Bengaluru EV owners do the bulk of their charging where the vehicle sits idle for hours: at home overnight, or at the office through the workday. An electric two-wheeler tops up comfortably from an ordinary household socket, and a growing number of apartments now provide shared chargers in the basement. Public charging then becomes the convenient backup for the days your routine breaks, you forget to plug in, or you are caught out across town.",
+          "If your building does not have charging yet, it is worth raising with your association, because Karnataka's rules now make it easier for housing societies to add shared points. Until then, ElectricPe maps the public network around your home, your office and the routes you drive most, so one missed home charge never turns into a stranded morning.",
+        ],
+      },
+      {
+        heading: "Karnataka's EV policy advantage",
+        body: [
+          "Bengaluru's charging boom did not happen by accident. Karnataka was among the first states in India to publish a dedicated electric-vehicle and energy-storage policy, and successive updates have pushed incentives for charging operators, land near highways for fast-charging corridors and simpler clearances to set up stations. Newer building rules also encourage apartments and housing societies to pre-wire for chargers and let resident associations approve shared points.",
+          "For an EV owner, the practical result is simple: more chargers, in more places, added faster than almost anywhere else in the country. ElectricPe's job is to keep pace, adding new operators to the app as they come online so your map stays current.",
+        ],
+      },
+      {
+        heading: "Charging on longer trips, and why ElectricPe is the easy answer",
+        body: [
+          "Bengaluru is also a launch-pad for intercity EV travel. The Bengaluru–Mysuru Expressway is one of the better-served EV corridors in South India, with fast chargers spaced for a comfortable run, and routes toward Chennai and Hyderabad are filling in. Before a longer drive, you can map your charging stops in advance so range anxiety never makes the decision for you.",
+          "Whether you are topping up around the city or planning a weekend trip, the value is the same: one free app that shows live availability across 60+ networks, gives turn-by-turn navigation to the point you pick, and lets you pay from a single wallet. That is the difference between hunting for a charger and simply driving to one.",
+        ],
+      },
+    ],
   },
   {
     slug: "ev-charging-stations-delhi",

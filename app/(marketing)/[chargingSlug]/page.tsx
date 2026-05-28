@@ -44,6 +44,7 @@ import {
   CHARGING_FILTERS,
   type ChargingPage,
 } from "@/content/charging";
+import { LONGFORM } from "@/content/charging/longform";
 
 type Params = { chargingSlug: string };
 
@@ -94,6 +95,7 @@ export default async function ChargingPageRoute({
   const page = getChargingPage(chargingSlug);
   if (!page) notFound();
 
+  const longform = page.longform ?? LONGFORM[page.slug];
   const nearby = getNearbyChargingPages(page.slug);
   const categoryFaqs = getFaqsByCategory("charging");
   const extraFaqs = (page.faqIds ?? [])
@@ -279,6 +281,45 @@ export default async function ChargingPageRoute({
 
       {/* Type-specific context band */}
       <TypeContext page={page} />
+
+      {/* Long-form, research-backed article */}
+      {longform && longform.length > 0 && (
+        <Section>
+          <div className="max-w-3xl mx-auto">
+            {longform.map((section, i) => (
+              <div key={section.heading} className={i === 0 ? "" : "mt-10"}>
+                <h2 className="font-display font-bold text-2xl md:text-3xl tracking-[-0.01em] text-[var(--color-text)]">
+                  {section.heading}
+                </h2>
+                {section.body.map((para, j) => (
+                  <p
+                    key={j}
+                    className="mt-4 text-base md:text-lg leading-relaxed text-[var(--color-text-muted)]"
+                  >
+                    {para}
+                  </p>
+                ))}
+                {section.bullets && section.bullets.length > 0 && (
+                  <ul className="mt-4 space-y-2">
+                    {section.bullets.map((b) => (
+                      <li
+                        key={b}
+                        className="flex items-start gap-2.5 text-base md:text-lg leading-relaxed text-[var(--color-text-muted)]"
+                      >
+                        <Zap
+                          className="h-4 w-4 mt-1.5 text-[var(--color-brand)] shrink-0"
+                          aria-hidden
+                        />
+                        <span>{b}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* Networks */}
       <Section className="bg-[var(--color-surface-muted)]">
