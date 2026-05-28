@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Section } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -67,7 +68,7 @@ export default function TermsPage() {
             <p>
               You may cancel a pre-booking within 48 hours of payment for a full refund.
               Orders that have been delivered may be returned only in accordance with
-              our <a href="/returns" className="text-[var(--color-brand)] underline">Returns Policy</a>.
+              our <Link href="/returns" className="text-[var(--color-brand)] underline">Returns Policy</Link>.
             </p>
 
             <h2 className="text-h2 mt-8">Limitation of liability</h2>
@@ -82,7 +83,7 @@ export default function TermsPage() {
             <p>
               All content on this website (text, images, logos, design system) is the
               property of {globals.legalEntity.name} or its licensors. You may download
-              press assets from our <a href="/press" className="text-[var(--color-brand)] underline">Press page</a> for
+              press assets from our <Link href="/press" className="text-[var(--color-brand)] underline">Press page</Link> for
               editorial use; all other use requires written permission.
             </p>
 

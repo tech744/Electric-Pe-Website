@@ -131,6 +131,42 @@ export const faqs: Faq[] = [
     scopeId: "xypro-swap",
     order: 15,
   },
+  {
+    id: "charging-find-near-me",
+    question: "How do I find an EV charging station near me?",
+    answerMdx:
+      "Open the ElectricPe app and it shows charging stations around you on a live map, drawn from 60+ partner networks. You can search any area or city, see which points are free right now, and get turn-by-turn directions to the one you pick.",
+    category: "charging",
+    scope: "global",
+    order: 16,
+  },
+  {
+    id: "charging-networks-supported",
+    question: "Which charging networks does the ElectricPe app support?",
+    answerMdx:
+      "ElectricPe aggregates 60+ networks including Tata Power, Adani EV, Statiq, Jio-bp, Shell Recharge, ChargeZone, BPCL, HP Charge and many more. Instead of installing a separate app for each operator, you see them all in one place and pay from a single wallet.",
+    category: "charging",
+    scope: "global",
+    order: 17,
+  },
+  {
+    id: "charging-app-free",
+    question: "Is the ElectricPe charging app free to use?",
+    answerMdx:
+      "Yes. The app is free to download and free to use for finding, navigating to and paying at charging stations, whether or not you own an ElectricPe scooter. You only pay the charging operator's tariff for the energy you actually consume.",
+    category: "charging",
+    scope: "global",
+    order: 18,
+  },
+  {
+    id: "charging-payment",
+    question: "How do I pay for charging across different networks?",
+    answerMdx:
+      "Top up the ElectricPe wallet once and use it at any supported network — no separate accounts or operator-specific cards. Start and stop a session from your phone, and the cost is deducted automatically, so you get a single payment history across every charger you use.",
+    category: "charging",
+    scope: "global",
+    order: 19,
+  },
 ];
 
 export const getFaqsByCategory = (category: string): Faq[] =>

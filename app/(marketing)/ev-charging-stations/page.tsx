@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Zap, MapPin, Navigation2, CreditCard, Search } from "lucide-react";
+import { Zap, MapPin, Navigation2, CreditCard, Search, ArrowRight } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 import { globals } from "@/content/globals";
 import { getFaqsByCategory } from "@/content/faqs";
+import { getChargingPagesByType, type ChargingPage } from "@/content/charging";
 
 export const metadata: Metadata = {
   title: "EV Charging Stations | 25,000+ Across India",
@@ -59,6 +60,21 @@ const FILTERS = [
 
 export default function ChargingStationsPage() {
   const faqs = getFaqsByCategory("charging");
+
+  const cityHubs = getChargingPagesByType("city-hub");
+  const cityHubsByState = cityHubs.reduce<
+    Record<string, typeof cityHubs>
+  >((acc, p) => {
+    const key = p.state ?? "Other";
+    (acc[key] ??= []).push(p);
+    return acc;
+  }, {});
+  const orderedStateGroups = Object.entries(cityHubsByState).sort(
+    ([a], [b]) => a.localeCompare(b),
+  );
+  const vehicleCityPages = getChargingPagesByType("vehicle-city");
+  const highwayPages = getChargingPagesByType("highway");
+  const useCasePages = getChargingPagesByType("use-case");
 
   return (
     <>
@@ -215,6 +231,45 @@ export default function ChargingStationsPage() {
         </Section>
       )}
 
+      {/* Directory: city hubs by state */}
+      <Section>
+        <SectionHeader
+          eyebrow="By city"
+          title="EV charging stations across India"
+          description="Browse charging guides for every city ElectricPe covers."
+          align="left"
+        />
+        <div className="space-y-8">
+          {orderedStateGroups.map(([state, pages]) => (
+            <div key={state}>
+              <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-[var(--color-text-subtle)] mb-3">
+                {state}
+              </h3>
+              <div className="flex flex-wrap gap-2.5">
+                {pages.map((p) => (
+                  <Link
+                    key={p.slug}
+                    href={`/${p.slug}`}
+                    className="inline-flex items-center rounded-full border border-[var(--color-border)] bg-white px-3.5 py-1.5 text-sm font-medium text-[var(--color-text)] hover:border-[var(--color-brand)] hover:text-[var(--color-brand)] transition-colors"
+                  >
+                    {p.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      {/* Directory: vehicle, highway, use-case */}
+      <Section className="bg-[var(--color-surface-muted)]">
+        <div className="grid md:grid-cols-3 gap-8">
+          <DirectoryColumn title="By vehicle" pages={vehicleCityPages} />
+          <DirectoryColumn title="Highway routes" pages={highwayPages} />
+          <DirectoryColumn title="Charging solutions" pages={useCasePages} />
+        </div>
+      </Section>
+
       <section className="bg-gradient-brand text-white py-16 md:py-20">
         <Container>
           <div className="max-w-2xl mx-auto text-center">
@@ -265,5 +320,43 @@ function Stat({ big, small }: { big: string; small: string }) {
       <p className="text-number-stat text-[var(--color-brand)] leading-none">{big}</p>
       <p className="text-sm text-[var(--color-text-muted)] mt-2">{small}</p>
     </Card>
+  );
+}
+
+function DirectoryColumn({
+  title,
+  pages,
+}: {
+  title: string;
+  pages: ChargingPage[];
+}) {
+  return (
+    <div>
+      <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-[var(--color-text-subtle)] mb-3">
+        {title}
+      </h3>
+      <ul className="space-y-2">
+        {pages.map((p) => {
+          const label =
+            p.pageType === "vehicle-city" && p.vehicle
+              ? `${p.vehicle.model} — ${p.name}`
+              : p.name;
+          return (
+            <li key={p.slug}>
+              <Link
+                href={`/${p.slug}`}
+                className="inline-flex items-center gap-1.5 text-sm text-[var(--color-text)] hover:text-[var(--color-brand)] transition-colors"
+              >
+                <ArrowRight
+                  className="h-3.5 w-3.5 text-[var(--color-brand)] shrink-0"
+                  aria-hidden
+                />
+                {label}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 }

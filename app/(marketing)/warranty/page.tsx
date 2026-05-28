@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Section } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -70,7 +71,7 @@ export default function WarrantyPage() {
             <h2 className="text-h2 mt-8">Our SLA</h2>
             <p>
               We publish our 24-hour service SLA hit-rate every month on the{" "}
-              <a href="/service" className="text-[var(--color-brand)] underline">service page</a>. If
+              <Link href="/service" className="text-[var(--color-brand)] underline">service page</Link>. If
               your warranty claim takes more than 7 days, we'll proactively credit you
               with a free service voucher worth ₹1,500.
             </p>

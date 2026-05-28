@@ -7,6 +7,7 @@ const SUB_SITEMAPS = [
   "/sitemap-stores.xml",
   "/sitemap-blog.xml",
   "/sitemap-localities.xml",
+  "/sitemap-charging.xml",
 ];
 
 export function GET(): Response {

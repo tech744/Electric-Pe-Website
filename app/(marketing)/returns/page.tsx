@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Section } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
@@ -47,7 +48,7 @@ export default function ReturnsPage() {
               Because a scooter is a registered motor vehicle, we do not offer "change
               of mind" returns once delivery is complete. If your scooter has a
               manufacturing defect, we will replace affected parts under warranty at no
-              cost. See <a href="/warranty" className="text-[var(--color-brand)] underline">warranty policy</a>.
+              cost. See <Link href="/warranty" className="text-[var(--color-brand)] underline">warranty policy</Link>.
               In the rare case of a catastrophic defect within 7 days of delivery, we
               will replace the entire vehicle at our sole discretion.
             </p>

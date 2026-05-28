@@ -301,3 +301,36 @@ export function itemListSchema(
     })),
   };
 }
+
+/**
+ * Service schema for an EV charging-station landing page. The charging
+ * network is app-based and nationwide, so we describe coverage via
+ * `areaServed` rather than fabricating a single geo coordinate. `name`
+ * is the human label (e.g. a city), used for the `areaServed` value.
+ */
+export function chargingServiceSchema(args: {
+  name: string;
+  url: string;
+  description: string;
+  areaServedType?: "City" | "Country";
+}): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": absoluteUrl(args.url),
+    serviceType: "EV charging station locator",
+    name: args.name,
+    description: args.description,
+    url: absoluteUrl(args.url),
+    areaServed: {
+      "@type": args.areaServedType ?? "City",
+      name: args.name,
+    },
+    provider: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+      logo: absoluteUrl("/img/eplogo-horiz.webp"),
+    },
+  };
+}
