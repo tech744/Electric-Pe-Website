@@ -1,3 +1,5 @@
+import type { LongformSection } from "../types";
+
 export type Locality = {
   slug: string;
   name: string;
@@ -6,6 +8,8 @@ export type Locality = {
   active: boolean;
   /** ~1-paragraph intro for SEO. Mention the locality, the parent city, and the nearest Mobility Center. */
   introCopy: string;
+  /** Optional long-form body content (~700–1,000 words) rendered on the locality page. */
+  longform?: LongformSection[];
 };
 
 export const localities: Locality[] = [

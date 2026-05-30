@@ -84,6 +84,13 @@ export type Store = {
   isComingSoon?: boolean;
 };
 
+/** A single long-form section (rendered as <h2> + paragraphs + optional bullets). */
+export type LongformSection = {
+  heading: string;
+  body: string[];
+  bullets?: string[];
+};
+
 export type City = {
   slug: string;
   name: string;
@@ -100,6 +107,8 @@ export type City = {
   introCopy: string;
   customerCount: string;
   scootersSoldCount: string;
+  /** Optional long-form body content (~1,000–1,200 words) rendered on the city page. */
+  longform?: LongformSection[];
 };
 
 export type Testimonial = {

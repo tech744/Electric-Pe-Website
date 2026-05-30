@@ -10,6 +10,7 @@ import { StoreCard } from "@/components/locator/store-card";
 import { JsonLd, breadcrumbSchema } from "@/lib/seo/jsonld";
 import { absoluteUrl } from "@/lib/utils/site";
 import { localities, getLocality, localitySlugs } from "@/content/localities";
+import { LOCALITY_LONGFORM } from "@/content/localities/longform";
 import { getCity } from "@/content/cities";
 import { getStoresByCity } from "@/content/stores";
 
@@ -57,6 +58,7 @@ export default async function LocalityPage({
   const cityName = city?.name ?? locality.parentCitySlug;
   const cityStores = city ? getStoresByCity(city.slug) : [];
   const isActive = locality.active && cityStores.length > 0;
+  const longform = locality.longform ?? LOCALITY_LONGFORM[locality.slug];
 
   const placeSchema = city
     ? {
@@ -176,6 +178,41 @@ export default async function LocalityPage({
             <Button asChild size="lg" variant="outline">
               <Link href="/ev">Browse the scooter range</Link>
             </Button>
+          </div>
+        </Section>
+      )}
+
+      {longform && longform.length > 0 && (
+        <Section>
+          <div className="max-w-3xl mx-auto">
+            {longform.map((section, i) => (
+              <div key={section.heading} className={i === 0 ? "" : "mt-10"}>
+                <h2 className="font-display font-bold text-2xl md:text-3xl tracking-[-0.01em] text-[var(--color-text)]">
+                  {section.heading}
+                </h2>
+                {section.body.map((para, j) => (
+                  <p
+                    key={j}
+                    className="mt-4 text-base md:text-lg leading-relaxed text-[var(--color-text-muted)]"
+                  >
+                    {para}
+                  </p>
+                ))}
+                {section.bullets && section.bullets.length > 0 && (
+                  <ul className="mt-4 space-y-2">
+                    {section.bullets.map((b) => (
+                      <li
+                        key={b}
+                        className="flex items-start gap-2.5 text-base md:text-lg leading-relaxed text-[var(--color-text-muted)]"
+                      >
+                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[var(--color-brand)] shrink-0" aria-hidden />
+                        <span>{b}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
           </div>
         </Section>
       )}
