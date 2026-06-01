@@ -173,7 +173,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "vibe",
     displayName: "Vibe",
     tagline: "Modern style. Daily comfort.",
-    cutout: "/img/vibe_brand_banner.jpeg",
+    cutout: "/img/cutouts/vibe_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-rose-100 via-red-100 to-pink-100",
     onTint: "text-slate-900",
     positioning:
@@ -209,7 +209,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "rapter",
     displayName: "Rapter",
     tagline: "Urban presence. Sporty stance.",
-    cutout: "/img/rapter_brand_banner.jpeg",
+    cutout: "/img/cutouts/rapter_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-sky-100 via-blue-100 to-indigo-100",
     onTint: "text-slate-900",
     positioning:
