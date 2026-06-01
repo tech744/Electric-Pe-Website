@@ -12,6 +12,8 @@ const FOOTER_LINKS = {
     { label: "Xypro", href: "/ev/xypro" },
     { label: "Jett", href: "/ev/jett" },
     { label: "4ALL", href: "/ev/4all" },
+    { label: "Vibe", href: "/ev/vibe" },
+    { label: "Rapter", href: "/ev/rapter" },
     { label: "EMI Calculator", href: "/emi" },
     { label: "Savings Calculator", href: "/savings" },
   ],
