@@ -122,16 +122,6 @@ export const faqs: Faq[] = [
     order: 14,
   },
   {
-    id: "xypro-swap-subscription",
-    question: "How does the battery swap subscription work?",
-    answerMdx:
-      "With the Xypro Swap, you own the vehicle but subscribe to the battery. Starting at ₹8/day, you can swap depleted batteries for fully charged ones at any partner swap station, typically in under 60 seconds. Perfect if you can't charge at home or run multiple shifts.",
-    category: "charging",
-    scope: "scooter",
-    scopeId: "xypro-swap",
-    order: 15,
-  },
-  {
     id: "charging-find-near-me",
     question: "How do I find an EV charging station near me?",
     answerMdx:

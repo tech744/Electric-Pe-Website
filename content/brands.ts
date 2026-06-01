@@ -69,16 +69,16 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-br from-sky-100 via-indigo-100 to-rose-100",
     onTint: "text-slate-900",
     positioning:
-      "Best-value everyday ride for first-time EV owners. Available in lead-acid, lithium-ion and battery-swap variants.",
+      "Best-value everyday ride for first-time EV owners. Available in lead-acid and lithium-ion variants.",
     storyTitle: "Built for the everyday Indian commute",
     storyBody:
-      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Three variants cover three budgets, all starting at ₹36,000 with 80 km+ real-world range and a 4-hour charge: the lead-acid Xypro for proven chemistry, the lithium-ion version for lighter weight and faster charging, and the Xypro Swap with battery-as-a-service.",
+      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Two variants cover two budgets: the lead-acid Xypro from ₹42,000 with a 50 km+ range and 6-hour charge for the lowest upfront cost, and the lithium-ion Xypro at ₹58,000 with an 80 km+ range and a faster 4-hour charge for lighter weight and longer daily runs.",
     pillars: [
       {
         iconName: "Wallet",
-        title: "Starts at ₹36,000",
+        title: "Starts at ₹42,000",
         proof:
-          "The Xypro range starts at ₹36,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,299/month.",
+          "The Xypro range starts at ₹42,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,499/month.",
       },
       {
         iconName: "Zap",
@@ -141,7 +141,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-b from-stone-600 via-stone-700 to-neutral-900",
     onTint: "text-white",
     positioning:
-      "Best range in the no-licence category: 80 km+ on a single charge, honest 25 km/h top speed, ₹56,000 on-road.",
+      "Best range in the no-licence category: 80 km+ on a single charge, honest 25 km/h top speed, lithium-ion from ₹70,000 on-road (lead-acid from ₹56,000).",
     storyTitle: "Range, without the paperwork",
     storyBody:
       "Most long-range electric scooters ask you to queue at the RTO and memorise a traffic code. 4ALL refuses that trade. Both variants cap speed at 25 km/h to stay in the no-licence category, but deliver 80 km+ on a single 4-hour charge. Lithium for lighter weight and faster recovery cycles. Lead-acid for proven, easy-to-service chemistry. Pick your chemistry.",
@@ -162,15 +162,87 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "Sparkles",
         title: "Lithium or lead-acid",
         proof:
-          "Same chassis, same 80 km+ range, two chemistries. Lithium-ion for lighter weight. Lead-acid for proven, easy-to-service durability. Both at ₹56,000.",
+          "Same chassis, two chemistries. Lithium-ion for lighter weight, an 80 km+ range and a 4-hour charge at ₹70,000. Lead-acid for proven, easy-to-service durability with a 50 km+ range and 6-hour charge at ₹56,000.",
       },
     ],
     bestFor: ["Long commutes", "Daily family use", "Range anxiety, fixed"],
     trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
+
+  vibe: {
+    slug: "vibe",
+    displayName: "Vibe",
+    tagline: "Modern style. Daily comfort.",
+    cutout: "/img/vibe_brand_banner.jpeg",
+    tint: "bg-gradient-to-br from-rose-100 via-red-100 to-pink-100",
+    onTint: "text-slate-900",
+    positioning:
+      "Modern-style electric scooter built for everyday urban riding. Lithium-ion at ₹70,000, lead-acid at ₹56,000. 25 km/h, no licence, no registration.",
+    storyTitle: "Daily commute, with a bit more style",
+    storyBody:
+      "Vibe was designed for riders who want their daily scooter to look the part. A sleeker silhouette, LED-style lighting and a clean modern stance, paired with the same licence-free, 25 km/h ride and the same any-5A-socket charging the rest of our lineup runs on. Two chemistries cover two budgets: lithium-ion at ₹70,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹56,000 with a 50 km+ range and a 6-hour charge.",
+    pillars: [
+      {
+        iconName: "Sparkles",
+        title: "Modern, sleek design",
+        proof:
+          "A contemporary silhouette with smooth body panels and an LED-style headlight, available in six colours: red, black, blue, grey, white and green.",
+      },
+      {
+        iconName: "Zap",
+        title: "80 km+ range on lithium",
+        proof:
+          "The Vibe Lithium Ion delivers 80 km+ of real-world range on a single 4-hour charge from any regular 5A home socket. No special wiring, no installer visit.",
+      },
+      {
+        iconName: "ShieldCheck",
+        title: "No licence, no RTO",
+        proof:
+          "Both Vibe variants cap at 25 km/h, which qualifies them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
+      },
+    ],
+    bestFor: ["Daily commute", "Young urban riders", "Style-conscious buyers"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
+  },
+
+  rapter: {
+    slug: "rapter",
+    displayName: "Rapter",
+    tagline: "Urban presence. Sporty stance.",
+    cutout: "/img/rapter_brand_banner.jpeg",
+    tint: "bg-gradient-to-br from-sky-100 via-blue-100 to-indigo-100",
+    onTint: "text-slate-900",
+    positioning:
+      "Premium urban electric scooter with a bolder, sportier stance. Lithium-ion at ₹72,000, lead-acid at ₹58,000. 25 km/h, no licence, no registration.",
+    storyTitle: "More presence, same simple rules",
+    storyBody:
+      "Rapter is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹72,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
+    pillars: [
+      {
+        iconName: "Gauge",
+        title: "Sportier urban stance",
+        proof:
+          "Larger front fairing, prominent headlight cluster and a more substantial body, finished in six colour options so it looks distinct on the road.",
+      },
+      {
+        iconName: "Zap",
+        title: "80 km+ range on lithium",
+        proof:
+          "The Rapter Lithium Ion returns 80 km+ on a single 4-hour charge from any regular 5A socket. Detachable battery for charging indoors when parking is awkward.",
+      },
+      {
+        iconName: "ShieldCheck",
+        title: "No licence, no RTO",
+        proof:
+          "Both Rapter variants are speed-limited to 25 km/h, qualifying as low-speed EVs under Indian motor-vehicle rules. No DL, no registration, no road tax.",
+      },
+    ],
+    bestFor: ["Daily commute", "Riders wanting more presence", "Premium urban use"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
+  },
 };
 
-export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all"];
+export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter"];
 
 export function getBrandTheme(slug: string): BrandTheme | undefined {
   return BRAND_THEMES[slug as BrandSlug];

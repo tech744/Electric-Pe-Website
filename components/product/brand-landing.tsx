@@ -261,8 +261,8 @@ export function BrandLanding({ brand }: { brand: BrandTheme }) {
                 </p>
                 <p className="text-sm text-[var(--color-text-muted)] mb-5">
                   {brand.displayName} keeps one model on purpose. Our other
-                  brands cover long-range lithium, dual-battery swap, and
-                  family configurations.
+                  brands cover longer-range lithium and family
+                  configurations.
                 </p>
                 <Button asChild variant="outline" size="sm">
                   <Link href="/ev">Explore all ElectricPe models</Link>

@@ -21,7 +21,7 @@ const EASE = [0.22, 1, 0.36, 1] as const;
  * the brand landing page where the customer picks their variant.
  */
 
-const FEATURED_BRANDS = ["xypro", "jett", "4all"] as const;
+const FEATURED_BRANDS = ["xypro", "jett", "4all", "vibe", "rapter"] as const;
 
 function formatPrice(inr: number) {
   return new Intl.NumberFormat("en-IN", {

@@ -33,14 +33,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Delhi",
       body: [
-        "The Xypro starts at around ₹36,000 on-road in Delhi, the Jett at ₹54,000 and the 4ALL at ₹56,000 - all-inclusive prices with no hidden RTO line item because a 25 km/h scooter does not attract one. For buyers who prefer to spread the cost, EMIs start from roughly ₹1,299 per month through ElectricPe's Bajaj Finserv tie-up, with on-the-spot approvals at the Mobility Center.",
+        "The Xypro starts at around ₹42,000 on-road in Delhi, the Jett at ₹55,000 and the 4ALL at ₹56,000 - all-inclusive prices with no hidden RTO line item because a 25 km/h scooter does not attract one. For buyers who prefer to spread the cost, EMIs start from roughly ₹1,499 per month through ElectricPe's Bajaj Finserv tie-up, with on-the-spot approvals at the Mobility Center.",
         "Once you start riding, the savings compound month after month. A petrol scooter at Delhi's current fuel rates costs about ₹2.30-2.60 per kilometre to run; an ElectricPe scooter charged on a 5A home socket runs at roughly 15-20 paise per kilometre. Over a typical 1,200 km month, that gap alone covers most of the EMI.",
       ],
       bullets: [
-        "Xypro - from ₹36,000 on-road, ideal commuter",
-        "Jett - from ₹54,000 on-road, family scooter",
+        "Xypro - from ₹42,000 on-road, ideal commuter",
+        "Jett - from ₹55,000 on-road, family scooter",
         "4ALL - from ₹56,000 on-road, longest single-charge range",
-        "EMI from ₹1,299/month via Bajaj Finserv",
+        "EMI from ₹1,499/month via Bajaj Finserv",
         "Zero road tax, zero registration fee at 25 km/h",
       ],
     },
@@ -67,7 +67,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Delhi",
       body: [
-        "The Xypro is the everyday commuter and the best-seller for first-time buyers in Delhi - light, easy to park in tight colony lanes, and priced from ₹36,000 on-road. The Jett, from ₹54,000, is the family scooter; the larger frame and stronger payload are built for the school-and-market loop that defines most Delhi households. The 4ALL, from ₹56,000, is the long-range pick for anyone who wants to ride farther on a single charge - useful if your route covers South Delhi to Gurugram on alternate days.",
+        "The Xypro is the everyday commuter and the best-seller for first-time buyers in Delhi - light, easy to park in tight colony lanes, and priced from ₹42,000 on-road. The Jett, from ₹55,000, is the family scooter; the larger frame and stronger payload are built for the school-and-market loop that defines most Delhi households. The 4ALL, from ₹56,000, is the long-range pick for anyone who wants to ride farther on a single charge - useful if your route covers South Delhi to Gurugram on alternate days.",
         "Booking a free test ride is straightforward. Open the ElectricPe app or message the Delhi WhatsApp line, share your locality, and the team will line up a slot at the nearest Mobility Center. There is no obligation, no hard pitch - just a ride around the block on the scooter you are considering, so you make the call with your own hands on the throttle.",
       ],
     },
@@ -106,14 +106,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Gurugram",
       body: [
-        "Gurugram is one of the higher-spend EV markets in NCR, and ElectricPe pricing stays sharp. The Xypro comes in from ₹36,000 on-road, the Jett from ₹54,000 and the 4ALL from ₹56,000. EMIs from ₹1,299 per month through Bajaj Finserv are processed on the spot at the Mobility Center, with KYC and signature done digitally.",
+        "Gurugram is one of the higher-spend EV markets in NCR, and ElectricPe pricing stays sharp. The Xypro comes in from ₹42,000 on-road, the Jett from ₹55,000 and the 4ALL from ₹56,000. EMIs from ₹1,499 per month through Bajaj Finserv are processed on the spot at the Mobility Center, with KYC and signature done digitally.",
         "On the fuel side, Gurugram's petrol price hovers among the highest in NCR. A petrol scooter rider running 35 km a day from Sector 49 to Cyber City and back is paying roughly ₹2,200-2,500 a month at the pump. The same daily distance on an ElectricPe scooter, charged overnight on a regular socket, costs the household less than ₹250 a month in electricity. The fuel savings on their own clear the EMI on a Xypro.",
       ],
       bullets: [
-        "Xypro from ₹36,000 - commuter pick for the Cyber City run",
-        "Jett from ₹54,000 - the school-and-market family choice",
+        "Xypro from ₹42,000 - commuter pick for the Cyber City run",
+        "Jett from ₹55,000 - the school-and-market family choice",
         "4ALL from ₹56,000 - longest range, best for split-city routes",
-        "EMI from ₹1,299/month, instant Bajaj Finserv decisioning",
+        "EMI from ₹1,499/month, instant Bajaj Finserv decisioning",
       ],
     },
     {
@@ -139,7 +139,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Gurugram",
       body: [
-        "For the Cyber City rider with a 12-15 km one-way commute, the Xypro at ₹36,000 on-road is the obvious match - light, parkable in any sector basement, and cheap to run. The Jett at ₹54,000 is the right pick for a DLF or South City family that needs a bigger frame and stronger payload for school drops and weekend grocery runs. The 4ALL at ₹56,000 is built for the longest single-charge range, useful for anyone running a Gurugram-to-Manesar or split-shift schedule.",
+        "For the Cyber City rider with a 12-15 km one-way commute, the Xypro at ₹42,000 on-road is the obvious match - light, parkable in any sector basement, and cheap to run. The Jett at ₹55,000 is the right pick for a DLF or South City family that needs a bigger frame and stronger payload for school drops and weekend grocery runs. The 4ALL at ₹56,000 is built for the longest single-charge range, useful for anyone running a Gurugram-to-Manesar or split-shift schedule.",
         "Test rides are free, no deposit required. Open the ElectricPe app, drop your locality, and the team will book a slot at the nearest Mobility Center.",
       ],
     },
@@ -178,14 +178,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Ghaziabad",
       body: [
-        "Ghaziabad buyers get the same all-NCR pricing. Xypro from ₹36,000 on-road, Jett from ₹54,000 and 4ALL from ₹56,000, with EMIs from ₹1,299 per month through Bajaj Finserv. Because the scooter is exempt from registration and tax at 25 km/h, the sticker you see is the only number you pay.",
+        "Ghaziabad buyers get the same all-NCR pricing. Xypro from ₹42,000 on-road, Jett from ₹55,000 and 4ALL from ₹56,000, with EMIs from ₹1,499 per month through Bajaj Finserv. Because the scooter is exempt from registration and tax at 25 km/h, the sticker you see is the only number you pay.",
         "Monthly fuel savings are the headline. A petrol scooter on a Vaishali-to-Noida-and-back run is burning ₹1,900-2,300 a month at the pump. The same kilometres on an ElectricPe scooter charged overnight cost less than the price of a single tank refill - typically ₹200-300 a month in electricity. Over a year, that is enough to fund the EMI and still leave a buffer.",
       ],
       bullets: [
-        "Xypro from ₹36,000 on-road",
-        "Jett from ₹54,000 on-road",
+        "Xypro from ₹42,000 on-road",
+        "Jett from ₹55,000 on-road",
         "4ALL from ₹56,000 on-road",
-        "EMI from ₹1,299/month via Bajaj Finserv",
+        "EMI from ₹1,499/month via Bajaj Finserv",
       ],
     },
     {
@@ -211,7 +211,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Ghaziabad",
       body: [
-        "The Xypro at ₹36,000 on-road is the daily commuter most Ghaziabad buyers start with - light, easy on the colony lanes of Vaishali or Pratap Vihar, and cheap to run. The Jett at ₹54,000 suits the family that needs more payload for the school-and-market loop. The 4ALL at ₹56,000 is the longest single-charge range scooter in the line-up, useful for a rider who runs a Ghaziabad-to-Noida or Crossings-to-Anand-Vihar route every day.",
+        "The Xypro at ₹42,000 on-road is the daily commuter most Ghaziabad buyers start with - light, easy on the colony lanes of Vaishali or Pratap Vihar, and cheap to run. The Jett at ₹55,000 suits the family that needs more payload for the school-and-market loop. The 4ALL at ₹56,000 is the longest single-charge range scooter in the line-up, useful for a rider who runs a Ghaziabad-to-Noida or Crossings-to-Anand-Vihar route every day.",
         "Book a free test ride on the ElectricPe app or walk into the nearest Mobility Center. The team will set up a back-to-back ride on the Xypro, Jett and 4ALL so you can decide with the throttle in your hand. Most Ghaziabad buyers come in for one scooter and end up taking all three around the lane before they choose - that is exactly the kind of unhurried decision the Mobility Center is built for.",
       ],
     },
@@ -250,14 +250,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Meerut",
       body: [
-        "Pricing in Meerut follows the same national sticker - Xypro from ₹36,000 on-road, Jett from ₹54,000 and 4ALL from ₹56,000. EMIs start from ₹1,299 per month through Bajaj Finserv and are processed digitally at the Mobility Center.",
+        "Pricing in Meerut follows the same national sticker - Xypro from ₹42,000 on-road, Jett from ₹55,000 and 4ALL from ₹56,000. EMIs start from ₹1,499 per month through Bajaj Finserv and are processed digitally at the Mobility Center.",
         "Once you start riding, the fuel-cost gap is dramatic. A petrol scooter doing 25-30 km a day in Meerut costs roughly ₹1,500-1,900 a month at the pump. The same daily kilometres on an ElectricPe scooter, charged overnight on a regular 5A socket, work out to about ₹150-250 a month in electricity. Across a year, that is enough to clear most of an EMI on a Xypro.",
       ],
       bullets: [
-        "Xypro - from ₹36,000 on-road, lightest commuter",
-        "Jett - from ₹54,000 on-road, more payload for family use",
+        "Xypro - from ₹42,000 on-road, lightest commuter",
+        "Jett - from ₹55,000 on-road, more payload for family use",
         "4ALL - from ₹56,000 on-road, longest single-charge range",
-        "EMI from ₹1,299/month, Bajaj Finserv tie-up",
+        "EMI from ₹1,499/month, Bajaj Finserv tie-up",
       ],
     },
     {
@@ -283,7 +283,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Meerut",
       body: [
-        "First-time buyers in Meerut usually start with the Xypro at ₹36,000 on-road - it is light, easy to push out of a tight gully in Sadar Bazaar, and the cheapest to run per kilometre. The Jett at ₹54,000 is the family scooter with stronger payload, ideal for a parent doing school drops in Shastri Nagar or Jagriti Vihar. The 4ALL at ₹56,000 is the longest-range pick, the right call for a rider whose route stretches across Modipuram, the metro station and the city core every day.",
+        "First-time buyers in Meerut usually start with the Xypro at ₹42,000 on-road - it is light, easy to push out of a tight gully in Sadar Bazaar, and the cheapest to run per kilometre. The Jett at ₹55,000 is the family scooter with stronger payload, ideal for a parent doing school drops in Shastri Nagar or Jagriti Vihar. The 4ALL at ₹56,000 is the longest-range pick, the right call for a rider whose route stretches across Modipuram, the metro station and the city core every day.",
         "Book a free test ride on the ElectricPe app, drop your locality, and the team confirms a slot at the nearest Mobility Center. The ride happens on real Meerut roads, not a private test loop, so you feel exactly how the scooter behaves on the lanes you ride every day.",
       ],
     },
@@ -322,14 +322,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Sonipat",
       body: [
-        "Sonipat pricing follows the national sticker - Xypro from ₹36,000 on-road, Jett from ₹54,000, 4ALL from ₹56,000. EMIs start from ₹1,299 per month through ElectricPe's Bajaj Finserv partnership, with digital KYC handled at the Mobility Center.",
+        "Sonipat pricing follows the national sticker - Xypro from ₹42,000 on-road, Jett from ₹55,000, 4ALL from ₹56,000. EMIs start from ₹1,499 per month through ElectricPe's Bajaj Finserv partnership, with digital KYC handled at the Mobility Center.",
         "Running cost is where the scooter pays for itself. A petrol two-wheeler doing 20 km a day in Sonipat is paying roughly ₹1,400-1,700 a month at the pump. An ElectricPe scooter charged at home on a regular 5A socket costs the household around ₹150-200 a month for the same distance. Over a 12-month window that is a clean ₹15,000-18,000 back in the budget.",
       ],
       bullets: [
-        "Xypro from ₹36,000 - everyday commuter",
-        "Jett from ₹54,000 - family scooter",
+        "Xypro from ₹42,000 - everyday commuter",
+        "Jett from ₹55,000 - family scooter",
         "4ALL from ₹56,000 - longest single-charge range",
-        "EMI from ₹1,299/month with on-the-spot approvals",
+        "EMI from ₹1,499/month with on-the-spot approvals",
       ],
     },
     {
@@ -355,7 +355,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Sonipat",
       body: [
-        "For a Sonipat first-time buyer, the Xypro at ₹36,000 on-road is the natural starting point - light, easy to park in a sector colony, and the cheapest to run. The Jett at ₹54,000 is the family scooter with a stronger payload for the school-and-market loop. The 4ALL at ₹56,000 is the longest-range pick, useful for a rider whose route stretches from the city core out to Kundli, Rai or Murthal every day.",
+        "For a Sonipat first-time buyer, the Xypro at ₹42,000 on-road is the natural starting point - light, easy to park in a sector colony, and the cheapest to run. The Jett at ₹55,000 is the family scooter with a stronger payload for the school-and-market loop. The 4ALL at ₹56,000 is the longest-range pick, useful for a rider whose route stretches from the city core out to Kundli, Rai or Murthal every day.",
         "Book a free test ride on the ElectricPe app or walk into the nearest Mobility Center. The team will line up a back-to-back ride on all three scooters so the decision is yours, made with the throttle in your hand. There is no pressure to buy on the same visit - many Sonipat buyers ride, take a day to think, and come back to finalise.",
       ],
     },
@@ -394,14 +394,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Rohtak",
       body: [
-        "Rohtak buyers get the same national sticker price - Xypro from ₹36,000 on-road, Jett from ₹54,000, 4ALL from ₹56,000. EMIs start from ₹1,299 per month through Bajaj Finserv and are processed digitally at the Mobility Center, with on-the-spot approvals for eligible buyers.",
+        "Rohtak buyers get the same national sticker price - Xypro from ₹42,000 on-road, Jett from ₹55,000, 4ALL from ₹56,000. EMIs start from ₹1,499 per month through Bajaj Finserv and are processed digitally at the Mobility Center, with on-the-spot approvals for eligible buyers.",
         "Fuel savings are the part Rohtak households feel month after month. A petrol scooter on a 20-25 km daily route costs about ₹1,500-1,800 a month at current pump rates. The same distance on an ElectricPe scooter charged overnight on a regular socket costs the household around ₹180-220 a month in electricity. That gap on its own clears the EMI on a Xypro.",
       ],
       bullets: [
-        "Xypro from ₹36,000 - student and first-time-buyer pick",
-        "Jett from ₹54,000 - family scooter",
+        "Xypro from ₹42,000 - student and first-time-buyer pick",
+        "Jett from ₹55,000 - family scooter",
         "4ALL from ₹56,000 - longest single-charge range",
-        "EMI from ₹1,299/month via Bajaj Finserv",
+        "EMI from ₹1,499/month via Bajaj Finserv",
       ],
     },
     {
@@ -427,7 +427,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Rohtak",
       body: [
-        "Most Rohtak first-time buyers pick the Xypro at ₹36,000 on-road - it is light, easy to park in a Sector 14 lane or an MDU hostel block, and the cheapest to run. The Jett at ₹54,000 is the family scooter with a bigger frame and stronger payload, the right call for a parent in Civil Lines or Model Town doing school drops and weekend groceries. The 4ALL at ₹56,000 is the longest-range pick, useful for anyone whose daily route stretches from the city across to the PGI side or out to the NH-9 frontage.",
+        "Most Rohtak first-time buyers pick the Xypro at ₹42,000 on-road - it is light, easy to park in a Sector 14 lane or an MDU hostel block, and the cheapest to run. The Jett at ₹55,000 is the family scooter with a bigger frame and stronger payload, the right call for a parent in Civil Lines or Model Town doing school drops and weekend groceries. The 4ALL at ₹56,000 is the longest-range pick, useful for anyone whose daily route stretches from the city across to the PGI side or out to the NH-9 frontage.",
         "Book a free test ride through the ElectricPe app or walk into the nearest Mobility Center. The team will set up a back-to-back ride on the Xypro, Jett and 4ALL so you can make the call with the throttle in your own hand. Rohtak buyers often bring a family member along to ride - the Mobility Center keeps a scooter ready for that too.",
       ],
     },
@@ -466,14 +466,14 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Agra",
       body: [
-        "Pricing in Agra follows the national sticker - Xypro from ₹36,000 on-road, Jett from ₹54,000, 4ALL from ₹56,000. EMIs start from ₹1,299 per month through Bajaj Finserv, with on-the-spot approvals at the Mobility Center.",
+        "Pricing in Agra follows the national sticker - Xypro from ₹42,000 on-road, Jett from ₹55,000, 4ALL from ₹56,000. EMIs start from ₹1,499 per month through Bajaj Finserv, with on-the-spot approvals at the Mobility Center.",
         "On the running cost side, a petrol scooter doing 20-30 km a day around Agra costs about ₹1,500-1,900 a month at the pump. The same daily distance on an ElectricPe scooter charged overnight on a 5A socket costs the household around ₹180-260 a month in electricity. Across the year, the running-cost gap covers most of the EMI on a Xypro.",
       ],
       bullets: [
-        "Xypro from ₹36,000 - the everyday commuter",
-        "Jett from ₹54,000 - family scooter",
+        "Xypro from ₹42,000 - the everyday commuter",
+        "Jett from ₹55,000 - family scooter",
         "4ALL from ₹56,000 - longest single-charge range",
-        "EMI from ₹1,299/month via Bajaj Finserv",
+        "EMI from ₹1,499/month via Bajaj Finserv",
       ],
     },
     {
@@ -499,7 +499,7 @@ export const LF_CITIES_NCR_UP: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Agra",
       body: [
-        "Most Agra first-time buyers start with the Xypro at ₹36,000 on-road - light, easy in the narrow lanes around Sanjay Place or Tajganj, and the cheapest to run per kilometre. The Jett at ₹54,000 is the family scooter for a household in Kamla Nagar or Shastripuram that needs more payload for school drops and market runs. The 4ALL at ₹56,000 is the longest-range pick, the right call for a rider whose daily route stretches from the city core out to Sikandra or the bypass.",
+        "Most Agra first-time buyers start with the Xypro at ₹42,000 on-road - light, easy in the narrow lanes around Sanjay Place or Tajganj, and the cheapest to run per kilometre. The Jett at ₹55,000 is the family scooter for a household in Kamla Nagar or Shastripuram that needs more payload for school drops and market runs. The 4ALL at ₹56,000 is the longest-range pick, the right call for a rider whose daily route stretches from the city core out to Sikandra or the bypass.",
         "Book a free test ride on the ElectricPe app or walk into the nearest Mobility Center. The team will line up a back-to-back ride on all three scooters so you decide with the throttle in your own hand. There is no obligation to buy on the same visit - many Agra families ride, take a day to talk it over at home, and come back to finalise.",
       ],
     },
