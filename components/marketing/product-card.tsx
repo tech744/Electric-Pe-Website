@@ -27,6 +27,7 @@ export function ProductCard({ scooter }: { scooter: Scooter }) {
           src={cutout}
           alt={`${scooter.name} scooter`}
           fill
+          quality={95}
           sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           className="object-contain object-bottom px-3 pb-2 pt-9 transition-transform duration-[var(--duration-slow)] group-hover:scale-[1.04] motion-reduce:group-hover:scale-100"
         />

@@ -223,6 +223,7 @@ export function BrandLanding({ brand }: { brand: BrandTheme }) {
                   alt={`${brand.displayName} electric scooter`}
                   fill
                   priority
+                  quality={95}
                   sizes="(max-width: 1024px) 85vw, 45vw"
                   className="object-contain object-center drop-shadow-[0_30px_40px_rgba(0,0,0,0.25)]"
                 />

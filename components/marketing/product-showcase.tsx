@@ -117,6 +117,7 @@ export function ProductShowcase() {
                     src={brand.cutout}
                     alt={`${brand.displayName} electric scooter`}
                     fill
+                    quality={95}
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-contain object-bottom px-6 pb-3 pt-16 md:px-8 md:pb-4 md:pt-20 transition-transform duration-[600ms] ease-out group-hover:scale-[1.06] motion-reduce:group-hover:scale-100"
                   />

@@ -50,6 +50,7 @@ export function PdpHero({ scooter }: { scooter: Scooter }) {
               alt={`${scooter.name}: ${scooter.tagline}`}
               fill
               priority
+              quality={95}
               sizes="(max-width: 1024px) 100vw, 55vw"
               className="object-contain object-bottom px-4 pb-3 pt-14 md:px-6 md:pb-4 md:pt-16"
             />
