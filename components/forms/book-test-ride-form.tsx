@@ -27,6 +27,7 @@ type State = {
   name: string;
   phone: string;
   email: string;
+  pincode: string;
   currentlyRides: Currently | "";
   consent: boolean;
 };
@@ -73,6 +74,7 @@ export function BookTestRideForm({
     name: "",
     phone: "",
     email: "",
+    pincode: "",
     currentlyRides: "",
     consent: false,
   });
@@ -115,6 +117,7 @@ export function BookTestRideForm({
       phone: state.phone,
       email: state.email || undefined,
       city: state.city,
+      pincode: state.pincode,
       model: state.model || undefined,
       storeSlug: state.storeSlug || undefined,
       preferredDate: state.preferredDate,
@@ -447,6 +450,24 @@ export function BookTestRideForm({
               type="email"
               autoComplete="email"
               placeholder="For your booking confirmation PDF"
+            />
+          </FormField>
+
+          <FormField
+            id="pincode"
+            label="Pincode"
+            required
+            hint="So the right Mobility Center confirms your slot"
+            error={errors.pincode}
+          >
+            <Input
+              value={state.pincode}
+              onChange={(e) => set("pincode", e.target.value)}
+              type="text"
+              inputMode="numeric"
+              autoComplete="postal-code"
+              maxLength={6}
+              placeholder="6-digit pincode"
             />
           </FormField>
 

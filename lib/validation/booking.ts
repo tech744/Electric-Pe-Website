@@ -29,6 +29,10 @@ const consentSchema = z
 const citySlugSchema = z.string().min(2).max(40);
 const storeSlugSchema = z.string().min(2).max(80);
 const modelSlugSchema = z.string().min(2).max(80);
+const pincodeSchema = z
+  .string()
+  .trim()
+  .regex(/^[1-9]\d{5}$/, "Enter a valid 6-digit pincode");
 
 /** POST /api/book-test-ride */
 export const bookTestRideSchema = z.object({
@@ -36,6 +40,7 @@ export const bookTestRideSchema = z.object({
   phone: indianPhoneSchema,
   email: emailSchema.optional().or(z.literal("")),
   city: citySlugSchema,
+  pincode: pincodeSchema,
   model: modelSlugSchema.optional(),
   storeSlug: storeSlugSchema.optional(),
   preferredDate: z.string().min(1, "Pick a date"),

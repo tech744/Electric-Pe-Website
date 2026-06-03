@@ -2,8 +2,17 @@ import { NextResponse } from "next/server";
 import { contactSchema } from "@/lib/validation/booking";
 import { getClientIp, rateLimit } from "@/lib/analytics/rate-limit";
 import { postLeadToZoho } from "@/lib/integrations/zoho-crm";
+import { postSupportRequest } from "@/lib/integrations/electricpe-leads";
 
 export const runtime = "nodejs";
+
+const TOPIC_LABEL: Record<string, string> = {
+  sales: "Buying a scooter",
+  service: "Service / warranty",
+  partnership: "Partnerships / dealership",
+  press: "Press / media",
+  other: "Other",
+};
 
 export async function POST(request: Request) {
   const ip = getClientIp(request);
@@ -32,15 +41,24 @@ export async function POST(request: Request) {
 
   const { name, phone, email, topic, message } = parsed.data;
   const reference = `CT-${Date.now().toString(36).toUpperCase()}`;
+  const description = `[${TOPIC_LABEL[topic] ?? topic}] ${message}`;
 
-  await postLeadToZoho({
-    source: `contact-${topic}`,
-    name,
-    phone,
-    email,
-    notes: message,
-    meta: { reference, topic },
+  const [epResult, zohoResult] = await Promise.allSettled([
+    postSupportRequest({ name, phone, email, description }),
+    postLeadToZoho({
+      source: `contact-${topic}`,
+      name,
+      phone,
+      email,
+      notes: message,
+      meta: { reference, topic },
+    }),
+  ]);
+
+  return NextResponse.json({
+    ok: true,
+    reference,
+    electricpe: epResult.status === "fulfilled" && epResult.value.ok,
+    zoho: zohoResult.status === "fulfilled" && zohoResult.value.ok,
   });
-
-  return NextResponse.json({ ok: true, reference });
 }
