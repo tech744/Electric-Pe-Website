@@ -14,6 +14,7 @@ const FOOTER_LINKS = {
     { label: "4ALL", href: "/ev/4all" },
     { label: "Vibe", href: "/ev/vibe" },
     { label: "Rapter", href: "/ev/rapter" },
+    { label: "Sniper Duo", href: "/ev/sniper-duo" },
     { label: "EMI Calculator", href: "/emi" },
     { label: "Savings Calculator", href: "/savings" },
   ],

@@ -240,9 +240,45 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     bestFor: ["Daily commute", "Riders wanting more presence", "Premium urban use"],
     trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
+
+  "sniper-duo": {
+    slug: "sniper-duo",
+    displayName: "Sniper Duo",
+    tagline: "Two-rider ready. Best-price commute.",
+    cutout: "/img/cutouts/sniper-duo_brand_banner-cutout.png",
+    tint: "bg-gradient-to-br from-amber-100 via-orange-100 to-yellow-100",
+    onTint: "text-slate-900",
+    positioning:
+      "Best-price two-up electric scooter built for the daily ride. Lithium-ion at ₹58,000, lead-acid at ₹44,000. 25 km/h, no licence, no registration.",
+    storyTitle: "Two-rider ready, single-rider priced",
+    storyBody:
+      "Sniper Duo is built around the most common Indian use case: one rider on the daily commute, a pillion on the weekend. A wider, padded dual seat, sturdy grab rail and a chassis tuned for two-up weight, all kept inside the no-licence 25 km/h envelope. Two chemistries cover two budgets: lithium-ion at ₹58,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹44,000 with a 50 km+ range and a 6-hour charge.",
+    pillars: [
+      {
+        iconName: "Wallet",
+        title: "Starts at ₹44,000",
+        proof:
+          "The Sniper Duo Lead Acid is ₹44,000 on-road, our most accessible two-up scooter. EMI from ₹1,599/month.",
+      },
+      {
+        iconName: "Users",
+        title: "Built for two-up riding",
+        proof:
+          "Wider dual seat, full-length pillion grab rail and a chassis tuned for the rider-plus-pillion weight that defines the Indian daily ride.",
+      },
+      {
+        iconName: "ShieldCheck",
+        title: "No licence, no RTO",
+        proof:
+          "Both Sniper Duo variants cap at 25 km/h, qualifying them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
+      },
+    ],
+    bestFor: ["Daily commute", "Two-up riding", "Best-price first EV"],
+    trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
+  },
 };
 
-export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter"];
+export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter", "sniper-duo"];
 
 export function getBrandTheme(slug: string): BrandTheme | undefined {
   return BRAND_THEMES[slug as BrandSlug];

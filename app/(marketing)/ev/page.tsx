@@ -31,7 +31,7 @@ function filterScooters(
   sort: string,
 ): Scooter[] {
   let out = list.slice();
-  const validBrands: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter"];
+  const validBrands: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter", "sniper-duo"];
   if (brand && (validBrands as string[]).includes(brand)) {
     out = out.filter((s) => s.brand === brand);
   }

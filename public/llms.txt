@@ -11,6 +11,7 @@ Every scooter in the catalogue is speed-limited to 25 km/h, which qualifies it a
 - [4ALL lineup](https://electricpe.com/ev/4all): Longest real-world range in the no-licence category. Lithium-ion (80 km+, ₹70,000) and lead-acid (50 km+, ₹56,000). From ₹56,000.
 - [Vibe lineup](https://electricpe.com/ev/vibe): Modern-style daily scooter. Lithium-ion (80 km+, ₹70,000) and lead-acid (50 km+, ₹56,000). Six colours: red, black, blue, grey, white, green. From ₹56,000.
 - [Rapter lineup](https://electricpe.com/ev/rapter): Sporty urban scooter with larger front fairing. Lithium-ion (80 km+, ₹72,000) and lead-acid (50 km+, ₹58,000). Six colours. From ₹58,000.
+- [Sniper Duo lineup](https://electricpe.com/ev/sniper-duo): Two-up daily scooter, wider dual seat tuned for rider-plus-pillion. Lithium-ion (80 km+, ₹58,000) and lead-acid (50 km+, ₹44,000). Six colours: red, black, blue, grey, white, green. From ₹44,000.
 - [All scooters](https://electricpe.com/ev)
 - [Compare scooters](https://electricpe.com/ev/compare)
 

@@ -1,7 +1,7 @@
 import { buildUrlSet, xmlResponse } from "@/lib/seo/sitemap";
 import { scooters } from "@/content/scooters";
 
-const BRANDS = ["xypro", "jett", "4all", "vibe", "rapter"] as const;
+const BRANDS = ["xypro", "jett", "4all", "vibe", "rapter", "sniper-duo"] as const;
 
 export function GET(): Response {
   const lastmod = new Date().toISOString();

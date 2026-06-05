@@ -122,7 +122,9 @@ export function VsPetrol() {
           </p>
         </motion.div>
 
-        {/* Comparison grid — header + rows, animated in. */}
+        {/* Comparison grid — same 3-col layout on every screen, sized down
+            on mobile so all three columns fit inside the phone viewport
+            without horizontal scroll. */}
         <motion.div
           className="rounded-3xl border border-[var(--color-border)] bg-white overflow-hidden shadow-[var(--shadow-sm)]"
           variants={{
@@ -137,17 +139,17 @@ export function VsPetrol() {
           }
         >
           {/* Column headers */}
-          <div className="grid grid-cols-[1fr_1fr_1fr] md:grid-cols-[1.4fr_1fr_1fr] border-b border-[var(--color-border)] bg-[var(--color-surface-sunken)]">
-            <div className="px-4 md:px-6 py-4 text-xs md:text-sm font-semibold uppercase tracking-wider text-[var(--color-text-muted)]">
+          <div className="grid grid-cols-[1.3fr_1fr_1fr] md:grid-cols-[1.4fr_1fr_1fr] border-b border-[var(--color-border)] bg-[var(--color-surface-sunken)]">
+            <div className="px-2.5 md:px-6 py-3 md:py-4 text-[10px] md:text-sm font-semibold uppercase tracking-wider text-[var(--color-text-muted)]">
               Cost / impact
             </div>
-            <div className="px-4 md:px-6 py-4 text-center bg-[var(--color-brand-soft)] border-l border-[var(--color-brand-border)]">
-              <span className="font-display font-bold text-base md:text-lg text-[var(--color-brand-pressed)]">
+            <div className="px-2 md:px-6 py-3 md:py-4 text-center bg-[var(--color-brand-soft)] border-l border-[var(--color-brand-border)]">
+              <span className="font-display font-bold text-sm md:text-lg text-[var(--color-brand-pressed)]">
                 EV
               </span>
             </div>
-            <div className="px-4 md:px-6 py-4 text-center border-l border-[var(--color-border)]">
-              <span className="font-display font-bold text-base md:text-lg text-[var(--color-text-muted)]">
+            <div className="px-2 md:px-6 py-3 md:py-4 text-center border-l border-[var(--color-border)]">
+              <span className="font-display font-bold text-sm md:text-lg text-[var(--color-text-muted)]">
                 Petrol
               </span>
             </div>
@@ -156,6 +158,7 @@ export function VsPetrol() {
           {/* Rows */}
           {ROWS.map((row, i) => {
             const Icon = row.icon;
+            const notLast = i < ROWS.length - 1;
             return (
               <motion.div
                 key={row.label}
@@ -168,36 +171,34 @@ export function VsPetrol() {
                   },
                 }}
                 className={
-                  "grid grid-cols-[1fr_1fr_1fr] md:grid-cols-[1.4fr_1fr_1fr] " +
-                  (i < ROWS.length - 1
-                    ? "border-b border-[var(--color-border)]"
-                    : "")
+                  "grid grid-cols-[1.3fr_1fr_1fr] md:grid-cols-[1.4fr_1fr_1fr] " +
+                  (notLast ? "border-b border-[var(--color-border)]" : "")
                 }
               >
-                <div className="px-4 md:px-6 py-4 md:py-5 flex items-center gap-3">
-                  <span className="inline-flex h-8 w-8 md:h-9 md:w-9 items-center justify-center rounded-lg bg-[var(--color-surface-muted)] text-[var(--color-text-muted)] shrink-0">
-                    <Icon className="h-4 w-4 md:h-[18px] md:w-[18px]" aria-hidden />
+                <div className="px-2.5 md:px-6 py-3 md:py-5 flex items-center gap-2 md:gap-3">
+                  <span className="inline-flex h-7 w-7 md:h-9 md:w-9 items-center justify-center rounded-md md:rounded-lg bg-[var(--color-surface-muted)] text-[var(--color-text-muted)] shrink-0">
+                    <Icon className="h-3.5 w-3.5 md:h-[18px] md:w-[18px]" aria-hidden />
                   </span>
-                  <span className="text-sm md:text-base text-[var(--color-text)] font-medium leading-snug">
+                  <span className="text-[11px] md:text-base text-[var(--color-text)] font-medium leading-tight md:leading-snug">
                     {row.label}
                   </span>
                 </div>
                 <div
                   className={
-                    "px-4 md:px-6 py-4 md:py-5 text-center bg-[var(--color-brand-soft)] border-l border-[var(--color-brand-border)] " +
+                    "px-2 md:px-6 py-3 md:py-5 text-center bg-[var(--color-brand-soft)] border-l border-[var(--color-brand-border)] leading-tight md:leading-snug " +
                     (row.highlight
-                      ? "text-base md:text-lg font-display font-bold text-[var(--color-brand-pressed)] tabular-nums"
-                      : "text-sm md:text-base text-[var(--color-brand-pressed)] font-semibold")
+                      ? "text-xs md:text-lg font-display font-bold text-[var(--color-brand-pressed)] tabular-nums"
+                      : "text-[11px] md:text-base text-[var(--color-brand-pressed)] font-semibold")
                   }
                 >
                   {row.ev}
                 </div>
                 <div
                   className={
-                    "px-4 md:px-6 py-4 md:py-5 text-center border-l border-[var(--color-border)] " +
+                    "px-2 md:px-6 py-3 md:py-5 text-center border-l border-[var(--color-border)] leading-tight md:leading-snug " +
                     (row.highlight
-                      ? "text-base md:text-lg text-[var(--color-text-subtle)] tabular-nums"
-                      : "text-sm md:text-base text-[var(--color-text-muted)]")
+                      ? "text-xs md:text-lg text-[var(--color-text-subtle)] tabular-nums"
+                      : "text-[11px] md:text-base text-[var(--color-text-muted)]")
                   }
                 >
                   {row.petrol}
