@@ -431,7 +431,7 @@ export const scooters: Scooter[] = [
   {
     brand: "rapter",
     variantSlug: "lithium-ion",
-    name: "Rapter Lithium Ion",
+    name: "Raptor 2.0 Lithium Ion",
     tagline: "Sporty urban presence with no-paperwork ride",
     priceOnRoad: 72000,
     emiFrom: 2599,
@@ -476,15 +476,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram", "mysuru", "hubballi"],
     seo: {
-      title: "Rapter Lithium Ion | 80 km+ Sport-Style EV Scooter | ElectricPe",
+      title: "Raptor 2.0 Lithium Ion | 80 km+ Sport-Style EV Scooter | ElectricPe",
       description:
-        "Rapter Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,599/month.",
+        "Raptor 2.0 Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,599/month.",
     },
   },
   {
     brand: "rapter",
     variantSlug: "lead-acid",
-    name: "Rapter Lead Acid",
+    name: "Raptor 2.0 Lead Acid",
     tagline: "Same sport stance, lighter on the wallet",
     priceOnRoad: 58000,
     emiFrom: 2099,
@@ -518,7 +518,7 @@ export const scooters: Scooter[] = [
     featureBullets: [
       "50 km+ real-world range for predictable daily use",
       "Charges in 6 hours on any regular 5A socket",
-      "Same sport-stance body as the lithium Rapter",
+      "Same sport-stance body as the lithium Raptor 2.0",
       "Six colour options to choose from",
       "Replaceable lead-acid battery, easy to service",
     ],
@@ -528,9 +528,9 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram"],
     seo: {
-      title: "Rapter Lead Acid | 50 km+ Sport-Style EV Scooter | ElectricPe",
+      title: "Raptor 2.0 Lead Acid | 50 km+ Sport-Style EV Scooter | ElectricPe",
       description:
-        "Rapter Lead Acid electric scooter with sport stance. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,099/month.",
+        "Raptor 2.0 Lead Acid electric scooter with sport stance. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,099/month.",
     },
   },
   {

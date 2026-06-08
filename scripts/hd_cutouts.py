@@ -1,5 +1,5 @@
 """
-HD background removal for Vibe + Rapter client photos.
+HD background removal for Vibe + Raptor 2.0 client photos.
 
 Quality decisions:
 - Model: birefnet-general (best edge quality available in rembg, downloaded on

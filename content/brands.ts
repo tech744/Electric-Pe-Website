@@ -207,7 +207,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
 
   rapter: {
     slug: "rapter",
-    displayName: "Rapter",
+    displayName: "Raptor 2.0",
     tagline: "Urban presence. Sporty stance.",
     cutout: "/img/cutouts/rapter_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-sky-100 via-blue-100 to-indigo-100",
@@ -216,7 +216,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Premium urban electric scooter with a bolder, sportier stance. Lithium-ion at ₹72,000, lead-acid at ₹58,000. 25 km/h, no licence, no registration.",
     storyTitle: "More presence, same simple rules",
     storyBody:
-      "Rapter is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹72,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
+      "Raptor 2.0 is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹72,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
     pillars: [
       {
         iconName: "Gauge",
@@ -228,13 +228,13 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "Zap",
         title: "80 km+ range on lithium",
         proof:
-          "The Rapter Lithium Ion returns 80 km+ on a single 4-hour charge from any regular 5A socket. Detachable battery for charging indoors when parking is awkward.",
+          "The Raptor 2.0 Lithium Ion returns 80 km+ on a single 4-hour charge from any regular 5A socket. Detachable battery for charging indoors when parking is awkward.",
       },
       {
         iconName: "ShieldCheck",
         title: "No licence, no RTO",
         proof:
-          "Both Rapter variants are speed-limited to 25 km/h, qualifying as low-speed EVs under Indian motor-vehicle rules. No DL, no registration, no road tax.",
+          "Both Raptor 2.0 variants are speed-limited to 25 km/h, qualifying as low-speed EVs under Indian motor-vehicle rules. No DL, no registration, no road tax.",
       },
     ],
     bestFor: ["Daily commute", "Riders wanting more presence", "Premium urban use"],
