@@ -33,7 +33,7 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Xypro on-road from about 36,000; EMI from about 1,299 per month.",
         "Jett on-road from about 54,000; longer-range option for mixed Sanganer to Mansarovar trips.",
         "4ALL on-road from about 56,000; family-friendly seating and load-carrying for workshop pickups.",
-        "Battery warranty of 3 years or 40,000 km, whichever comes first.",
+        "Battery warranty of 3 years.",
         "Charging on any home 5A socket, full charge in around 4 hours, 80 km plus on a single charge.",
       ],
     },
@@ -85,7 +85,7 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Jett at about 54,000 on-road for longer single-charge runs.",
         "4ALL at about 56,000 on-road for family seating.",
         "80 km plus range per full charge, enough for several days of Jyoti Nagar's intra-city distances.",
-        "3-year or 40,000 km lithium battery warranty in writing.",
+        "3-year lithium battery warranty in writing.",
       ],
     },
     {
@@ -136,7 +136,7 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Jett at about 54,000 on-road for longer single-charge range.",
         "4ALL at about 56,000 on-road for two-rider family use.",
         "80 km plus per full charge, comfortably covering several days of Shyam Nagar intra-city loops.",
-        "3-year or 40,000 km lithium battery warranty in writing.",
+        "3-year lithium battery warranty in writing.",
       ],
     },
     {
@@ -187,7 +187,7 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Jett at about 54,000 on-road for longer single-charge range.",
         "4ALL at about 56,000 on-road for two-rider household use.",
         "80 km plus per full charge, enough for many days of Naveen Nagar campus and market runs.",
-        "3-year or 40,000 km battery warranty in writing for peace of mind.",
+        "3-year battery warranty in writing for peace of mind.",
       ],
     },
     {
@@ -238,7 +238,7 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Jett at about 54,000 on-road for the run out towards Goverdhan town when needed.",
         "4ALL at about 56,000 on-road for steady two-rider family use.",
         "80 km plus per full charge - enough for several days of Mathura's intra-city distances.",
-        "3-year or 40,000 km battery warranty in writing.",
+        "3-year battery warranty in writing.",
       ],
     },
     {
@@ -289,14 +289,14 @@ export const LF_LOC_RAJUPX: Record<string, LongformSection[]> = {
         "Jett at about 54,000 on-road for longer single-charge range on the HITEC City and Madinaguda corridors.",
         "4ALL at about 56,000 on-road for two-rider family use.",
         "80 km plus per full charge - covers several days of typical west-Hyderabad intra-city distances.",
-        "3-year or 40,000 km lithium battery warranty in writing.",
+        "3-year lithium battery warranty in writing.",
       ],
     },
     {
       heading: "Service backed by Hyderabad's ElectricPe centre",
       body: [
         "Until the dedicated Telangana service hub is live, every ElectricPe scooter delivered to Chanda Nagar comes with the same 24-hour service SLA, the same written component warranty and the same support channels through the app and phone. Service visits are scheduled through the app and handled by trained technicians.",
-        "The lithium battery, motor and controller are all covered under a clearly written 3-year or 40,000 km warranty, and the published month-on-month SLA performance is visible on the website for full transparency. As the city network rolls out, Chanda Nagar will be one of the priority west-Hyderabad pockets for a full Mobility Center.",
+        "The lithium battery, motor and controller are all covered under a clearly written 3-year warranty, and the published month-on-month SLA performance is visible on the website for full transparency. As the city network rolls out, Chanda Nagar will be one of the priority west-Hyderabad pockets for a full Mobility Center.",
       ],
     },
     {

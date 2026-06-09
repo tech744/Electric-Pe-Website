@@ -6,11 +6,11 @@ Every scooter in the catalogue is speed-limited to 25 km/h, which qualifies it a
 
 ## Brands & Scooters
 
-- [Xypro lineup](https://electricpe.com/ev/xypro): Lithium-ion (80 km+, 4-hour charge, ₹58,000) and lead-acid (50 km+, 6-hour charge, ₹42,000). From ₹42,000 on-road.
-- [Jett lineup](https://electricpe.com/ev/jett): 12-inch wheels, family scooter form factor, dual seat, 10 kg under-seat storage. Lithium-ion (80 km+, ₹70,000) and lead-acid (50 km+, ₹55,000). From ₹55,000.
-- [4ALL lineup](https://electricpe.com/ev/4all): Longest real-world range in the no-licence category. Lithium-ion (80 km+, ₹70,000) and lead-acid (50 km+, ₹56,000). From ₹56,000.
-- [Vibe lineup](https://electricpe.com/ev/vibe): Modern-style daily scooter. Lithium-ion (80 km+, ₹70,000) and lead-acid (50 km+, ₹56,000). Six colours: red, black, blue, grey, white, green. From ₹56,000.
-- [Raptor 2.0 lineup](https://electricpe.com/ev/rapter): Sporty urban scooter with larger front fairing. Lithium-ion (80 km+, ₹72,000) and lead-acid (50 km+, ₹58,000). Six colours. From ₹58,000.
+- [Xypro lineup](https://electricpe.com/ev/xypro): Lithium-ion (80 km+, 4-hour charge, ₹54,000) and lead-acid (50 km+, 6-hour charge, ₹40,000). From ₹40,000 on-road.
+- [Jett lineup](https://electricpe.com/ev/jett): 12-inch wheels, family scooter form factor, dual seat, 10 kg under-seat storage. Lithium-ion (80 km+, ₹71,000) and lead-acid (50 km+, ₹55,000). From ₹55,000.
+- [4ALL lineup](https://electricpe.com/ev/4all): Longest real-world range in the no-licence category. Lithium-ion (80 km+, ₹75,000) and lead-acid (50 km+, ₹56,000). From ₹56,000.
+- [Vibe lineup](https://electricpe.com/ev/vibe): Modern-style daily scooter. Lithium-ion (80 km+, ₹77,000) and lead-acid (50 km+, ₹57,000). Six colours: red, black, blue, grey, white, green. From ₹57,000.
+- [Raptor 2.0 lineup](https://electricpe.com/ev/rapter): Sporty urban scooter with larger front fairing. Lithium-ion (80 km+, ₹79,000) and lead-acid (50 km+, ₹58,000). Six colours. From ₹58,000.
 - [Sniper Duo lineup](https://electricpe.com/ev/sniper-duo): Two-up daily scooter, wider dual seat tuned for rider-plus-pillion. Lithium-ion (80 km+, ₹58,000) and lead-acid (50 km+, ₹44,000). Six colours: red, black, blue, grey, white, green. From ₹44,000.
 - [All scooters](https://electricpe.com/ev)
 - [Compare scooters](https://electricpe.com/ev/compare)
@@ -38,7 +38,7 @@ Mobility Centers in 20 active cities across India. Full list at [/stores](https:
 
 ## Service
 
-- [Service Promise (24-hour SLA + warranty)](https://electricpe.com/service): Motor 1 year, Controller 1 year, Lithium-ion battery 3 years / 40,000 km, Lead-acid 12 months, Charger 1 year.
+- [Service Promise (24-hour SLA + warranty)](https://electricpe.com/service): Motor 1 year, Controller 1 year, Lithium-ion battery 3 years, Lead-acid 1 year, Charger 1 year.
 - [Warranty terms](https://electricpe.com/warranty)
 - [Returns](https://electricpe.com/returns)
 

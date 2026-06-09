@@ -34,12 +34,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Bengaluru",
       body: [
-        "Bengaluru on-road pricing starts at ₹42,000 for the Xypro, our entry-level commuter. The Jett family scooter starts at ₹55,000 on-road and the longer-range 4ALL starts at ₹56,000 on-road. There is no separate road tax line item because Karnataka exempts electric vehicles from motor vehicle tax, and because 25 km/h scooters do not require RTO registration in the first place.",
-        "Most Bengaluru buyers do not pay in one shot. Through our Bajaj Finserv tie-up, EMIs start at around ₹1,499 a month with quick in-store approval, often with zero or minimal down payment for salaried applicants. Pair that with the ₹3,000-plus a month a petrol rider saves on fuel, and the scooter genuinely pays its own EMI in many cases.",
+        "Bengaluru on-road pricing starts at ₹40,000 for the Xypro, our entry-level commuter. The Jett family scooter starts at ₹55,000 on-road and the longer-range 4ALL starts at ₹56,000 on-road. There is no separate road tax line item because Karnataka exempts electric vehicles from motor vehicle tax, and because 25 km/h scooters do not require RTO registration in the first place.",
+        "Most Bengaluru buyers do not pay in one shot. Through our Bajaj Finserv tie-up, EMIs start at around ₹1,449 a month with quick in-store approval, often with zero or minimal down payment for salaried applicants. Pair that with the ₹3,000-plus a month a petrol rider saves on fuel, and the scooter genuinely pays its own EMI in many cases.",
         "When you add up the small things the savings compound. No engine oil change every 1,500 km. No spark plug, air filter or carburettor cleaning. No annual road tax cheque. No clutch plate replacement. For a typical Bengaluru commuter that is another ₹4,000-₹6,000 a year that simply does not leave your account.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road, family-oriented build",
         "4ALL - from ₹56,000 on-road, longest range option",
         "Monthly fuel saving vs petrol Activa-class - typically ₹2,500-₹3,200",
@@ -49,7 +49,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Bengaluru",
       body: [
         "Bengaluru runs on schedules, and a scooter that goes to the workshop for a week is a scooter you regret buying. Every ElectricPe Mobility Center in the city operates on a 24-hour service SLA - if you drop off in the morning, the standard expectation is that you ride out the next working day. For most routine work we are done the same day.",
-        "Warranty is component-level rather than a fine-print blanket. The lithium-ion battery is covered for 3 years or 40,000 km, whichever comes first. The motor carries a 1-year warranty and the controller a 1-year warranty. Each centre stocks 50+ genuine parts on the shelf, so common service items such as brake pads, tyres, levers, mirrors and chargers are usually swapped in a single visit rather than ordered from a distant warehouse.",
+        "Warranty is component-level rather than a fine-print blanket. The lithium-ion battery is covered for 3 years. The motor carries a 1-year warranty and the controller a 1-year warranty. Each centre stocks 50+ genuine parts on the shelf, so common service items such as brake pads, tyres, levers, mirrors and chargers are usually swapped in a single visit rather than ordered from a distant warehouse.",
         "For customers in faraway pockets such as Sarjapur, Devanahalli or beyond Whitefield, we offer doorstep pickup and drop for service. You request it through the ElectricPe app or a quick call to the centre, and our team handles both legs of the trip.",
       ],
     },
@@ -70,7 +70,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Bengaluru",
       body: [
-        "Three brands cover almost every Bengaluru use case. The Xypro is our entry commuter, designed for solo riders doing short to medium daily runs - think a 6 km home-to-office hop, a college student in BTM, or a delivery rider doing 60-70 km a day across HSR and Koramangala. It starts at ₹42,000 on-road and is the easiest entry into electric ownership.",
+        "Three brands cover almost every Bengaluru use case. The Xypro is our entry commuter, designed for solo riders doing short to medium daily runs - think a 6 km home-to-office hop, a college student in BTM, or a delivery rider doing 60-70 km a day across HSR and Koramangala. It starts at ₹40,000 on-road and is the easiest entry into electric ownership.",
         "The Jett is built for family duty. A slightly larger seat, sturdier suspension and balanced ergonomics make it the right pick if you are going to ride with a partner or a child, or run errands across Jayanagar and Banashankari with shopping loads. Pricing starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option, aimed at riders who want to charge less often or who do longer daily distances - say a Whitefield-to-Marathahalli round trip plus weekend rides. It starts at ₹56,000 on-road. To pick the right one, book a free test ride at your nearest Bengaluru Mobility Center through the ElectricPe app, WhatsApp, or by walking in. We will set you up on all three on the same visit so you can compare them back-to-back.",
       ],
@@ -109,12 +109,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "What it costs to switch in Mysuru",
       body: [
-        "On-road pricing in Mysuru starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not require RTO registration, the gap between ex-showroom and on-road is small - mostly insurance and accessory choices.",
-        "For most buyers in Mysuru the smarter route is EMI through Bajaj Finserv, starting at around ₹1,499 a month with same-day approval at the centre. Salaried staff at Infosys Mysuru, JSS Hospital, government offices, and school teachers across the city typically clear the documentation in under an hour.",
+        "On-road pricing in Mysuru starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not require RTO registration, the gap between ex-showroom and on-road is small - mostly insurance and accessory choices.",
+        "For most buyers in Mysuru the smarter route is EMI through Bajaj Finserv, starting at around ₹1,449 a month with same-day approval at the centre. Salaried staff at Infosys Mysuru, JSS Hospital, government offices, and school teachers across the city typically clear the documentation in under an hour.",
         "The lifetime cost picture is even better. Mysuru riders generally do 25-40 km a day, so monthly fuel savings of ₹2,000-₹2,800 are realistic, and there is no servicing budget for oil changes, clutch plates or air filters - all costs that quietly add up on a petrol two-wheeler.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Typical Mysuru rider saves ₹25,000+ a year vs petrol",
@@ -124,7 +124,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Mysuru",
       body: [
         "ElectricPe operates a 24-hour service SLA across all Mysuru Mobility Centers. Drop your scooter in the morning, ride it back the next working day in almost every case. Common service items - brake pads, tyres, mirrors, indicators, levers, chargers - are stocked on the shelf because each centre carries 50+ genuine parts.",
-        "Warranty is split by component so customers know exactly what is covered. The lithium-ion battery is warranted for 3 years or 40,000 km, the motor for 1 year, and the controller for 1 year. If something fails inside warranty, the part is replaced from in-house stock rather than being ordered weeks in advance from another city.",
+        "Warranty is split by component so customers know exactly what is covered. The lithium-ion battery is warranted for 3 years, the motor for 1 year, and the controller for 1 year. If something fails inside warranty, the part is replaced from in-house stock rather than being ordered weeks in advance from another city.",
         "For customers in Bogadi, T Narasipura Road, Bannur Road, or anywhere outside the central ring, our doorstep pickup and drop service handles transport both ways. You raise a request on the ElectricPe app or call the centre, and we take it from there.",
       ],
     },
@@ -144,7 +144,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Mysuru",
       body: [
-        "Three scooters cover almost every Mysuru rider. The Xypro is the right fit for solo college students at the University, JSS or Maharaja's College, and for single working professionals doing a short city commute. It is the lowest-priced entry point at ₹42,000 on-road.",
+        "Three scooters cover almost every Mysuru rider. The Xypro is the right fit for solo college students at the University, JSS or Maharaja's College, and for single working professionals doing a short city commute. It is the lowest-priced entry point at ₹40,000 on-road.",
         "The Jett is the family pick. Slightly larger build, better ergonomics for two-up riding, and the natural choice for the parent doing school drop near Kuvempunagar followed by a market run near Devaraja Market. It starts at ₹55,000 on-road.",
         "The 4ALL is built for longer daily runs and weekend trips - perfect if you ride out toward Srirangapatna, Bannur or the foothills regularly. It starts at ₹56,000 on-road. To decide, book a free test ride at your nearest Mysuru Mobility Center through the ElectricPe app, WhatsApp, or simply walk in. We will line up all three so you can compare on real Mysuru roads.",
       ],
@@ -183,12 +183,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Mandya",
       body: [
-        "Mandya on-road pricing starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not require registration, the on-road price is unusually close to the ex-showroom price.",
-        "For most buyers a Bajaj Finserv EMI is the easier route. EMIs start at around ₹1,499 a month, and the in-store approval is usually wrapped up the same visit for salaried applicants, pensioners and small business owners with basic documents.",
+        "Mandya on-road pricing starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not require registration, the on-road price is unusually close to the ex-showroom price.",
+        "For most buyers a Bajaj Finserv EMI is the easier route. EMIs start at around ₹1,449 a month, and the in-store approval is usually wrapped up the same visit for salaried applicants, pensioners and small business owners with basic documents.",
         "On running cost, a typical Mandya rider doing 30 km a day will save around ₹2,000-₹2,500 a month versus a petrol scooter, plus the absence of oil changes and routine engine servicing. Over three years the savings comfortably cross the price of the scooter itself.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "No engine oil, no spark plugs, no clutch wear - lower routine spend",
@@ -198,7 +198,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Mandya",
       body: [
         "Our Mandya Mobility Center runs on the same 24-hour service SLA you get in larger ElectricPe cities. Routine service - brake adjustment, tyre rotation, charger check, software update - is usually done while you wait. Larger jobs are turned around within a single working day.",
-        "Warranty is component-level so customers know exactly what is covered. The lithium-ion battery is warranted for 3 years or 40,000 km, the motor for 1 year and the controller for 1 year. If a covered part fails, we replace it from in-house stock; the centre carries 50+ genuine parts.",
+        "Warranty is component-level so customers know exactly what is covered. The lithium-ion battery is warranted for 3 years, the motor for 1 year and the controller for 1 year. If a covered part fails, we replace it from in-house stock; the centre carries 50+ genuine parts.",
         "For riders in the surrounding villages and tehsils, doorstep pickup and drop is available so you do not need to ride a non-running scooter into town. A quick call or app request gets the team rolling.",
       ],
     },
@@ -218,7 +218,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Mandya",
       body: [
-        "The Xypro is the easiest first scooter for a Mandya buyer - solo riders, students, shopkeepers doing short market runs. It starts at ₹42,000 on-road and is our most economical model.",
+        "The Xypro is the easiest first scooter for a Mandya buyer - solo riders, students, shopkeepers doing short market runs. It starts at ₹40,000 on-road and is our most economical model.",
         "The Jett is built for two-up family riding. Better seat, sturdier feel, ideal for the household that needs one vehicle to handle school drop, vegetable shopping and a temple visit on the same day. It starts at ₹55,000 on-road.",
         "The 4ALL is for the rider who wants the longest single-charge range - useful if you are riding out daily to a neighbouring village or to Maddur, Pandavapura or Srirangapatna for work. It starts at ₹56,000 on-road. Book a free test ride at the Mandya Mobility Center through the ElectricPe app or by walking in, and you can ride all three back-to-back before you choose.",
       ],
@@ -257,12 +257,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Hassan",
       body: [
-        "On-road pricing in Hassan starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. With Karnataka exempting EVs from motor vehicle tax and our scooters not requiring registration, the on-road number stays close to ex-showroom - no surprise add-ons.",
-        "Most Hassan buyers go the EMI route. Through Bajaj Finserv EMIs start at around ₹1,499 a month, with quick in-store approval for salaried staff, government employees, pensioners and small business owners.",
+        "On-road pricing in Hassan starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. With Karnataka exempting EVs from motor vehicle tax and our scooters not requiring registration, the on-road number stays close to ex-showroom - no surprise add-ons.",
+        "Most Hassan buyers go the EMI route. Through Bajaj Finserv EMIs start at around ₹1,449 a month, with quick in-store approval for salaried staff, government employees, pensioners and small business owners.",
         "The running-cost picture is the easiest part to sell. A daily ride of 25-35 km saves a household roughly ₹2,000-₹2,500 a month in petrol, with no engine oil changes, no clutch service and no air-filter routine. Over three years that adds up to more than the entire price of the scooter.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Full home charge in roughly 4 hours on a 5A socket",
@@ -272,7 +272,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Hassan",
       body: [
         "Our Hassan Mobility Center runs the standard ElectricPe 24-hour service SLA. Routine work is usually finished while you wait or by end of day; larger jobs are turned around within one working day for the vast majority of cases.",
-        "Warranty is component-level: lithium-ion battery 3 years or 40,000 km, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts, so brake pads, tyres, levers, chargers and similar consumables get swapped on the spot rather than ordered from another city.",
+        "Warranty is component-level: lithium-ion battery 3 years, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts, so brake pads, tyres, levers, chargers and similar consumables get swapped on the spot rather than ordered from another city.",
         "Customers in the tehsils around Hassan - Channarayapatna, Holenarsipur, Arsikere - can use our doorstep pickup and drop service for service visits, which removes the need to ride a non-working scooter into town.",
       ],
     },
@@ -292,7 +292,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Hassan",
       body: [
-        "The Xypro is our entry commuter - lightweight, easy to ride, comfortable in narrow inner-town lanes. It starts at ₹42,000 on-road and is the best first electric scooter for students and solo working riders.",
+        "The Xypro is our entry commuter - lightweight, easy to ride, comfortable in narrow inner-town lanes. It starts at ₹40,000 on-road and is the best first electric scooter for students and solo working riders.",
         "The Jett is the family pick. A sturdier build and a longer seat make two-up riding comfortable, which suits the typical Hassan household that uses one scooter for school drop, market runs and temple visits. It starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option. It is the right call if your daily ride includes runs out toward Sakleshpur, Channarayapatna or other surrounding towns. It starts at ₹56,000 on-road. Book a free test ride at the Hassan Mobility Center through the ElectricPe app or by walking in - we will line up all three so you can pick the one that feels right.",
       ],
@@ -331,12 +331,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Tumakuru",
       body: [
-        "On-road pricing in Tumakuru starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's motor vehicle tax exemption on EVs plus the registration-free status of 25 km/h scooters keep the on-road price unusually close to ex-showroom.",
-        "Most buyers prefer EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,499 a month, and in-store approval is usually done in a single visit for salaried staff, government employees and small business owners with basic documents.",
+        "On-road pricing in Tumakuru starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's motor vehicle tax exemption on EVs plus the registration-free status of 25 km/h scooters keep the on-road price unusually close to ex-showroom.",
+        "Most buyers prefer EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,449 a month, and in-store approval is usually done in a single visit for salaried staff, government employees and small business owners with basic documents.",
         "On running cost, a Tumakuru rider doing 30-40 km a day will save roughly ₹2,200-₹2,800 a month versus petrol, with no engine oil changes, no clutch service and no carburettor cleaning. That alone covers the EMI in many cases.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Roughly ₹2,200-₹2,800 monthly petrol saving for a daily 30-40 km rider",
@@ -346,7 +346,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Tumakuru",
       body: [
         "The Tumakuru Mobility Center runs on the standard ElectricPe 24-hour service SLA. Most routine jobs are done the same day; bigger work is turned around within one working day in almost every case.",
-        "Warranty is component-level so customers know what is covered. Lithium-ion battery is warranted 3 years or 40,000 km, motor 1 year and controller 1 year. The centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped from in-house stock rather than ordered out of town.",
+        "Warranty is component-level so customers know what is covered. Lithium-ion battery is warranted 3 years, motor 1 year and controller 1 year. The centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped from in-house stock rather than ordered out of town.",
         "For customers outside the central ring - say Koratagere Road, Sira Road or villages around Vasanthnarsapura - doorstep pickup and drop is available so you can keep working while we collect, service and return the scooter.",
       ],
     },
@@ -366,7 +366,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Tumakuru",
       body: [
-        "The Xypro is our entry commuter and the easiest first electric scooter - lightweight, easy to manoeuvre, great for short to medium town runs. It starts at ₹42,000 on-road and is ideal for college students at Siddaganga, solo working professionals or shopkeepers.",
+        "The Xypro is our entry commuter and the easiest first electric scooter - lightweight, easy to manoeuvre, great for short to medium town runs. It starts at ₹40,000 on-road and is ideal for college students at Siddaganga, solo working professionals or shopkeepers.",
         "The Jett is the family-oriented build, with a longer seat and better two-up balance. It is the right pick if you regularly carry a child or partner, or run errands across town with shopping. It starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option, built for daily distances that include runs out to industrial estates or nearby towns. It starts at ₹56,000 on-road. Book a free test ride at the Tumakuru Mobility Center through the ElectricPe app, on WhatsApp, or by walking in - we will set up all three on the same visit so you can decide on real Tumakuru roads rather than from a brochure.",
         "Test rides are completely free, with no obligation to buy. The team will walk you through ride modes, charger handling, the basics of battery care and the steps to claim warranty if anything ever goes wrong - so you go home as an informed owner rather than just a buyer.",
@@ -406,12 +406,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Hubballi",
       body: [
-        "On-road pricing in Hubballi starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our 25 km/h scooters do not require RTO registration, the on-road number stays unusually close to ex-showroom.",
-        "Most Hubballi buyers use EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,499 a month, and most salaried, self-employed and small-business applicants clear approval in a single visit with basic documents.",
+        "On-road pricing in Hubballi starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our 25 km/h scooters do not require RTO registration, the on-road number stays unusually close to ex-showroom.",
+        "Most Hubballi buyers use EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,449 a month, and most salaried, self-employed and small-business applicants clear approval in a single visit with basic documents.",
         "On the savings side, a Hubballi rider doing 30 km a day will save roughly ₹2,200-₹2,700 a month on fuel, plus the absence of engine oil changes, clutch wear and other petrol-only spend. That alone covers the EMI for most buyers.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Roughly ₹2,200-₹2,700 monthly fuel saving vs petrol",
@@ -421,7 +421,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Hubballi",
       body: [
         "Our Hubballi Mobility Center runs the standard ElectricPe 24-hour service SLA. Most routine work is done while you wait or by end of day; larger jobs are turned around within one working day for the vast majority of cases.",
-        "Warranty is component-level so it is easy to track what is covered. Lithium-ion battery is warranted 3 years or 40,000 km, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts, so brake pads, tyres, mirrors, levers and chargers are replaced on the spot.",
+        "Warranty is component-level so it is easy to track what is covered. Lithium-ion battery is warranted 3 years, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts, so brake pads, tyres, mirrors, levers and chargers are replaced on the spot.",
         "For customers in pockets like Gokul Road, Tarihal, Navanagar or out toward Dharwad, doorstep pickup and drop is available so you do not need to ride a non-working scooter into the centre. Raise the request on the ElectricPe app or call the centre.",
       ],
     },
@@ -441,7 +441,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Hubballi",
       body: [
-        "The Xypro is the entry commuter, the right first scooter for college students, solo working riders and shopkeepers doing short, repeat trips. It starts at ₹42,000 on-road.",
+        "The Xypro is the entry commuter, the right first scooter for college students, solo working riders and shopkeepers doing short, repeat trips. It starts at ₹40,000 on-road.",
         "The Jett is the family pick - longer seat, sturdier build, designed for two-up riding. The natural choice for a household that uses one scooter for school drop, market runs and family errands. It starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option, made for riders who want fewer charges per week or who run longer daily distances - say between Hubballi and Dharwad. It starts at ₹56,000 on-road. Book a free test ride at the Hubballi Mobility Center through the ElectricPe app, WhatsApp or by walking in - we will set up all three for back-to-back comparison on real city roads.",
         "Test rides are free with no obligation to buy. Our team will also explain home charging on a 5A socket, basic battery care, and how warranty claims work so you go home as an informed owner rather than just a buyer.",
@@ -481,12 +481,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Dharwad",
       body: [
-        "Dharwad on-road pricing starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's EV tax exemption and the registration-free status of 25 km/h scooters keep the on-road number close to ex-showroom.",
-        "Most buyers use EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,499 a month, and in-store approval is usually wrapped up the same visit for salaried staff, pensioners, faculty and small business owners.",
+        "Dharwad on-road pricing starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's EV tax exemption and the registration-free status of 25 km/h scooters keep the on-road number close to ex-showroom.",
+        "Most buyers use EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,449 a month, and in-store approval is usually wrapped up the same visit for salaried staff, pensioners, faculty and small business owners.",
         "On running cost, a daily 25-35 km ride saves roughly ₹2,000-₹2,500 a month in petrol, with no oil changes, no clutch service and no carburettor work to budget for. For most Dharwad households the savings comfortably cover the EMI.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Roughly ₹2,000-₹2,500 monthly fuel saving for a 25-35 km/day rider",
@@ -496,7 +496,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Dharwad",
       body: [
         "Our Dharwad Mobility Center runs the same 24-hour service SLA you get at any ElectricPe outlet. Routine work is usually done while you wait or by the end of the day; larger jobs are turned around within a single working day for the vast majority of cases.",
-        "Warranty is component-level: lithium-ion battery 3 years or 40,000 km, motor 1 year and controller 1 year. The centre stocks 50+ genuine parts, so brake pads, tyres, levers, mirrors and chargers are swapped from in-house stock.",
+        "Warranty is component-level: lithium-ion battery 3 years, motor 1 year and controller 1 year. The centre stocks 50+ genuine parts, so brake pads, tyres, levers, mirrors and chargers are swapped from in-house stock.",
         "Doorstep pickup and drop is available for customers in further-out pockets, and through the ElectricPe app you can track the request from raise to completion.",
       ],
     },
@@ -516,7 +516,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Dharwad",
       body: [
-        "The Xypro is the entry commuter and the easiest first scooter, perfect for students at Karnatak University or the engineering colleges, and for solo working riders. It starts at ₹42,000 on-road.",
+        "The Xypro is the entry commuter and the easiest first scooter, perfect for students at Karnatak University or the engineering colleges, and for solo working riders. It starts at ₹40,000 on-road.",
         "The Jett is the family pick - longer seat, sturdier build, balanced two-up ergonomics. It is the right choice for households that need one vehicle for school drop, market runs and visits across the twin city. It starts at ₹55,000 on-road.",
         "The 4ALL is for the rider who wants the longest single-charge range, useful for daily trips between Dharwad and Hubballi or for longer academic-campus commutes. It starts at ₹56,000 on-road. Book a free test ride at the Dharwad Mobility Center through the ElectricPe app, WhatsApp, or by walking in - we set up all three back-to-back so the decision is made on real Dharwad roads.",
         "Test rides are free with no obligation to buy. Our team will also walk you through home charging on a 5A socket, basic battery care, EMI options and the warranty claim process, so you leave the centre as a confident owner.",
@@ -557,12 +557,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Belagavi",
       body: [
-        "On-road pricing in Belagavi starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's EV tax exemption and the registration-free status of 25 km/h scooters keep the on-road number close to ex-showroom.",
-        "Most buyers prefer EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,499 a month and approval is usually completed in a single visit for salaried staff, traders, factory employees and pensioners.",
+        "On-road pricing in Belagavi starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Karnataka's EV tax exemption and the registration-free status of 25 km/h scooters keep the on-road number close to ex-showroom.",
+        "Most buyers prefer EMI through our Bajaj Finserv partnership. EMIs start at around ₹1,449 a month and approval is usually completed in a single visit for salaried staff, traders, factory employees and pensioners.",
         "On running cost, a daily 30-40 km ride saves roughly ₹2,200-₹2,800 a month in petrol, plus the absence of engine oil changes, clutch wear, air-filter cleaning and other petrol-only spend. For many households the savings cover the EMI in full.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Charges fully on any 5A home socket in roughly 4 hours",
@@ -572,7 +572,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Belagavi",
       body: [
         "Our Belagavi Mobility Center runs the standard ElectricPe 24-hour service SLA. Routine work is usually done while you wait or by end of day; larger jobs are turned around in a single working day for the vast majority of cases.",
-        "Warranty is component-level: lithium-ion battery 3 years or 40,000 km, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped from in-house stock rather than ordered from another city.",
+        "Warranty is component-level: lithium-ion battery 3 years, motor 1 year and controller 1 year. Each centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped from in-house stock rather than ordered from another city.",
         "For customers in further-out pockets - Udyambag, Vadgaon, around the Goa highway - doorstep pickup and drop is available so you do not have to ride a non-working scooter into the centre. Raise the request on the ElectricPe app or call the outlet.",
       ],
     },
@@ -592,7 +592,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Belagavi",
       body: [
-        "The Xypro is our entry commuter, ideal for solo riders, college students and shopkeepers doing short, repeat trips. It starts at ₹42,000 on-road.",
+        "The Xypro is our entry commuter, ideal for solo riders, college students and shopkeepers doing short, repeat trips. It starts at ₹40,000 on-road.",
         "The Jett is the family pick - longer seat, sturdier build, balanced two-up ergonomics. The natural choice for the household running one vehicle for school drop, market runs and family errands. It starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option - the right call if your daily ride includes runs to industrial estates or out along the Goa highway. It starts at ₹56,000 on-road. Book a free test ride at the Belagavi Mobility Center through the ElectricPe app, WhatsApp or by walking in. We will line up all three on the same visit so you can decide on real Belagavi roads.",
         "Test rides are completely free with no obligation. The team will also explain home charging on a 5A socket, basic battery care, EMI documentation and the warranty claim flow so you leave the centre as an informed owner.",
@@ -632,12 +632,12 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Cost of going electric in Davanagere",
       body: [
-        "On-road pricing in Davanagere starts at ₹42,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not need RTO registration, the on-road number stays unusually close to ex-showroom.",
-        "Most Davanagere buyers go the EMI route through our Bajaj Finserv partnership. EMIs start at around ₹1,499 a month and approval is typically wrapped up in a single visit for salaried staff, traders, pensioners and self-employed applicants.",
+        "On-road pricing in Davanagere starts at ₹40,000 for the Xypro, ₹55,000 for the Jett and ₹56,000 for the 4ALL. Because Karnataka exempts EVs from motor vehicle tax and our scooters do not need RTO registration, the on-road number stays unusually close to ex-showroom.",
+        "Most Davanagere buyers go the EMI route through our Bajaj Finserv partnership. EMIs start at around ₹1,449 a month and approval is typically wrapped up in a single visit for salaried staff, traders, pensioners and self-employed applicants.",
         "On running cost, a daily 25-35 km ride saves roughly ₹2,000-₹2,500 a month in petrol, plus the absence of engine oil changes, clutch service and air-filter routine. Over three years the savings comfortably cross the price of the scooter itself.",
       ],
       bullets: [
-        "Xypro - from ₹42,000 on-road, EMI from ₹1,499/month",
+        "Xypro - from ₹40,000 on-road, EMI from ₹1,449/month",
         "Jett - from ₹55,000 on-road",
         "4ALL - from ₹56,000 on-road",
         "Approximate ₹25,000+ annual saving vs a petrol two-wheeler",
@@ -647,7 +647,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
       heading: "Service and support in Davanagere",
       body: [
         "Our Davanagere Mobility Center runs the same 24-hour service SLA you get at any ElectricPe outlet. Routine work is usually done while you wait or by end of day; larger jobs are turned around within a single working day in the vast majority of cases.",
-        "Warranty is component-level so customers know exactly what is covered. Lithium-ion battery 3 years or 40,000 km, motor 1 year, controller 1 year. The centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped on the spot.",
+        "Warranty is component-level so customers know exactly what is covered. Lithium-ion battery 3 years, motor 1 year, controller 1 year. The centre stocks 50+ genuine parts so brake pads, tyres, mirrors, levers and chargers are swapped on the spot.",
         "For customers in further pockets - around Davanagere University, Harihar road, Ranibennur road - doorstep pickup and drop is available so you do not need to ride a non-working scooter into the centre.",
       ],
     },
@@ -667,7 +667,7 @@ export const LF_CITIES_KARNATAKA: Record<string, LongformSection[]> = {
     {
       heading: "Choosing your Xypro, Jett or 4ALL in Davanagere",
       body: [
-        "The Xypro is the entry commuter and the easiest first electric scooter, ideal for college students at Davanagere University or Bapuji Institute, and for solo working riders. It starts at ₹42,000 on-road.",
+        "The Xypro is the entry commuter and the easiest first electric scooter, ideal for college students at Davanagere University or Bapuji Institute, and for solo working riders. It starts at ₹40,000 on-road.",
         "The Jett is built for family riding - longer seat, sturdier build, comfortable two-up ergonomics. The right choice for a household running one scooter for school drop, market runs and family errands. It starts at ₹55,000 on-road.",
         "The 4ALL is the longest-range option, made for riders who want fewer charging stops or who run longer daily distances - say out toward Harihar or Ranibennur. It starts at ₹56,000 on-road. Book a free test ride at the Davanagere Mobility Center through the ElectricPe app, WhatsApp, or by walking in - we will line up all three for back-to-back comparison on real city roads.",
         "Test rides are completely free with no obligation. The team will also explain home charging on a 5A socket, basic battery care, EMI documentation and the warranty claim process so you leave the centre confident in your choice and ready to ride.",

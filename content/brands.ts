@@ -72,13 +72,13 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Best-value everyday ride for first-time EV owners. Available in lead-acid and lithium-ion variants.",
     storyTitle: "Built for the everyday Indian commute",
     storyBody:
-      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Two variants cover two budgets: the lead-acid Xypro from ₹42,000 with a 50 km+ range and 6-hour charge for the lowest upfront cost, and the lithium-ion Xypro at ₹58,000 with an 80 km+ range and a faster 4-hour charge for lighter weight and longer daily runs.",
+      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Two variants cover two budgets: the lead-acid Xypro from ₹40,000 with a 50 km+ range and 6-hour charge for the lowest upfront cost, and the lithium-ion Xypro at ₹54,000 with an 80 km+ range and a faster 4-hour charge for lighter weight and longer daily runs.",
     pillars: [
       {
         iconName: "Wallet",
-        title: "Starts at ₹42,000",
+        title: "Starts at ₹40,000",
         proof:
-          "The Xypro range starts at ₹42,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,499/month.",
+          "The Xypro range starts at ₹40,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,449/month.",
       },
       {
         iconName: "Zap",
@@ -141,7 +141,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-b from-stone-600 via-stone-700 to-neutral-900",
     onTint: "text-white",
     positioning:
-      "Best range in the no-licence category: 80 km+ on a single charge, honest 25 km/h top speed, lithium-ion from ₹70,000 on-road (lead-acid from ₹56,000).",
+      "Best range in the no-licence category: 80 km+ on a single charge, honest 25 km/h top speed, lithium-ion from ₹75,000 on-road (lead-acid from ₹56,000).",
     storyTitle: "Range, without the paperwork",
     storyBody:
       "Most long-range electric scooters ask you to queue at the RTO and memorise a traffic code. 4ALL refuses that trade. Both variants cap speed at 25 km/h to stay in the no-licence category, but deliver 80 km+ on a single 4-hour charge. Lithium for lighter weight and faster recovery cycles. Lead-acid for proven, easy-to-service chemistry. Pick your chemistry.",
@@ -162,7 +162,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "Sparkles",
         title: "Lithium or lead-acid",
         proof:
-          "Same chassis, two chemistries. Lithium-ion for lighter weight, an 80 km+ range and a 4-hour charge at ₹70,000. Lead-acid for proven, easy-to-service durability with a 50 km+ range and 6-hour charge at ₹56,000.",
+          "Same chassis, two chemistries. Lithium-ion for lighter weight, an 80 km+ range and a 4-hour charge at ₹75,000. Lead-acid for proven, easy-to-service durability with a 50 km+ range and 6-hour charge at ₹56,000.",
       },
     ],
     bestFor: ["Long commutes", "Daily family use", "Range anxiety, fixed"],
@@ -177,10 +177,10 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-br from-rose-100 via-red-100 to-pink-100",
     onTint: "text-slate-900",
     positioning:
-      "Modern-style electric scooter built for everyday urban riding. Lithium-ion at ₹70,000, lead-acid at ₹56,000. 25 km/h, no licence, no registration.",
+      "Modern-style electric scooter built for everyday urban riding. Lithium-ion at ₹77,000, lead-acid at ₹57,000. 25 km/h, no licence, no registration.",
     storyTitle: "Daily commute, with a bit more style",
     storyBody:
-      "Vibe was designed for riders who want their daily scooter to look the part. A sleeker silhouette, LED-style lighting and a clean modern stance, paired with the same licence-free, 25 km/h ride and the same any-5A-socket charging the rest of our lineup runs on. Two chemistries cover two budgets: lithium-ion at ₹70,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹56,000 with a 50 km+ range and a 6-hour charge.",
+      "Vibe was designed for riders who want their daily scooter to look the part. A sleeker silhouette, LED-style lighting and a clean modern stance, paired with the same licence-free, 25 km/h ride and the same any-5A-socket charging the rest of our lineup runs on. Two chemistries cover two budgets: lithium-ion at ₹77,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹57,000 with a 50 km+ range and a 6-hour charge.",
     pillars: [
       {
         iconName: "Sparkles",
@@ -213,10 +213,10 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-br from-sky-100 via-blue-100 to-indigo-100",
     onTint: "text-slate-900",
     positioning:
-      "Premium urban electric scooter with a bolder, sportier stance. Lithium-ion at ₹72,000, lead-acid at ₹58,000. 25 km/h, no licence, no registration.",
+      "Premium urban electric scooter with a bolder, sportier stance. Lithium-ion at ₹79,000, lead-acid at ₹58,000. 25 km/h, no licence, no registration.",
     storyTitle: "More presence, same simple rules",
     storyBody:
-      "Raptor 2.0 is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹72,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
+      "Raptor 2.0 is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹79,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
     pillars: [
       {
         iconName: "Gauge",

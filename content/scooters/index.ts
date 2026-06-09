@@ -6,8 +6,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Xypro Lithium Ion",
     tagline: "Long range for city commutes. Lithium efficiency, lighter weight",
-    priceOnRoad: 58000,
-    emiFrom: 1999,
+    priceOnRoad: 54000,
+    emiFrom: 1949,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -21,7 +21,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 3y / 40,000 km · Motor & Controller 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       {
@@ -55,7 +55,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Xypro Lithium Ion | 80 km+ Range Electric Scooter | ElectricPe",
       description:
-        "Xypro Lithium Ion electric scooter. 80 km+ range, 25 km/h top speed, 4h charge, component-level warranty. No licence required. EMI from ₹1,999/month. Book a free test ride.",
+        "Xypro Lithium Ion electric scooter. 80 km+ range, 25 km/h top speed, 4h charge, component-level warranty. No licence required. EMI from ₹1,949/month. Book a free test ride.",
     },
   },
   {
@@ -63,8 +63,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lead-acid",
     name: "Xypro Lead Acid",
     tagline: "Best-value daily rider. Trusted chemistry, proven parts",
-    priceOnRoad: 42000,
-    emiFrom: 1499,
+    priceOnRoad: 40000,
+    emiFrom: 1449,
     specs: {
       rangeKm: 50,
       topSpeedKmh: 25,
@@ -78,7 +78,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 12 months · Motor & Controller 1y",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Pearl White", hex: "#F5F5F5", gallery: ["/img/xypro_brand_banner.webp"] },
@@ -113,7 +113,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Xypro Lead Acid | Best-Value 50 km+ EV Scooter | ElectricPe",
       description:
-        "Xypro Lead Acid electric scooter. 50 km+ range, 25 km/h top speed, 6h charge, component-level warranty. No licence required. EMI from ₹1,499/month. Book a free test ride.",
+        "Xypro Lead Acid electric scooter. 50 km+ range, 25 km/h top speed, 6h charge, component-level warranty. No licence required. EMI from ₹1,449/month. Book a free test ride.",
     },
   },
   {
@@ -121,8 +121,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Jett Lithium Ion",
     tagline: "Elegant, spacious, built for the family. Daily rides with cargo comfort",
-    priceOnRoad: 70000,
-    emiFrom: 2499,
+    priceOnRoad: 71000,
+    emiFrom: 2549,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -136,7 +136,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 3y / 40,000 km · Motor & Controller 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Crimson", hex: "#B71C1C", gallery: ["/img/jett_brand_banner.webp"] },
@@ -165,7 +165,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Jett Lithium Ion | 80 km+ Family Electric Scooter | ElectricPe",
       description:
-        "Jett Lithium Ion electric scooter with 12-inch wheels, 10kg storage, 80 km+ range. Built for family rides. Component-level warranty. EMI from ₹2,499/month.",
+        "Jett Lithium Ion electric scooter with 12-inch wheels, 10kg storage, 80 km+ range. Built for family rides. Component-level warranty. EMI from ₹2,549/month.",
     },
   },
   {
@@ -188,7 +188,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 12 months · Motor & Controller 1y",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Matte Black", hex: "#1D2939", gallery: ["/img/jett_brand_banner.webp"] },
@@ -224,8 +224,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "4ALL Lithium Ion",
     tagline: "Best range, zero hassle. No registration, no licence, no stress",
-    priceOnRoad: 70000,
-    emiFrom: 2499,
+    priceOnRoad: 75000,
+    emiFrom: 2699,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -239,7 +239,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 3y / 40,000 km · Motor & Controller 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all_brand_banner.webp"] },
@@ -268,7 +268,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "4ALL Lithium Ion | 80 km+ No-Licence EV Scooter | ElectricPe",
       description:
-        "4ALL Lithium Ion electric scooter. 80 km+ range, no licence, no registration. Component-level warranty. EMI from ₹2,499/month. Book a free test ride.",
+        "4ALL Lithium Ion electric scooter. 80 km+ range, no licence, no registration. Component-level warranty. EMI from ₹2,699/month. Book a free test ride.",
     },
   },
   {
@@ -291,7 +291,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 12 months · Motor & Controller 1y",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all_brand_banner.webp"] },
@@ -328,8 +328,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Vibe Lithium Ion",
     tagline: "Modern-style daily ride. Lithium efficiency, light to handle",
-    priceOnRoad: 70000,
-    emiFrom: 2499,
+    priceOnRoad: 77000,
+    emiFrom: 2749,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -343,7 +343,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 3y / 40,000 km · Motor & Controller 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cherry Red", hex: "#C62828", gallery: ["/img/cutouts/vibe_brand_banner-cutout.png"] },
@@ -373,7 +373,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Vibe Lithium Ion | 80 km+ Modern Electric Scooter | ElectricPe",
       description:
-        "Vibe Lithium Ion electric scooter with modern styling. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,499/month.",
+        "Vibe Lithium Ion electric scooter with modern styling. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,749/month.",
     },
   },
   {
@@ -381,8 +381,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lead-acid",
     name: "Vibe Lead Acid",
     tagline: "Same modern look, lighter on the wallet",
-    priceOnRoad: 56000,
-    emiFrom: 1999,
+    priceOnRoad: 57000,
+    emiFrom: 2049,
     specs: {
       rangeKm: 50,
       topSpeedKmh: 25,
@@ -396,7 +396,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 12 months · Motor & Controller 1y",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cherry Red", hex: "#C62828", gallery: ["/img/cutouts/vibe_brand_banner-cutout.png"] },
@@ -425,7 +425,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Vibe Lead Acid | 50 km+ Modern EV Scooter | ElectricPe",
       description:
-        "Vibe Lead Acid electric scooter. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹1,999/month.",
+        "Vibe Lead Acid electric scooter. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,049/month.",
     },
   },
   {
@@ -433,8 +433,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Raptor 2.0 Lithium Ion",
     tagline: "Sporty urban presence with no-paperwork ride",
-    priceOnRoad: 72000,
-    emiFrom: 2599,
+    priceOnRoad: 79000,
+    emiFrom: 2849,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -448,7 +448,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 3y / 40,000 km · Motor & Controller 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Ocean Blue", hex: "#1565C0", gallery: ["/img/cutouts/rapter_brand_banner-cutout.png"] },
@@ -478,7 +478,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Raptor 2.0 Lithium Ion | 80 km+ Sport-Style EV Scooter | ElectricPe",
       description:
-        "Raptor 2.0 Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,599/month.",
+        "Raptor 2.0 Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,849/month.",
     },
   },
   {
@@ -501,7 +501,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery 12 months · Motor & Controller 1y",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Ocean Blue", hex: "#1565C0", gallery: ["/img/cutouts/rapter_brand_banner-cutout.png"] },
@@ -553,7 +553,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Lithium battery 3y · Motor, Controller & Charger 1y",
+      warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cherry Red", hex: "#C62828", gallery: ["/img/products/cutouts/sniper-duo-1.png"] },
@@ -606,7 +606,7 @@ export const scooters: Scooter[] = [
       brakes: "Front disc, rear drum",
       suspension: "Telescopic front, dual rear",
       certification: "Road-legal (low-speed EV)",
-      warranty: "Battery, Charger, Motor & Controller 1 year",
+      warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
       { name: "Cherry Red", hex: "#C62828", gallery: ["/img/products/cutouts/sniper-duo-1.png"] },

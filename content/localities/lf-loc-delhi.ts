@@ -45,7 +45,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Every ElectricPe Mobility Center across Delhi stocks 50-plus fast-moving spares - tyres, brake pads, controllers, throttles, indicators, chargers - so most repairs are same-visit. Our service commitment to Lodhi Road customers is a 24-hour SLA: raise a ticket on the ElectricPe app and a technician either arrives or schedules a doorstep pickup within a day.",
-        "The lithium battery carries a three-year or 40,000-kilometre warranty, whichever comes first, with component-level cover on the motor and controller too. If you live in a government flat with no garage, the doorstep pickup and drop service means your scooter goes to the workshop and comes back the same week without you driving across town.",
+        "The lithium battery carries a three-year warranty, with component-level cover on the motor and controller too. If you live in a government flat with no garage, the doorstep pickup and drop service means your scooter goes to the workshop and comes back the same week without you driving across town.",
       ],
     },
     {
@@ -94,7 +94,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Our Delhi Mobility Centers between them stock more than fifty fast-moving parts on shelf, so a chipped indicator, a worn brake pad or a controller swap is usually a same-visit job. The 24-hour service SLA gives Nehru Place customers a clear commitment: log the issue on the app and a technician either reaches you or picks up the scooter within a day.",
-        "The lithium battery carries a 3-year or 40,000-kilometre warranty. For a busy office worker who simply cannot afford to lose a working day to a workshop visit, doorstep pickup and drop is the meaningful upgrade.",
+        "The lithium battery carries a 3-year warranty. For a busy office worker who simply cannot afford to lose a working day to a workshop visit, doorstep pickup and drop is the meaningful upgrade.",
       ],
     },
     {
@@ -143,7 +143,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
     {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
-        "Each Delhi Mobility Center carries more than fifty fast-moving spares so most jobs are same-day. Dwarka customers get a 24-hour service SLA: report the issue on the ElectricPe app and a technician either visits or schedules a pickup within a day. The lithium battery comes with a three-year or 40,000-kilometre warranty along with component-level cover on the motor and controller.",
+        "Each Delhi Mobility Center carries more than fifty fast-moving spares so most jobs are same-day. Dwarka customers get a 24-hour service SLA: report the issue on the ElectricPe app and a technician either visits or schedules a pickup within a day. The lithium battery comes with a three-year warranty along with component-level cover on the motor and controller.",
         "Doorstep pickup and drop is especially useful for apartment dwellers who would otherwise need to plan a separate trip to the workshop.",
       ],
     },
@@ -195,7 +195,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Each Mobility Center in Delhi keeps 50-plus fast-moving spares in stock, so most fixes finish in a single visit. Budh Vihar customers get a 24-hour service SLA: report the issue on the app and a technician visits or arranges a pickup within a day.",
-        "The lithium battery carries a 3-year or 40,000-kilometre warranty with component-level cover on motor and controller. Doorstep pickup and drop is built in - useful when your scooter cannot make it to the centre on its own.",
+        "The lithium battery carries a 3-year warranty with component-level cover on motor and controller. Doorstep pickup and drop is built in - useful when your scooter cannot make it to the centre on its own.",
       ],
     },
     {
@@ -244,7 +244,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Every ElectricPe Mobility Center across Delhi stocks more than fifty fast-moving spares. For Krishna Nagar customers that means most service jobs - a brake pad, an indicator, a controller swap - finish in a single visit. Our 24-hour SLA means the technician either reaches you or picks up the scooter within a day of you raising a ticket.",
-        "The lithium battery is covered by a 3-year or 40,000-kilometre warranty with component-level cover on the motor and controller. Doorstep pickup and drop is built in so the scooter goes to the workshop and returns without you spending a day on it.",
+        "The lithium battery is covered by a 3-year warranty with component-level cover on the motor and controller. Doorstep pickup and drop is built in so the scooter goes to the workshop and returns without you spending a day on it.",
       ],
     },
     {
@@ -294,7 +294,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Each Delhi Mobility Center stocks 50-plus fast-moving spares so most repairs are handled in one visit. The 24-hour service SLA means Jahangirpuri customers either get a technician at their gate or a pickup scheduled within a day of raising a ticket on the app.",
-        "The lithium battery is covered by a 3-year or 40,000-kilometre warranty with component-level cover on the motor and controller. Doorstep pickup and drop matters most in dense localities where carrying a partly working scooter across the colony is not realistic.",
+        "The lithium battery is covered by a 3-year warranty with component-level cover on the motor and controller. Doorstep pickup and drop matters most in dense localities where carrying a partly working scooter across the colony is not realistic.",
       ],
     },
     {
@@ -344,7 +344,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Each ElectricPe Mobility Center across Delhi keeps 50-plus fast-moving spares in stock for same-visit work. Nawada customers get a 24-hour service SLA: raise a ticket on the app and a technician either arrives or schedules a doorstep pickup within a day.",
-        "The lithium battery carries a 3-year or 40,000-kilometre warranty with component-level cover on the motor and controller. Doorstep pickup and drop is built in - especially handy when civic work on the Main Road makes the trip to a workshop a chore.",
+        "The lithium battery carries a 3-year warranty with component-level cover on the motor and controller. Doorstep pickup and drop is built in - especially handy when civic work on the Main Road makes the trip to a workshop a chore.",
       ],
     },
     {
@@ -394,7 +394,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Every Delhi Mobility Center stocks 50-plus fast-moving spares so most repairs are same-visit jobs. The 24-hour service SLA applies to all Azadpur customers - log a ticket on the ElectricPe app and a technician either arrives at your gate or schedules a doorstep pickup within a day.",
-        "The lithium battery is covered for 3 years or 40,000 kilometres with component-level warranty on the motor and controller. Pickup and drop matters for traders who simply cannot leave the mandi to drop a scooter at a workshop.",
+        "The lithium battery is covered for 3 years with component-level warranty on the motor and controller. Pickup and drop matters for traders who simply cannot leave the mandi to drop a scooter at a workshop.",
       ],
     },
     {
@@ -444,7 +444,7 @@ export const LF_LOC_DELHI: Record<string, LongformSection[]> = {
       heading: "Service backed by Delhi's ElectricPe network",
       body: [
         "Every Mobility Center keeps 50-plus fast-moving spares in stock, so most service jobs - a brake pad, a tyre, a controller swap - finish in a single visit. The 24-hour service SLA gives Ballabhgarh customers a clear commitment: raise a ticket on the app and a technician either reaches you or arranges a doorstep pickup within a day.",
-        "The lithium battery is covered for 3 years or 40,000 kilometres with component-level warranty on the motor and controller. Doorstep pickup and drop is built in, which matters when your shift timing does not leave room for a workshop visit.",
+        "The lithium battery is covered for 3 years with component-level warranty on the motor and controller. Doorstep pickup and drop is built in, which matters when your shift timing does not leave room for a workshop visit.",
       ],
     },
     {

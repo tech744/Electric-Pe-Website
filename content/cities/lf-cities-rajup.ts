@@ -49,7 +49,7 @@ export const LF_CITIES_RAJUP: Record<string, LongformSection[]> = {
       heading: "Service and support in Jaipur",
       body: [
         "ElectricPe runs a 24-hour service SLA, and our Sanganer Mobility Center is staffed with trained in-house technicians rather than third-party mechanics learning on your scooter. That distinction matters in a city where the difference between a quick fix and a week-long wait can be a delivery rider's whole income.",
-        "Spares are stocked locally, and the warranty is structured at the component level - the lithium-ion battery alone is covered for three years or forty thousand kilometres, whichever comes first. If something fails, we replace the failed part instead of insisting on a whole-unit swap that drags out the timeline. Most pickup-and-drop requests inside Jaipur are completed within the same working day.",
+        "Spares are stocked locally, and the warranty is structured at the component level - the lithium-ion battery alone is covered for three years. If something fails, we replace the failed part instead of insisting on a whole-unit swap that drags out the timeline. Most pickup-and-drop requests inside Jaipur are completed within the same working day.",
       ],
     },
     {
@@ -120,7 +120,7 @@ export const LF_CITIES_RAJUP: Record<string, LongformSection[]> = {
       heading: "Service and support in Alwar",
       body: [
         "The Jyoti Nagar Mobility Center keeps a stocked spare-parts inventory and trained in-house technicians, which is the part of EV ownership most other brands quietly outsource. ElectricPe runs a 24-hour service SLA, and most service jobs in Alwar are resolved the same working day.",
-        "The component-level warranty matters here too. The lithium-ion battery is covered for three years or forty thousand kilometres - so if a cell module fails, you are not arguing about whether the full battery pack is covered. We replace what failed and you keep riding.",
+        "The component-level warranty matters here too. The lithium-ion battery is covered for three years - so if a cell module fails, you are not arguing about whether the full battery pack is covered. We replace what failed and you keep riding.",
       ],
     },
     {
@@ -192,7 +192,7 @@ export const LF_CITIES_RAJUP: Record<string, LongformSection[]> = {
       heading: "Service and support in Aligarh",
       body: [
         "ElectricPe runs a 24-hour service SLA in Aligarh, with trained in-house technicians and a stocked spare-parts inventory at the Khair Bypass Mobility Center. The standard turnaround for a typical service job is the same working day, and pickup-drop within city limits is straightforward to arrange.",
-        "The warranty is structured at the component level, which is the honest way to do it. The lithium-ion battery alone is covered for three years or forty thousand kilometres - so a failed cell module does not turn into an argument about whether the whole pack counts. We replace what actually failed and put you back on the road.",
+        "The warranty is structured at the component level, which is the honest way to do it. The lithium-ion battery alone is covered for three years - so a failed cell module does not turn into an argument about whether the whole pack counts. We replace what actually failed and put you back on the road.",
       ],
     },
     {
@@ -263,7 +263,7 @@ export const LF_CITIES_RAJUP: Record<string, LongformSection[]> = {
       heading: "Service and support in Mathura",
       body: [
         "ElectricPe runs a 24-hour service SLA in Mathura, with trained in-house technicians at the Goverdhan Chauraha Mobility Center and a locally stocked spare-parts inventory. Most service jobs inside Mathura and Vrindavan are completed the same working day, and pickup-drop within the city is straightforward to schedule.",
-        "Warranty is structured at the component level, which is the cleanest way to do it. The lithium-ion battery is covered for three years or forty thousand kilometres - and if a single module fails, that is what we replace, not the entire pack. The whole point is to keep your scooter running, not to drown you in claim paperwork.",
+        "Warranty is structured at the component level, which is the cleanest way to do it. The lithium-ion battery is covered for three years - and if a single module fails, that is what we replace, not the entire pack. The whole point is to keep your scooter running, not to drown you in claim paperwork.",
       ],
     },
     {

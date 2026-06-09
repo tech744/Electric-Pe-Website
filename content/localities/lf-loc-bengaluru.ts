@@ -34,11 +34,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Koramangala rider",
       body: [
         "A petrol scooter in Koramangala does not run cheap. Between the short trips that never let the engine warm up, the idling at the 80 Feet Road signals and the weekly fuel queues, monthly running costs of one and a half to two thousand rupees are routine. The same distance on an ElectricPe scooter costs a small fraction of that because you are charging from your apartment's regular 5A socket overnight at home electricity rates.",
-        "On-road pricing starts at ₹42,000 for the Xypro, and EMIs begin at around ₹1,499 per month with same-day approval at the showroom. Put together the fuel you stop spending and the EMI you start paying, and the monthly outflow often lands lower than what you were already burning on petrol.",
+        "On-road pricing starts at ₹40,000 for the Xypro, and EMIs begin at around ₹1,449 per month with same-day approval at the showroom. Put together the fuel you stop spending and the EMI you start paying, and the monthly outflow often lands lower than what you were already burning on petrol.",
       ],
       bullets: [
         "Charges fully on any home 5A socket in about four hours.",
-        "EMI options from roughly ₹1,499 per month for the entry Xypro trim.",
+        "EMI options from roughly ₹1,449 per month for the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal cost.",
         "Real-world range of 80 km or more covers a full week of Koramangala running on a single overnight charge.",
       ],
@@ -47,13 +47,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Buying a scooter in Koramangala is easy. Living with one for three years is what actually matters, and that is where ElectricPe's Bengaluru service network earns its keep. Every Mobility Center commits to a 24-hour service SLA, which means the longest you will be off the road for a routine fault is one working day.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf - controllers, throttles, brake shoes, chargers, display units - so the most common repairs are done while you wait. Battery, motor and controller are covered by a component-level warranty, with the lithium-ion pack backed for three years or 40,000 km. If a pickup is easier than dropping the scooter off yourself, ask the team for a doorstep pickup-and-drop slot and they will collect it from your Koramangala address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf - controllers, throttles, brake shoes, chargers, display units - so the most common repairs are done while you wait. Battery, motor and controller are covered by a component-level warranty, with the lithium-ion pack backed for three years. If a pickup is easier than dropping the scooter off yourself, ask the team for a doorstep pickup-and-drop slot and they will collect it from your Koramangala address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Koramangala",
       body: [
-        "The Xypro is the right pick for the classic Koramangala commuter - founder, freelancer or student doing five to fifteen kilometres a day across blocks and into Indiranagar or HSR. On-road from ₹42,000, it is the lightest of the three to thread through cafe strips and to park outside small shops on 5th Block.",
+        "The Xypro is the right pick for the classic Koramangala commuter - founder, freelancer or student doing five to fifteen kilometres a day across blocks and into Indiranagar or HSR. On-road from ₹40,000, it is the lightest of the three to thread through cafe strips and to park outside small shops on 5th Block.",
         "The Jett, from ₹55,000 on-road, is the family-friendly choice. If two people in the household share the scooter, or if you are riding a child to school in 3rd Block before heading to work, the extra payload comfort and cushier ride pay off every morning. The 4ALL, from ₹56,000, is built for the rider who treats their scooter as a full daily car replacement - longer range for trips into central Bengaluru and back, with the same easy 5A home charging.",
       ],
     },
@@ -85,11 +85,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Yeswanthpur rider",
       body: [
         "A 110 cc petrol scooter doing typical Yeswanthpur duty - APMC yard, Yeshwanthpur railway station drops, school runs, evening Malleswaram trips - burns through fuel faster than its owner notices, especially because so much of that running is in stop-start traffic where mileage tanks. Switching to electric collapses that monthly bill to the cost of a few units of household electricity.",
-        "ElectricPe scooters charge on the regular 5A socket in your home in about four hours, with no separate wall-box or wiring work. The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month, which often lands below what a Yeswanthpur household was already paying for petrol every month.",
+        "ElectricPe scooters charge on the regular 5A socket in your home in about four hours, with no separate wall-box or wiring work. The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month, which often lands below what a Yeswanthpur household was already paying for petrol every month.",
       ],
       bullets: [
         "Charges in around four hours from a standard 5A wall socket.",
-        "EMI options begin at roughly ₹1,499 per month with same-day approval.",
+        "EMI options begin at roughly ₹1,449 per month with same-day approval.",
         "Zero road tax, zero RTO fee, zero compulsory yearly insurance.",
         "80 km plus real-world range comfortably covers a week of local Yeswanthpur duty.",
       ],
@@ -98,13 +98,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Yeswanthpur owners are backed by the same Bengaluru-wide service network as any other ElectricPe customer. Every Mobility Center holds itself to a 24-hour service SLA, which means a routine fault should not pull your scooter off the road for more than a working day.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf, so common jobs like brake-shoe replacement, throttle swaps and charger checks are done while you wait. The lithium-ion battery is covered for three years or 40,000 km under a component-level warranty, with the motor and controller separately covered. If you cannot make it across Goraguntepalya for a service, request a doorstep pickup-and-drop and the team will collect from your Yeswanthpur address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf, so common jobs like brake-shoe replacement, throttle swaps and charger checks are done while you wait. The lithium-ion battery is covered for three years under a component-level warranty, with the motor and controller separately covered. If you cannot make it across Goraguntepalya for a service, request a doorstep pickup-and-drop and the team will collect from your Yeswanthpur address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Yeswanthpur",
       body: [
-        "The Xypro is the right starter for a Yeswanthpur commuter doing short, frequent trips inside a five-kilometre radius - APMC, Metro station, school, neighbourhood market. On-road from ₹42,000, it is the lightest scooter to park in tight gaps along the older streets.",
+        "The Xypro is the right starter for a Yeswanthpur commuter doing short, frequent trips inside a five-kilometre radius - APMC, Metro station, school, neighbourhood market. On-road from ₹40,000, it is the lightest scooter to park in tight gaps along the older streets.",
         "The Jett, from ₹55,000 on-road, suits a family that shares one scooter between two riders or rides pillion with a child. The 4ALL, from ₹56,000, is the longest-range option in the line-up and is the one to pick if your weekly running stretches into Malleswaram, Hebbal or Sanjaynagar on top of the local Yeswanthpur trips.",
       ],
     },
@@ -136,11 +136,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Kalyan Nagar rider",
       body: [
         "A petrol scooter doing typical Kalyan Nagar duty - school drops in HRBR, groceries on Hennur Main Road, the occasional family run to Indiranagar or Manyata - burns more fuel than most owners realise, simply because the engine spends so much time idling at signals. The same distance on an ElectricPe scooter is a tiny fraction of that cost because you are charging from a normal 5A socket overnight on home electricity rates.",
-        "The Xypro starts at ₹42,000 on-road. EMIs begin at roughly ₹1,499 per month with same-day approval, which is often less than what a Kalyan Nagar family was already spending on petrol every month.",
+        "The Xypro starts at ₹40,000 on-road. EMIs begin at roughly ₹1,449 per month with same-day approval, which is often less than what a Kalyan Nagar family was already spending on petrol every month.",
       ],
       bullets: [
         "About four hours to a full charge on any home 5A socket.",
-        "EMI from roughly ₹1,499 per month for the entry Xypro trim.",
+        "EMI from roughly ₹1,449 per month for the entry Xypro trim.",
         "No road tax, no RTO registration fee, no annual licence renewal.",
         "Real-world range of 80 km or more covers a full week of in-layout running.",
       ],
@@ -149,13 +149,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "The Kalyan Nagar flagship Mobility Center is your closest service point, with in-house technicians and a 24-hour service SLA on routine work. Every common consumable - brake shoes, throttles, chargers, controllers, display units - is stocked on-shelf, so most jobs are completed while you wait.",
-        "The lithium-ion battery comes with a three-year or 40,000 km warranty, and the motor and controller are covered separately under a component-level scheme. If a trip to the centre is inconvenient, ask for a doorstep pickup-and-drop slot and our team will collect the scooter from your Kalyan Nagar address and drop it back the same day where possible.",
+        "The lithium-ion battery comes with a three-year warranty, and the motor and controller are covered separately under a component-level scheme. If a trip to the centre is inconvenient, ask for a doorstep pickup-and-drop slot and our team will collect the scooter from your Kalyan Nagar address and drop it back the same day where possible.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Kalyan Nagar",
       body: [
-        "For the typical Kalyan Nagar commuter doing short, frequent trips inside the layout and into Banaswadi, the Xypro at ₹42,000 on-road is the lightest, easiest pick. It is the one to choose if you want a low-fuss daily vehicle that fits any covered parking spot.",
+        "For the typical Kalyan Nagar commuter doing short, frequent trips inside the layout and into Banaswadi, the Xypro at ₹40,000 on-road is the lightest, easiest pick. It is the one to choose if you want a low-fuss daily vehicle that fits any covered parking spot.",
         "The Jett at ₹55,000 on-road is built for the rider who carries a pillion regularly - a parent and child for school drops, or two adults sharing the household scooter. The 4ALL at ₹56,000 is the range king of the line-up and earns its place for residents whose weekly running stretches into central Bengaluru or up to Hebbal on top of the daily layout duty.",
       ],
     },
@@ -187,11 +187,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a JP Nagar rider",
       body: [
         "A 110 cc petrol scooter doing the standard JP Nagar circuit - school drops in 2nd Phase, groceries in 6th Phase, an evening on Bannerghatta Road - burns fuel faster than the average owner tracks, because the engine spends so much time crawling in low gears. The same distance on an ElectricPe scooter costs a fraction of that, because you are charging from your house's regular 5A socket overnight.",
-        "The Xypro starts at ₹42,000 on-road, with EMIs from roughly ₹1,499 per month and same-day approval at the showroom. For most JP Nagar families, the EMI is lower than the petrol bill they replace, and the running cost difference is pure monthly saving on top.",
+        "The Xypro starts at ₹40,000 on-road, with EMIs from roughly ₹1,449 per month and same-day approval at the showroom. For most JP Nagar families, the EMI is lower than the petrol bill they replace, and the running cost difference is pure monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance renewal.",
         "Real-world range of 80 km plus covers a full week of JP Nagar running.",
       ],
@@ -200,13 +200,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Your JP Nagar scooter is covered by the same Bengaluru-wide service network as every other ElectricPe customer. Mobility Centers commit to a 24-hour service SLA on routine work, with in-house technicians who handle the common jobs - controller replacements, brake-shoe swaps, throttle and charger checks - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km warranty, with the motor and controller covered separately under the component-level scheme. If Bannerghatta Road traffic makes a service visit a pain, ask for a doorstep pickup-and-drop and the team will collect from your JP Nagar address directly.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year warranty, with the motor and controller covered separately under the component-level scheme. If Bannerghatta Road traffic makes a service visit a pain, ask for a doorstep pickup-and-drop and the team will collect from your JP Nagar address directly.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for JP Nagar",
       body: [
-        "The Xypro at ₹42,000 on-road is the right starter for the typical JP Nagar commuter - short, daily, single-rider trips across the phases. It is the lightest scooter in the line-up and the easiest to park in the tighter older lanes of 1st and 2nd Phase.",
+        "The Xypro at ₹40,000 on-road is the right starter for the typical JP Nagar commuter - short, daily, single-rider trips across the phases. It is the lightest scooter in the line-up and the easiest to park in the tighter older lanes of 1st and 2nd Phase.",
         "The Jett at ₹55,000 on-road is the family pick - more pillion comfort for school runs and weekend trips to the BG Road retail strip. The 4ALL at ₹56,000 is the longest-range option and the right call for a rider whose week includes runs into Jayanagar, BTM and central Bengaluru on top of the local JP Nagar duty.",
       ],
     },
@@ -238,11 +238,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a CV Raman Nagar rider",
       body: [
         "A petrol scooter doing typical CV Raman Nagar duty - school in the morning, market trip in the afternoon, Indiranagar run in the evening - racks up fuel cost out of proportion to the actual distance, because the engine never gets a chance to warm up properly in slow city traffic. An ElectricPe scooter doing the same distance costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. The EMI often comes in below the petrol bill it replaces.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. The EMI often comes in below the petrol bill it replaces.",
       ],
       bullets: [
         "About four hours to a full charge on any home 5A socket.",
-        "EMI from roughly ₹1,499 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of CV Raman Nagar trips on one overnight charge.",
       ],
@@ -251,13 +251,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Your CV Raman Nagar scooter is supported by the wider Bengaluru network of ElectricPe Mobility Centers. Each commits to a 24-hour service SLA on routine work, with in-house technicians handling common jobs - controllers, throttles, chargers, brake shoes - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf, and the lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If you would rather not deal with Old Madras Road traffic for a service trip, our team will arrange a doorstep pickup-and-drop from your CV Raman Nagar address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf, and the lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If you would rather not deal with Old Madras Road traffic for a service trip, our team will arrange a doorstep pickup-and-drop from your CV Raman Nagar address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for CV Raman Nagar",
       body: [
-        "The Xypro at ₹42,000 on-road is the natural fit for the single-rider commuter in CV Raman Nagar - daily errands, market runs, a quick trip into Indiranagar. It is the lightest of the three and the easiest to park along the older neighbourhood lanes.",
+        "The Xypro at ₹40,000 on-road is the natural fit for the single-rider commuter in CV Raman Nagar - daily errands, market runs, a quick trip into Indiranagar. It is the lightest of the three and the easiest to park along the older neighbourhood lanes.",
         "The Jett at ₹55,000 on-road suits a household where two riders share the scooter or where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the one to pick if your weekly running stretches across to Whitefield, Marathahalli or up toward Hebbal on top of the local CV Raman Nagar trips.",
       ],
     },
@@ -289,11 +289,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Yelahanka rider",
       body: [
         "A petrol scooter doing standard Yelahanka duty - school in the morning, market in the afternoon, an evening run to the railway station for a relative - burns more fuel than the actual distance suggests, because so much of it is short, cold-engine running. An ElectricPe scooter doing the same trips costs a fraction, charged overnight on regular household electricity.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Yelahanka households, the EMI lands below the previous petrol bill, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Yelahanka households, the EMI lands below the previous petrol bill, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Charges fully on any home 5A socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance.",
         "80 km plus real-world range covers a week of Yelahanka running on one charge.",
       ],
@@ -302,13 +302,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Yelahanka owners are backed by the same Bengaluru service network as the rest of the city. Every Mobility Center holds itself to a 24-hour service SLA on routine work, with in-house technicians who handle common jobs - throttles, chargers, controllers, brake shoes - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf, and the lithium-ion battery is backed by a three-year or 40,000 km warranty, with the motor and controller covered separately under a component-level scheme. If a service visit is inconvenient, ask the team for a doorstep pickup-and-drop slot and they will collect the scooter from your Yelahanka address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf, and the lithium-ion battery is backed by a three-year warranty, with the motor and controller covered separately under a component-level scheme. If a service visit is inconvenient, ask the team for a doorstep pickup-and-drop slot and they will collect the scooter from your Yelahanka address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Yelahanka",
       body: [
-        "The Xypro at ₹42,000 on-road is the easiest pick for the typical Yelahanka rider - short, daily, single-rider trips inside the layout. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
+        "The Xypro at ₹40,000 on-road is the easiest pick for the typical Yelahanka rider - short, daily, single-rider trips inside the layout. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
         "The Jett at ₹55,000 on-road is built for a household where two riders share the scooter or where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for residents who occasionally ride down to Hebbal or out to the central city on top of the daily New Town running.",
       ],
     },
@@ -340,11 +340,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Indiranagar rider",
       body: [
         "A 110 cc petrol scooter doing typical Indiranagar duty - short hops between blocks, an evening on 100 Feet Road, a trip into Koramangala - racks up a monthly fuel bill out of proportion to the actual distance, because the engine spends most of its life crawling at signals. An ElectricPe scooter doing the same trips costs a small fraction, charged from your apartment's regular 5A socket overnight.",
-        "The Xypro starts at ₹42,000 on-road, with EMIs from roughly ₹1,499 per month and same-day approval at the showroom. For most Indiranagar households, the monthly EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹40,000 on-road, with EMIs from roughly ₹1,449 per month and same-day approval at the showroom. For most Indiranagar households, the monthly EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any home 5A socket in about four hours.",
-        "EMI options from roughly ₹1,499 per month for the entry Xypro trim.",
+        "EMI options from roughly ₹1,449 per month for the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal cost.",
         "80 km plus real-world range covers a full week of Indiranagar running.",
       ],
@@ -353,13 +353,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Indiranagar owners are covered by ElectricPe's Bengaluru-wide Mobility Center network. Every centre commits to a 24-hour service SLA on routine work, with in-house technicians handling the common jobs - controllers, throttles, brake shoes and charger checks - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf, so most repairs are completed the same day. The lithium-ion battery comes with a three-year or 40,000 km component-level warranty, and the motor and controller are covered separately. If a service trip across CMH Road is a hassle, our team will arrange a doorstep pickup-and-drop from your Indiranagar block.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf, so most repairs are completed the same day. The lithium-ion battery comes with a three-year component-level warranty, and the motor and controller are covered separately. If a service trip across CMH Road is a hassle, our team will arrange a doorstep pickup-and-drop from your Indiranagar block.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Indiranagar",
       body: [
-        "The Xypro at ₹42,000 on-road is the obvious pick for a single-rider Indiranagar commuter - daily metro runs, dinner trips, weekend errands. It is the lightest scooter in the line-up and the easiest to park along the cramped 100 Feet Road kerbside slots.",
+        "The Xypro at ₹40,000 on-road is the obvious pick for a single-rider Indiranagar commuter - daily metro runs, dinner trips, weekend errands. It is the lightest scooter in the line-up and the easiest to park along the cramped 100 Feet Road kerbside slots.",
         "The Jett at ₹55,000 on-road is the family-friendly pick when two riders share the scooter or when a pillion is the daily norm. The 4ALL at ₹56,000 is the longest-range option and earns its place for an Indiranagar rider whose week includes runs out to Whitefield or down to Koramangala and HSR on top of the local trips.",
       ],
     },
@@ -391,11 +391,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a HSR Layout rider",
       body: [
         "A petrol scooter doing typical HSR duty - daily school drop in Sector 1, a Sarjapur Road grocery run, an evening on the BDA Complex strip - racks up a monthly fuel bill that surprises most owners when they actually total it up. An ElectricPe scooter doing the same distance costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most HSR households, the EMI sits below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most HSR households, the EMI sits below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month for the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month for the Xypro entry trim.",
         "No road tax, no RTO registration fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of HSR Layout running.",
       ],
@@ -404,13 +404,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "HSR Layout owners are backed by the wider Bengaluru ElectricPe service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle the common jobs - controllers, brake shoes, chargers, throttle and display units - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If a service visit across the ORR is too much trouble, ask the team for a doorstep pickup-and-drop slot and they will collect from your HSR sector.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If a service visit across the ORR is too much trouble, ask the team for a doorstep pickup-and-drop slot and they will collect from your HSR sector.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for HSR Layout",
       body: [
-        "The Xypro at ₹42,000 on-road is the right pick for the single-rider HSR commuter doing inside-the-layout trips and the occasional run to the BDA Complex. It is the lightest, easiest scooter in the line-up.",
+        "The Xypro at ₹40,000 on-road is the right pick for the single-rider HSR commuter doing inside-the-layout trips and the occasional run to the BDA Complex. It is the lightest, easiest scooter in the line-up.",
         "The Jett at ₹55,000 on-road suits a family that shares one scooter or runs daily school drops with a child as pillion. The 4ALL at ₹56,000 is the longest-range option and is the right call for an HSR rider whose week includes runs out to Sarjapur tech offices or across to Koramangala on top of the local sector trips.",
       ],
     },
@@ -442,11 +442,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Bommanahalli rider",
       body: [
         "Petrol scooters on the Hosur Road corridor burn fuel especially hard, because so much of the running is in stop-start traffic where mileage collapses. An ElectricPe scooter doing the same daily distance costs a small fraction of that, charged overnight from a regular 5A socket on home electricity rates.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Bommanahalli households, the EMI ends up below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Bommanahalli households, the EMI ends up below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance.",
         "80 km plus real-world range covers a full week of Bommanahalli running.",
       ],
@@ -455,13 +455,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Bommanahalli owners are supported by the same Bengaluru-wide ElectricPe Mobility Center network as every other city customer. Each centre commits to a 24-hour service SLA on routine work, with in-house technicians who handle the common jobs - controllers, throttles, brake shoes and chargers - while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, and the motor and controller are covered separately. If you would rather not battle Hosur Road traffic for a service visit, the team will arrange a doorstep pickup-and-drop from your Bommanahalli address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, and the motor and controller are covered separately. If you would rather not battle Hosur Road traffic for a service visit, the team will arrange a doorstep pickup-and-drop from your Bommanahalli address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Bommanahalli",
       body: [
-        "The Xypro at ₹42,000 on-road is the practical pick for a single-rider commuter doing local Bommanahalli running and the occasional Silk Board crossing. It is the lightest and easiest of the three to park along service roads.",
+        "The Xypro at ₹40,000 on-road is the practical pick for a single-rider commuter doing local Bommanahalli running and the occasional Silk Board crossing. It is the lightest and easiest of the three to park along service roads.",
         "The Jett at ₹55,000 on-road is the family option, with better pillion comfort for school drops or shared rides. The 4ALL at ₹56,000 is the longest-range scooter and the right call for a rider whose week includes runs into Electronic City Phase 1, HSR or BTM on top of local Bommanahalli trips.",
       ],
     },
@@ -493,11 +493,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Kudlu rider",
       body: [
         "A petrol scooter doing typical Kudlu duty - quick school drop, market run, occasional Sarjapur Road errand - burns more fuel than the actual distance would suggest, because the trips are short and never let the engine warm up. The same distance on an ElectricPe scooter costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Kudlu households, that EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Kudlu households, that EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month for the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month for the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a week of Kudlu running on one charge.",
       ],
@@ -506,13 +506,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Kudlu owners are covered by ElectricPe's wider Bengaluru service network. Each Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and charger checks while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If a service visit is inconvenient, our team will arrange a doorstep pickup-and-drop from your Kudlu address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If a service visit is inconvenient, our team will arrange a doorstep pickup-and-drop from your Kudlu address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Kudlu",
       body: [
-        "The Xypro at ₹42,000 on-road is the obvious starter for a single-rider Kudlu commuter doing short local trips and the occasional Hosur Road crossing. It is the lightest and easiest to park around the older Kudlu Gate stretches.",
+        "The Xypro at ₹40,000 on-road is the obvious starter for a single-rider Kudlu commuter doing short local trips and the occasional Hosur Road crossing. It is the lightest and easiest to park around the older Kudlu Gate stretches.",
         "The Jett at ₹55,000 on-road is the right choice when a pillion is part of the daily routine - shared rides, child drops, weekend family runs. The 4ALL at ₹56,000 is the longest-range option and is the one to pick if your week includes regular runs into HSR, Bommanahalli or down to Electronic City on top of the local Kudlu trips.",
       ],
     },
@@ -544,11 +544,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Whitefield rider",
       body: [
         "Whitefield commuters who keep a petrol scooter for inside-the-area trips routinely under-estimate how much fuel goes into short, slow, stop-start running. The same distance on an ElectricPe scooter costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Whitefield households, the EMI lands below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Whitefield households, the EMI lands below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range comfortably covers a full week of Whitefield running.",
       ],
@@ -557,13 +557,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Whitefield owners are supported by ElectricPe's wider Bengaluru service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and chargers while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If you would rather not lose half a day to Whitefield traffic for a service visit, the team will arrange a doorstep pickup-and-drop from your community.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If you would rather not lose half a day to Whitefield traffic for a service visit, the team will arrange a doorstep pickup-and-drop from your community.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Whitefield",
       body: [
-        "The Xypro at ₹42,000 on-road is the right starter for the single-rider Whitefield commuter doing short, daily, inside-the-area trips. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
+        "The Xypro at ₹40,000 on-road is the right starter for the single-rider Whitefield commuter doing short, daily, inside-the-area trips. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
         "The Jett at ₹55,000 on-road is the family pick when a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for a Whitefield rider whose week includes runs out to Marathahalli, Bellandur or down toward Sarjapur Road on top of local trips.",
       ],
     },
@@ -595,11 +595,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Electronic City rider",
       body: [
         "A petrol scooter doing typical Electronic City duty - shuttle stop drops, weekend grocery trips, evening food runs - racks up more fuel cost than the distance suggests, because most of the running is short and slow. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Electronic City households the EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Electronic City households the EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Electronic City running.",
       ],
@@ -608,13 +608,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Electronic City owners are supported by the wider Bengaluru ElectricPe service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and chargers while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If a service visit is inconvenient given Hosur Road traffic, the team will arrange a doorstep pickup-and-drop from your Electronic City community.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If a service visit is inconvenient given Hosur Road traffic, the team will arrange a doorstep pickup-and-drop from your Electronic City community.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Electronic City",
       body: [
-        "The Xypro at ₹42,000 on-road is the obvious pick for a single-rider Electronic City commuter doing short, in-cluster trips. It is the lightest scooter in the line-up and the easiest to park around the densely-built Phase 1 service lanes.",
+        "The Xypro at ₹40,000 on-road is the obvious pick for a single-rider Electronic City commuter doing short, in-cluster trips. It is the lightest scooter in the line-up and the easiest to park around the densely-built Phase 1 service lanes.",
         "The Jett at ₹55,000 on-road suits a household where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option in the line-up and is the right call for a rider whose weekly running stretches up to Bommanahalli, HSR or BTM on top of local Electronic City trips.",
       ],
     },
@@ -646,11 +646,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Marathahalli rider",
       body: [
         "Petrol scooters on the ORR corridor burn fuel especially hard, because so much of the running is in queueing traffic where mileage tanks. An ElectricPe scooter doing the same daily distance costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Marathahalli households the EMI lands below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Marathahalli households the EMI lands below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Marathahalli running.",
       ],
@@ -659,13 +659,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Marathahalli owners are supported by ElectricPe's wider Bengaluru service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and chargers while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If you would rather not lose a half-day to ORR traffic for a service visit, our team will arrange a doorstep pickup-and-drop from your Marathahalli community.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If you would rather not lose a half-day to ORR traffic for a service visit, our team will arrange a doorstep pickup-and-drop from your Marathahalli community.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Marathahalli",
       body: [
-        "The Xypro at ₹42,000 on-road is the right pick for a single-rider Marathahalli commuter doing short, frequent trips inside the residential cluster. It is the lightest of the three and the easiest to park along service-road kerbs.",
+        "The Xypro at ₹40,000 on-road is the right pick for a single-rider Marathahalli commuter doing short, frequent trips inside the residential cluster. It is the lightest of the three and the easiest to park along service-road kerbs.",
         "The Jett at ₹55,000 on-road suits a household where two riders share the scooter or a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into Bellandur, Whitefield or down to Sarjapur Road on top of the local Marathahalli trips.",
       ],
     },
@@ -697,11 +697,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Bannerghatta rider",
       body: [
         "A petrol scooter doing typical Bannerghatta duty - school in the morning, hospital visit in the afternoon, retail run in the evening - racks up a fuel bill out of proportion to the distance because the engine spends so much time crawling. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight on a regular 5A socket.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Bannerghatta households the EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Bannerghatta households the EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Bannerghatta running.",
       ],
@@ -710,13 +710,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Bannerghatta owners are supported by ElectricPe's wider Bengaluru service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and chargers while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If a service trip on BG Road is too much trouble, our team will arrange a doorstep pickup-and-drop from your address.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If a service trip on BG Road is too much trouble, our team will arrange a doorstep pickup-and-drop from your address.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Bannerghatta",
       body: [
-        "The Xypro at ₹42,000 on-road is the right starter for a single-rider Bannerghatta commuter doing daily local trips along the corridor. It is the lightest and easiest to park along the service-road retail strips.",
+        "The Xypro at ₹40,000 on-road is the right starter for a single-rider Bannerghatta commuter doing daily local trips along the corridor. It is the lightest and easiest to park along the service-road retail strips.",
         "The Jett at ₹55,000 on-road suits a family that shares one scooter or carries a pillion on school drops. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into JP Nagar, BTM or up to central Bengaluru on top of the local BG Road duty.",
       ],
     },
@@ -748,11 +748,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Dommasandra rider",
       body: [
         "A petrol scooter doing typical Dommasandra duty - station drops, school runs, weekend grocery trips - burns more fuel than the distance suggests, simply because so much of it is short, slow running. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹42,000 on-road and EMIs begin at roughly ₹1,499 per month with same-day approval. For most Dommasandra households the EMI lands below the petrol bill it replaces, and the running cost gap is monthly saving on top.",
+        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Dommasandra households the EMI lands below the petrol bill it replaces, and the running cost gap is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,499 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Dommasandra running.",
       ],
@@ -761,13 +761,13 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Service backed by Bengaluru's ElectricPe centres",
       body: [
         "Dommasandra owners are supported by ElectricPe's wider Bengaluru service network. Every Mobility Center commits to a 24-hour service SLA on routine work, with in-house technicians who handle controllers, throttles, brake shoes and chargers while you wait.",
-        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year or 40,000 km component-level warranty, with the motor and controller covered separately. If a service trip up Sarjapur Road is too much trouble, our team will arrange a doorstep pickup-and-drop from your community.",
+        "Each centre stocks more than fifty genuine spare parts on-shelf. The lithium-ion battery is backed by a three-year component-level warranty, with the motor and controller covered separately. If a service trip up Sarjapur Road is too much trouble, our team will arrange a doorstep pickup-and-drop from your community.",
       ],
     },
     {
       heading: "Choose Xypro, Jett or 4ALL for Dommasandra",
       body: [
-        "The Xypro at ₹42,000 on-road is the right pick for a single-rider Dommasandra commuter doing short, daily trips inside the community and along the immediate Sarjapur stretch. It is the lightest and easiest of the three to handle for a first-time electric owner.",
+        "The Xypro at ₹40,000 on-road is the right pick for a single-rider Dommasandra commuter doing short, daily trips inside the community and along the immediate Sarjapur stretch. It is the lightest and easiest of the three to handle for a first-time electric owner.",
         "The Jett at ₹55,000 on-road suits a household where a pillion is part of the daily routine - shared rides, child drops, weekend family runs. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into Bellandur, Marathahalli or down toward Electronic City on top of the local Dommasandra trips.",
       ],
     },

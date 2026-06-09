@@ -40,7 +40,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "The on-road sticker price is published openly. The Xypro begins at around 36,000 rupees on-road, the Jett at around 54,000 rupees on-road and the 4ALL at around 56,000 rupees on-road. EMI starts from roughly 1,299 rupees per month through our finance partners. There is no road tax, no registration fee and no RTO file, so the number on the invoice is the number you actually pay.",
       ],
       bullets: [
-        "Lithium-ion battery with a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion battery with a 3-year warranty in writing.",
         "Charges fully in around 4 hours on a standard household 5A socket, no special wiring needed.",
         "80 km plus of real-world range, comfortably enough for a full day of Garh Road errands.",
         "EMI from around 1,299 rupees a month with same-day approval at the Mobility Center.",
@@ -58,7 +58,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Garh Road",
       body: [
         "The Xypro is the entry option and the natural fit for a single primary rider, school drop and market run in mind, who wants to spend the least and still get a real lithium pack and a real warranty. The Jett steps up on ride feel, finish and a broader feature set for the rider who plans to keep the scooter on the road every day of the year. The 4ALL is the family-ready option, with a payload profile and a seat that handles two adults plus a child comfortably on the kind of Garh Road weekend trips that involve a relative pickup from Hapur Bus Stand and a market loop afterwards.",
-        "All three are licence-free, all three carry the same 3-year or 40,000 km battery warranty, and all three are backed by the same 24-hour service commitment from the Garh Road centre. The right pick comes down to how many riders the scooter needs to serve and what kind of finish you want. The team at the Mobility Center will walk you through both honestly, side by side, before you sign anything.",
+        "All three are licence-free, all three carry the same 3-year battery warranty, and all three are backed by the same 24-hour service commitment from the Garh Road centre. The right pick comes down to how many riders the scooter needs to serve and what kind of finish you want. The team at the Mobility Center will walk you through both honestly, side by side, before you sign anything.",
       ],
     },
   ],
@@ -94,7 +94,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "The on-road sticker is published. The Xypro begins around 36,000 rupees on-road, the Jett around 54,000 rupees on-road and the 4ALL around 56,000 rupees on-road. EMI starts at roughly 1,299 rupees a month and is approved on the spot at the Mobility Center. With the UP EV Policy waivers, there is no road tax or registration fee to chase.",
       ],
       bullets: [
-        "Lithium-ion pack covered by a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion pack covered by a 3-year warranty in writing.",
         "Full charge in about 4 hours on any standard 5A household socket.",
         "Real-world range of 80 km plus per charge, enough for a full day of Roorkee Road runs.",
         "EMI from around 1,299 rupees a month with same-day approval at the store.",
@@ -148,7 +148,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "Sticker prices are published. The Xypro starts around 36,000 rupees on-road, the Jett around 54,000 rupees on-road and the 4ALL around 56,000 rupees on-road. EMI starts at roughly 1,299 rupees per month through the finance partners, approved on the day at the Mobility Center. Because the UP EV Policy waives road tax and registration, the showroom on-road price is what you actually pay.",
       ],
       bullets: [
-        "Lithium-ion pack with a 3-year or 40,000 km battery warranty in writing.",
+        "Lithium-ion pack with a 3-year battery warranty in writing.",
         "Around 4 hours to a full charge on a regular 5A socket, no special wiring required.",
         "80 km plus of real-world range, easily a full day's Meerut Road running.",
         "EMI starting near 1,299 rupees a month, approved same-day at the store.",
@@ -166,7 +166,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Meerut Road",
       body: [
         "The Xypro is the right starter on Meerut Road for a single primary rider doing a daily loop inside the Vijaynagar to Pratap Vihar belt. The Jett is the everyday-use option, with a more polished ride feel and a fit and finish that pays off when the scooter is out every day in expressway-adjacent traffic. The 4ALL is the family option, a payload and seat profile that suits two adults plus a child for the weekend Mohan Nagar or Modipuram trip.",
-        "All three carry the same 25 km/h licence-free status, the same 3-year or 40,000 km battery warranty and the same 24-hour service-level promise from the Meerut Road centre. The team will sit you down and walk you through both pricing and use case before you sign.",
+        "All three carry the same 25 km/h licence-free status, the same 3-year battery warranty and the same 24-hour service-level promise from the Meerut Road centre. The team will sit you down and walk you through both pricing and use case before you sign.",
       ],
     },
   ],
@@ -202,7 +202,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "Sticker prices are open. The Xypro begins at around 36,000 rupees on-road, the Jett at around 54,000 rupees on-road and the 4ALL at around 56,000 rupees on-road. EMI starts near 1,299 rupees a month and is approved on the day at the Mobility Center. Because road tax and registration are waived under the UP EV Policy, the showroom on-road number is what you actually pay.",
       ],
       bullets: [
-        "Lithium-ion battery covered by a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion battery covered by a 3-year warranty in writing.",
         "Full charge in around 4 hours on a regular 5A socket, no rewiring needed.",
         "Real-world range of 80 km plus, enough for a full day of local Tigri running.",
         "EMI from around 1,299 rupees a month with same-day approval at the centre.",
@@ -220,7 +220,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Tigri Circle",
       body: [
         "The Xypro is the entry-point pick for a single primary rider doing a daily loop within Vijay Nagar and Tigri. The Jett steps up on fit and finish and is the everyday-use option for someone who plans to use the scooter every day of the year. The 4ALL is the family-ready choice, with the payload and seat profile to carry two adults plus a child for the weekend Mahagun Mart or Indirapuram trip.",
-        "All three are 25 km/h licence-free, all three carry the same 3-year or 40,000 km battery warranty and all three are backed by the same 24-hour service promise from the Tigri Circle workshop. The right choice depends on how many riders the scooter has to serve and how much finish you want for the same lithium pack underneath.",
+        "All three are 25 km/h licence-free, all three carry the same 3-year battery warranty and all three are backed by the same 24-hour service promise from the Tigri Circle workshop. The right choice depends on how many riders the scooter has to serve and how much finish you want for the same lithium pack underneath.",
       ],
     },
   ],
@@ -256,7 +256,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "Sticker prices are published openly. The Xypro begins at around 36,000 rupees on-road, the Jett at around 54,000 rupees on-road and the 4ALL at around 56,000 rupees on-road. EMI starts from roughly 1,299 rupees a month through our finance partners, approved at the centre on the day. With the Haryana EV Policy waivers in place, the showroom on-road number is the number you actually pay.",
       ],
       bullets: [
-        "Lithium-ion battery with a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion battery with a 3-year warranty in writing.",
         "Full charge in around 4 hours from a regular 5A household socket.",
         "80 km plus real-world range, enough for a full day of Old Gurgaon running.",
         "EMI from around 1,299 rupees a month with same-day approval at the store.",
@@ -274,7 +274,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Mata Road",
       body: [
         "The Xypro is the entry-level pick for a single primary rider doing a daily loop inside the Old Gurgaon belt. The Jett is the everyday-use option for the rider who keeps the scooter on Mata Road every day of the year, with fit and finish that holds up well in heavy local use. The 4ALL is the family-ready choice for two adults plus a child, the way many Mata Road weekend trips actually happen, a temple visit followed by a Sadar Bazar market loop.",
-        "All three are 25 km/h licence-free, all three carry the same 3-year or 40,000 km battery warranty and all three are backed by the same 24-hour service commitment from the Mata Road centre. The team will help you pick by use case, side by side, before you sign anything.",
+        "All three are 25 km/h licence-free, all three carry the same 3-year battery warranty and all three are backed by the same 24-hour service commitment from the Mata Road centre. The team will help you pick by use case, side by side, before you sign anything.",
       ],
     },
   ],
@@ -310,7 +310,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "Sticker prices are open. The Xypro begins at around 36,000 rupees on-road, the Jett at around 54,000 rupees on-road and the 4ALL at around 56,000 rupees on-road. EMI starts at roughly 1,299 rupees a month through our finance partners, approved on the day at the Mobility Center. The Haryana EV Policy waives road tax and registration, so the showroom number is the number you pay.",
       ],
       bullets: [
-        "Lithium-ion pack with a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion pack with a 3-year warranty in writing.",
         "About 4 hours to full charge on a regular 5A household socket.",
         "80 km plus real-world range, easily a full day's inter-sector running.",
         "EMI from around 1,299 rupees a month, approved same-day at the store.",
@@ -328,7 +328,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Sector 13",
       body: [
         "The Xypro is the entry pick for a single primary rider, typically a student or a homemaker doing the daily sector loop. The Jett is the everyday-use option, more polish in fit and finish, the right choice for a rider who plans to keep the scooter on Sector 13 streets seven days a week. The 4ALL is the family option, two adults plus a child seating, the practical choice for a household that needs the scooter to handle weekend trips to the mall or the park as well as the daily school run.",
-        "All three are 25 km/h licence-free, all three carry the same 3-year or 40,000 km battery warranty and all three are backed by the same 24-hour service promise from the Sonipat centre. The team will sit you down and walk you through both pricing and use case before you sign.",
+        "All three are 25 km/h licence-free, all three carry the same 3-year battery warranty and all three are backed by the same 24-hour service promise from the Sonipat centre. The team will sit you down and walk you through both pricing and use case before you sign.",
       ],
     },
   ],
@@ -364,7 +364,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
         "Sticker prices are published. The Xypro begins at around 36,000 rupees on-road, the Jett at around 54,000 rupees on-road and the 4ALL at around 56,000 rupees on-road. EMI starts at roughly 1,299 rupees per month through the finance partners, approved on the day at the Mobility Center. With the Haryana EV Policy 2022 waivers, the showroom on-road price is what you actually pay.",
       ],
       bullets: [
-        "Lithium-ion battery covered by a 3-year or 40,000 km warranty in writing.",
+        "Lithium-ion battery covered by a 3-year warranty in writing.",
         "Full charge in about 4 hours from a standard 5A household socket.",
         "80 km plus of real-world range, easily a full day's local running.",
         "EMI from around 1,299 rupees a month with same-day approval at the store.",
@@ -382,7 +382,7 @@ export const LF_LOC_NCR_UP: Record<string, LongformSection[]> = {
       heading: "Choose Xypro, Jett or 4ALL for Chhotu Ram Nagar",
       body: [
         "The Xypro is the entry-level pick for a single primary rider doing a daily inner-city loop in Rohtak, a homemaker, a student, a senior parent. The Jett steps up on fit and finish and is the everyday-use option for the rider who plans to keep the scooter out on Chhotu Ram Nagar streets every day of the year. The 4ALL is the family option, with the payload and seat profile to comfortably carry two adults plus a child for a weekend market or hospital trip.",
-        "All three are 25 km/h licence-free, all three carry the same 3-year or 40,000 km battery warranty and all three are backed by the same 24-hour service promise from the Rohtak centre. The team at the Mobility Center will help you pick by use case, side by side, before you commit.",
+        "All three are 25 km/h licence-free, all three carry the same 3-year battery warranty and all three are backed by the same 24-hour service promise from the Rohtak centre. The team at the Mobility Center will help you pick by use case, side by side, before you commit.",
       ],
     },
   ],

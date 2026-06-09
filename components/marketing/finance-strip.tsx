@@ -26,8 +26,8 @@ export function FinanceStrip() {
     <Section>
       <Reveal>
         <SectionHeader
-          eyebrow="EMI starting ₹1,499"
-          title="Own an ElectricPe starting at ₹1,999 per month."
+          eyebrow="EMI starting ₹1,449"
+          title="Own an ElectricPe starting at ₹1,449 per month."
           description="Six finance partners. Zero down payment at select stores. Instant approval for salaried individuals."
         />
       </Reveal>

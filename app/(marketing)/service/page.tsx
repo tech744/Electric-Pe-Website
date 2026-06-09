@@ -36,7 +36,7 @@ const PILLARS = [
     title: "Component-level warranty",
     stat: "Varies",
     statLabel: "By component",
-    text: "Motor and controller are covered for one year; the lithium-ion battery for three years or 40,000 km; the charger for one year. Coverage varies, exact terms shared on inquiry.",
+    text: "Motor and controller are covered for one year; the lithium-ion battery for three years; the charger for one year. Lead-acid variants carry a 1-year warranty across battery, charger, motor and controller. Coverage varies, exact terms shared on inquiry.",
   },
   {
     icon: Wrench,
@@ -64,8 +64,8 @@ const HOW_IT_WORKS = [
 const WARRANTY_COVERED = [
   "Motor: 1 year",
   "Controller: 1 year",
-  "Lithium-Ion battery: 3 years or 40,000 km (whichever is earlier)",
-  "Lead-acid battery: 12 months, pro-rated replacement after 6 months",
+  "Lithium-Ion battery: 3 years",
+  "Lead-acid battery: 1 year, covered alongside charger, motor and controller",
   "Charger: 1 year",
 ];
 

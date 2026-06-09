@@ -50,7 +50,7 @@ export const faqs: Faq[] = [
     id: "service-warranty",
     question: "What does the warranty cover?",
     answerMdx:
-      "Warranty coverage varies by component. The motor and controller are covered for 1 year, the charger for 1 year, and the lithium-ion battery for 3 years or 40,000 km (whichever is earlier). Wear-and-tear items (tyres, brake pads), accidental damage and unauthorised modifications are not covered. Exact terms are shared at handover or on inquiry at any Mobility Center.",
+      "Warranty coverage varies by component. The motor and controller are covered for 1 year, the charger for 1 year, and the lithium-ion battery for 3 years. Lead-acid variants carry a 1-year warranty on the battery, charger, motor and controller. Wear-and-tear items (tyres, brake pads), accidental damage and unauthorised modifications are not covered. Exact terms are shared at handover or on inquiry at any Mobility Center.",
     category: "service",
     scope: "global",
     order: 6,
