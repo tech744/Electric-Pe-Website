@@ -265,7 +265,7 @@ export const cities: City[] = [
     state: "Uttar Pradesh",
     lat: 27.4924,
     lng: 77.6737,
-    servedStoreSlugs: ["mathura-goverdhan-chauraha"],
+    servedStoreSlugs: ["mathura-sonkh-road"],
     bestsellerScooterVariantSlugs: ["xypro-lead-acid", "xypro-lithium-ion"],
     localFuelPricePerLitre: 99,
     localElectricityRatePerKwh: 7,

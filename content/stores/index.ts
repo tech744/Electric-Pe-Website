@@ -377,7 +377,7 @@ export const stores: Store[] = [
     storeCode: "MDY-BNR",
   },
   {
-    slug: "mathura-goverdhan-chauraha",
+    slug: "mathura-sonkh-road",
     name: "ElectricPe EV Showroom Mathura",
     cityId: "mathura",
     state: "Uttar Pradesh",
@@ -391,9 +391,9 @@ export const stores: Store[] = [
     hours: standardHours,
     services: ["sales", "service", "testRides"],
     brandsAvailable: ["xypro", "jett", "4all"],
-    photos: ["/img/stores/mathura-goverdhan-chauraha.jpg"],
+    photos: ["/img/stores/mathura-sonkh-road.jpg"],
     managerName: "Vivek Sharma",
-    storeCode: "MTR-GVD",
+    storeCode: "MTR-SNK",
   },
   {
     slug: "meerut-garh-road",

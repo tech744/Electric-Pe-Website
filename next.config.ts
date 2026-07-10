@@ -30,6 +30,11 @@ const nextConfig: NextConfig = {
       { source: "/contact", destination: "/contact-us", permanent: true },
       { source: "/scooters", destination: "/ev", permanent: true },
       { source: "/products", destination: "/ev", permanent: true },
+      {
+        source: "/stores/mathura/mathura-goverdhan-chauraha",
+        destination: "/stores/mathura/mathura-sonkh-road",
+        permanent: true,
+      },
     ];
   },
 
