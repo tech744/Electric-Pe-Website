@@ -382,7 +382,7 @@ export const stores: Store[] = [
     cityId: "mathura",
     state: "Uttar Pradesh",
     address:
-      "Goverdhan Chauraha, in front of KM Residency, Mathura",
+      "Patiram Lodheshwar Mahadev, Sonkh Road, Mathura",
     pincode: "281004",
     lat: 27.5001,
     lng: 77.6522,
