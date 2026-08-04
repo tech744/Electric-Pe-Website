@@ -488,3 +488,140 @@ input[type="range"]:active::-webkit-slider-thumb {
 input[type="range"]:focus-visible::-webkit-slider-thumb {
   box-shadow: var(--shadow-focus);
 }
+
+/* =========================================================
+   Recovered blog article bodies
+
+   Posts restored from the pre-2026 WordPress blog arrive as raw HTML,
+   so their headings/lists carry no utility classes. These rules give
+   them the same rhythm as the rest of the site.
+   ========================================================= */
+.blog-body > *:first-child {
+  margin-top: 0;
+}
+
+/* Jumping from the contents rail must not tuck the heading under the header. */
+.blog-body h2,
+.blog-body h3 {
+  scroll-margin-top: 6.5rem;
+}
+
+.blog-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-body h4,
+.blog-body h5,
+.blog-body h6 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-body p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-body ul,
+.blog-body ol {
+  margin: 0 0 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.blog-body ul {
+  list-style: disc;
+}
+
+.blog-body ol {
+  list-style: decimal;
+}
+
+.blog-body li::marker {
+  color: var(--color-brand);
+}
+
+.blog-body a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-body a:hover {
+  opacity: 0.8;
+}
+
+.blog-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  margin: 1.75rem 0;
+}
+
+.blog-body figure {
+  margin: 1.75rem 0;
+}
+
+.blog-body figcaption {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.blog-body blockquote {
+  border-left: 3px solid var(--color-brand);
+  padding-left: 1.25rem;
+  margin: 1.75rem 0;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.blog-body strong,
+.blog-body b {
+  font-weight: 700;
+}
+
+.blog-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 1rem;
+}
+
+.blog-body th,
+.blog-body td {
+  border: 1px solid var(--color-border);
+  padding: 0.625rem 0.875rem;
+  text-align: left;
+}
+
+.blog-body th {
+  background: var(--color-surface-muted);
+  font-weight: 600;
+}
+
+.blog-body hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5rem 0;
+}

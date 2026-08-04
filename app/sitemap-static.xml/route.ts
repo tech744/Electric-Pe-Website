@@ -12,7 +12,7 @@ const STATIC_PATHS: { path: string; priority: number; changefreq: "weekly" | "mo
   { path: "/faqs", priority: 0.6, changefreq: "monthly" },
   { path: "/about-us", priority: 0.5, changefreq: "monthly" },
   { path: "/contact-us", priority: 0.5, changefreq: "monthly" },
-  { path: "/blog", priority: 0.7, changefreq: "weekly" },
+  { path: "/blogs", priority: 0.7, changefreq: "weekly" },
   { path: "/careers", priority: 0.4, changefreq: "weekly" },
   { path: "/press", priority: 0.3, changefreq: "monthly" },
   { path: "/partnerships", priority: 0.4, changefreq: "monthly" },

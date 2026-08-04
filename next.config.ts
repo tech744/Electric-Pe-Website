@@ -1,4 +1,8 @@
 import type { NextConfig } from "next";
+// Posts keep the old WordPress path, /blogs/<slug>, so those links still resolve
+// untouched. This map covers the sections that moved: /news/, /articles/,
+// root-level posts, and the interim /blog/ URLs.
+import legacyBlogRedirects from "./content/blog/legacy-redirects.json";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -24,7 +28,8 @@ const nextConfig: NextConfig = {
       { source: "/ev-charging-station/categories/:slug*", destination: "/ev-charging-stations", permanent: true },
       { source: "/ev-charging-station/:slug*", destination: "/ev-charging-stations", permanent: true },
       { source: "/electric-charging-station/:slug*", destination: "/ev-charging-stations", permanent: true },
-      { source: "/tag/:slug*", destination: "/blog", permanent: true },
+      { source: "/tag/:slug*", destination: "/blogs", permanent: true },
+      { source: "/blog", destination: "/blogs", permanent: true },
       { source: "/career-category/:slug*", destination: "/careers", permanent: true },
       { source: "/about", destination: "/about-us", permanent: true },
       { source: "/contact", destination: "/contact-us", permanent: true },
@@ -35,6 +40,7 @@ const nextConfig: NextConfig = {
         destination: "/stores/mathura/mathura-sonkh-road",
         permanent: true,
       },
+      ...legacyBlogRedirects,
     ];
   },
 

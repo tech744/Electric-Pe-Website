@@ -32,7 +32,7 @@ const FOOTER_LINKS = {
     { label: "About Us", href: "/about-us" },
     { label: "Careers", href: "/careers" },
     { label: "Press", href: "/press" },
-    { label: "Blog", href: "/blog" },
+    { label: "Blogs", href: "/blogs" },
     { label: "Contact", href: "/contact-us" },
     { label: "Partnerships", href: "/partnerships" },
   ],

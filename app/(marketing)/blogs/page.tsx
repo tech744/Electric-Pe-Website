@@ -16,11 +16,11 @@ const BLOG_DESCRIPTION =
 export const metadata: Metadata = {
   title: { absolute: "EV Scoops | EV Guides & Ownership Stories | ElectricPe" },
   description: BLOG_DESCRIPTION,
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "/blogs" },
   openGraph: {
     title: "EV Scoops | EV Guides & Ownership Stories",
     description: BLOG_DESCRIPTION,
-    url: absoluteUrl("/blog"),
+    url: absoluteUrl("/blogs"),
     type: "website",
   },
 };
@@ -41,13 +41,13 @@ export default function BlogIndex() {
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", href: "/" },
-          { name: "Blog", href: "/blog" },
+          { name: "Blogs", href: "/blogs" },
         ])}
       />
 
       <section className="pt-16 md:pt-24 pb-10 bg-[var(--color-surface-muted)]">
         <Container>
-          <Breadcrumb items={[{ label: "Blog", href: "/blog" }]} className="mb-6" />
+          <Breadcrumb items={[{ label: "Blogs", href: "/blogs" }]} className="mb-6" />
           <div className="max-w-3xl">
             <p className="text-eyebrow mb-3">EV SCOOPS</p>
             <h1 className="text-display-xl">
@@ -63,7 +63,7 @@ export default function BlogIndex() {
 
       {featured && (
         <Section className="pb-8">
-          <Link href={`/blog/${featured.slug}`} className="group block">
+          <Link href={`/blogs/${featured.slug}`} className="group block">
             <Card
               interactive
               className="overflow-hidden grid md:grid-cols-[1.4fr_1fr]"
@@ -110,7 +110,7 @@ export default function BlogIndex() {
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
           {rest.map((p) => (
-            <Link key={p.slug} href={`/blog/${p.slug}`} className="group">
+            <Link key={p.slug} href={`/blogs/${p.slug}`} className="group">
               <Card interactive className="overflow-hidden h-full flex flex-col">
                 <div className="relative aspect-[16/10] bg-[var(--color-surface-muted)]">
                   <Image

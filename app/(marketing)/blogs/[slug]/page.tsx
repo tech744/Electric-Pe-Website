@@ -12,6 +12,8 @@ import { Breadcrumb } from "@/components/ui/breadcrumb";
 import { JsonLd, breadcrumbSchema, articleSchema } from "@/lib/seo/jsonld";
 import { absoluteUrl } from "@/lib/utils/site";
 import { blogPosts, getBlogPost, getRelatedPosts } from "@/content/blog/posts";
+import { getBlogBody, getBlogToc } from "@/content/blog/bodies";
+import { TableOfContents } from "@/components/blog/table-of-contents";
 
 type Params = { slug: string };
 
@@ -30,12 +32,12 @@ export async function generateMetadata({
   return {
     title: p.title,
     description: p.dek,
-    alternates: { canonical: `/blog/${slug}` },
+    alternates: { canonical: `/blogs/${slug}` },
     openGraph: {
       title: p.title,
       description: p.dek,
       type: "article",
-      url: absoluteUrl(`/blog/${slug}`),
+      url: absoluteUrl(`/blogs/${slug}`),
       publishedTime: p.publishedAt,
       modifiedTime: p.updatedAt,
       authors: [p.author.name],
@@ -61,6 +63,8 @@ export default async function BlogPostPage({
   const p = getBlogPost(slug);
   if (!p) notFound();
 
+  const body = getBlogBody(slug);
+  const toc = getBlogToc(slug);
   const related = getRelatedPosts(slug);
 
   const article = articleSchema({
@@ -70,7 +74,7 @@ export default async function BlogPostPage({
     datePublished: p.publishedAt,
     dateModified: p.updatedAt,
     authorName: p.author.name,
-    url: `/blog/${slug}`,
+    url: `/blogs/${slug}`,
   });
 
   return (
@@ -80,21 +84,25 @@ export default async function BlogPostPage({
           article,
           breadcrumbSchema([
             { name: "Home", href: "/" },
-            { name: "Blog", href: "/blog" },
-            { name: p.title, href: `/blog/${slug}` },
+            { name: "Blogs", href: "/blogs" },
+            { name: p.title, href: `/blogs/${slug}` },
           ]),
         ]}
       />
 
       <div className="pt-6 pb-2 bg-[var(--color-surface-muted)]">
-        <Container>
-          <Breadcrumb items={[{ label: "Blog", href: "/blog" }, { label: p.title }]} />
+        <Container size="lg">
+          <Breadcrumb items={[{ label: "Blogs", href: "/blogs" }, { label: p.title }]} />
         </Container>
       </div>
 
       <article>
         <header className="pt-6 pb-10 md:pt-10 md:pb-14 bg-[var(--color-surface-muted)]">
-          <Container size="md">
+          {/* Same grid as the body below, so the title lines up with the article
+              column rather than sitting over the contents rail. */}
+          <Container size="lg" className="lg:grid lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-12 xl:gap-16">
+            <div className="hidden lg:block" aria-hidden />
+            <div className="min-w-0">
             <div className="flex flex-wrap gap-1.5 mb-4">
               {p.categories.map((c) => (
                 <Badge key={c} variant="brand">
@@ -121,74 +129,70 @@ export default async function BlogPostPage({
                 </p>
               </div>
             </div>
+            </div>
           </Container>
         </header>
 
-        <div className="relative aspect-[16/9] md:aspect-[21/9] bg-[var(--color-surface-muted)]">
-          <Image
-            src={p.coverImage}
-            alt={p.title}
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-        </div>
+        <Section className="pt-10 md:pt-12">
+          <Container size="lg">
+            <div className="lg:grid lg:grid-cols-[220px_minmax(0,1fr)] lg:gap-12 xl:gap-16">
+              {/* Contents rail: stays put while the article scrolls past it. */}
+              <aside className="hidden lg:block">
+                <div className="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto">
+                  <TableOfContents items={toc} />
+                </div>
+              </aside>
 
-        <Section>
-          <Container size="md">
-            <div className="prose prose-neutral max-w-none text-[var(--color-text)] leading-relaxed text-lg">
-              <p>
-                {p.dek} This post walks through the details, with a focus on how it
-                plays out in daily Indian ownership, not lab conditions.
-              </p>
-              <h2 className="text-h2 mt-10 mb-3">The context</h2>
-              <p>
-                ElectricPe operates across 15+ Indian cities, and the real-world data we
-                collect from owners consistently shows that the way you ride matters more
-                than the sticker specs on paper. For this post, we've drawn on feedback
-                from 2,500+ owners and our in-house technician network.
-              </p>
-              <h2 className="text-h2 mt-10 mb-3">What the numbers say</h2>
-              <p>
-                Every claim we make here is backed by usage data from the ElectricPe
-                fleet, on-ground service reports, or published industry benchmarks,
-                cited where relevant. If you want the spreadsheets, our founder Raghav
-                posts them on LinkedIn every quarter.
-              </p>
-              <h3 className="text-h3 mt-8 mb-3">Daily range, honestly</h3>
-              <p>
-                The manufacturer's claimed range is a lab number: riding on flat roads,
-                one-up, at a constant moderate speed. Real-world commuting shaves off
-                10–20%. Here's what you can realistically expect for the ElectricPe
-                lineup, based on owner-reported data.
-              </p>
-              <h3 className="text-h3 mt-8 mb-3">Service touchpoints</h3>
-              <p>
-                The single biggest differentiator of ElectricPe ownership is the service
-                network. Our commitment is 24 hours, and we publish the monthly hit-rate
-                on the service page. For {formatDate(p.publishedAt)}, we were at 94%.
-              </p>
-              <h2 className="text-h2 mt-10 mb-3">The practical takeaway</h2>
-              <p>
-                If you've read this far, here's the short version: book a test ride, bring
-                a friend, and ride for an hour in your usual commute. Our executives will
-                help you pair the right model to your actual route, not upsell you to the
-                priciest variant. That's the whole job.
-              </p>
-            </div>
+              <div className="min-w-0">
+                {/* Cover art is capped to the column so a small source image is
+                    never blown up across the full viewport. */}
+                <div className="relative aspect-[16/9] mb-10 rounded-2xl overflow-hidden bg-[var(--color-surface-muted)]">
+                  <Image
+                    src={p.coverImage}
+                    alt={p.title}
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 720px"
+                    className="object-cover"
+                  />
+                </div>
 
-            <aside className="mt-12 rounded-2xl bg-[var(--color-brand-soft)] border border-[var(--color-brand-border)] p-6 md:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <div>
-                <p className="text-eyebrow mb-1">Still reading?</p>
-                <p className="font-display text-lg font-bold">
-                  See a scooter in person.
-                </p>
+                {/* Small-screen contents live inline, above the article. */}
+                {toc.length > 1 && (
+                  <details className="lg:hidden mb-8 rounded-xl border border-[var(--color-border)] p-4">
+                    <summary className="text-sm font-semibold cursor-pointer">
+                      On this page
+                    </summary>
+                    <div className="mt-3">
+                      <TableOfContents items={toc} />
+                    </div>
+                  </details>
+                )}
+
+                {body ? (
+                  <div
+                    className="blog-body max-w-none text-[var(--color-text)] leading-relaxed text-lg"
+                    dangerouslySetInnerHTML={{ __html: body }}
+                  />
+                ) : (
+                  <div className="blog-body max-w-none text-[var(--color-text)] leading-relaxed text-lg">
+                    <p>{p.dek}</p>
+                  </div>
+                )}
+
+                <aside className="mt-12 rounded-2xl bg-[var(--color-brand-soft)] border border-[var(--color-brand-border)] p-6 md:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                  <div>
+                    <p className="text-eyebrow mb-1">Still reading?</p>
+                    <p className="font-display text-lg font-bold">
+                      See a scooter in person.
+                    </p>
+                  </div>
+                  <Button asChild trailingIcon={<ArrowRight className="h-4 w-4" aria-hidden />}>
+                    <Link href="/book-test-ride">Book Free Test Ride</Link>
+                  </Button>
+                </aside>
               </div>
-              <Button asChild trailingIcon={<ArrowRight className="h-4 w-4" aria-hidden />}>
-                <Link href="/book-test-ride">Book Free Test Ride</Link>
-              </Button>
-            </aside>
+            </div>
           </Container>
         </Section>
 
@@ -197,7 +201,7 @@ export default async function BlogPostPage({
             <h2 className="text-h2 mb-6">Related reads</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {related.map((r) => (
-                <Link key={r.slug} href={`/blog/${r.slug}`} className="group">
+                <Link key={r.slug} href={`/blogs/${r.slug}`} className="group">
                   <Card interactive className="overflow-hidden h-full flex flex-col">
                     <div className="relative aspect-[16/10] bg-white">
                       <Image
