@@ -6,8 +6,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Xypro Lithium Ion",
     tagline: "Long range for city commutes. Lithium efficiency, lighter weight",
-    priceOnRoad: 54000,
-    emiFrom: 1949,
+    priceOnRoad: 60000,
+    emiFrom: 2149,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -55,7 +55,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Xypro Lithium Ion | 80 km+ Range Electric Scooter | ElectricPe",
       description:
-        "Xypro Lithium Ion electric scooter. 80 km+ range, 25 km/h top speed, 4h charge, component-level warranty. No licence required. EMI from ₹1,949/month. Book a free test ride.",
+        "Xypro Lithium Ion electric scooter. 80 km+ range, 25 km/h top speed, 4h charge, component-level warranty. No licence required. EMI from ₹2,149/month. Book a free test ride.",
     },
   },
   {
@@ -63,8 +63,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lead-acid",
     name: "Xypro Lead Acid",
     tagline: "Best-value daily rider. Trusted chemistry, proven parts",
-    priceOnRoad: 40000,
-    emiFrom: 1449,
+    priceOnRoad: 45000,
+    emiFrom: 1599,
     specs: {
       rangeKm: 50,
       topSpeedKmh: 25,
@@ -113,7 +113,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Xypro Lead Acid | Best-Value 50 km+ EV Scooter | ElectricPe",
       description:
-        "Xypro Lead Acid electric scooter. 50 km+ range, 25 km/h top speed, 6h charge, component-level warranty. No licence required. EMI from ₹1,449/month. Book a free test ride.",
+        "Xypro Lead Acid electric scooter. 50 km+ range, 25 km/h top speed, 6h charge, component-level warranty. No licence required. EMI from ₹1,599/month. Book a free test ride.",
     },
   },
   {
@@ -538,8 +538,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lithium-ion",
     name: "Sniper Duo Lithium Ion",
     tagline: "Two-up daily commute, lithium speed of charging",
-    priceOnRoad: 58000,
-    emiFrom: 2099,
+    priceOnRoad: 64000,
+    emiFrom: 2299,
     specs: {
       rangeKm: 80,
       topSpeedKmh: 25,
@@ -583,7 +583,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Sniper Duo Lithium Ion | 80 km+ Two-Up EV Scooter | ElectricPe",
       description:
-        "Sniper Duo Lithium Ion electric scooter built for two-up daily riding. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,099/month.",
+        "Sniper Duo Lithium Ion electric scooter built for two-up daily riding. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,299/month.",
     },
   },
   {
@@ -591,8 +591,8 @@ export const scooters: Scooter[] = [
     variantSlug: "lead-acid",
     name: "Sniper Duo Lead Acid",
     tagline: "Best-price two-up commute, proven battery chemistry",
-    priceOnRoad: 44000,
-    emiFrom: 1599,
+    priceOnRoad: 48000,
+    emiFrom: 1749,
     specs: {
       rangeKm: 50,
       topSpeedKmh: 25,
@@ -635,7 +635,7 @@ export const scooters: Scooter[] = [
     seo: {
       title: "Sniper Duo Lead Acid | 50 km+ Two-Up EV Scooter | ElectricPe",
       description:
-        "Sniper Duo Lead Acid electric scooter built for two-up daily riding. 50 km+ range, 25 km/h, 6h charge, six colour options. No licence required. EMI from ₹1,599/month.",
+        "Sniper Duo Lead Acid electric scooter built for two-up daily riding. 50 km+ range, 25 km/h, 6h charge, six colour options. No licence required. EMI from ₹1,749/month.",
     },
   },
 ];

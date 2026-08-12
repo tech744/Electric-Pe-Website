@@ -29,7 +29,7 @@ export async function generateMetadata({
   const c = getCity(city);
   if (!c) return {};
   const title = `Electric Scooter Showroom in ${c.name} | ElectricPe`;
-  const description = `Visit your ElectricPe Mobility Center in ${c.name}, ${c.state}. Test-ride any scooter, no licence required, EMI from ₹1,449/month. ${getStoresByCity(city).length} store${getStoresByCity(city).length === 1 ? "" : "s"}.`;
+  const description = `Visit your ElectricPe Mobility Center in ${c.name}, ${c.state}. Test-ride any scooter, no licence required, EMI from ₹1,599/month. ${getStoresByCity(city).length} store${getStoresByCity(city).length === 1 ? "" : "s"}.`;
   return {
     title: { absolute: title },
     description,

@@ -20,7 +20,7 @@ import { buildWhatsAppLink, WHATSAPP_DEFAULTS } from "@/lib/utils/whatsapp";
 export const metadata: Metadata = {
   title: "EMI Calculator + Finance Partners",
   description:
-    "Own an ElectricPe from ₹1,449/month. Calculate your EMI, pick a finance partner, get approved in 15 minutes with just Aadhaar + PAN.",
+    "Own an ElectricPe from ₹1,599/month. Calculate your EMI, pick a finance partner, get approved in 15 minutes with just Aadhaar + PAN.",
   alternates: { canonical: "/emi" },
 };
 
@@ -94,7 +94,7 @@ export default function EmiPage() {
           <div className="max-w-3xl">
             <p className="text-eyebrow mb-3">EMI + Finance</p>
             <h1 className="text-display-xl">
-              Own an ElectricPe from ₹1,449/month.
+              Own an ElectricPe from ₹1,599/month.
             </h1>
             <p className="mt-4 text-lg text-[var(--color-text-muted)] leading-relaxed">
               Backed by Bajaj Finserv. Zero down payment at select stores. One

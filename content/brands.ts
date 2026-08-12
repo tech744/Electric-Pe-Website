@@ -72,13 +72,13 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Best-value everyday ride for first-time EV owners. Available in lead-acid and lithium-ion variants.",
     storyTitle: "Built for the everyday Indian commute",
     storyBody:
-      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Two variants cover two budgets: the lead-acid Xypro from ₹40,000 with a 50 km+ range and 6-hour charge for the lowest upfront cost, and the lithium-ion Xypro at ₹54,000 with an 80 km+ range and a faster 4-hour charge for lighter weight and longer daily runs.",
+      "Xypro was designed around one idea: an electric scooter should cost less than your last bike, charge on any 5A socket at home, and never need a licence or registration. Two variants cover two budgets: the lead-acid Xypro from ₹45,000 with a 50 km+ range and 6-hour charge for the lowest upfront cost, and the lithium-ion Xypro at ₹60,000 with an 80 km+ range and a faster 4-hour charge for lighter weight and longer daily runs.",
     pillars: [
       {
         iconName: "Wallet",
-        title: "Starts at ₹40,000",
+        title: "Starts at ₹45,000",
         proof:
-          "The Xypro range starts at ₹40,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,449/month.",
+          "The Xypro range starts at ₹45,000 on-road, the lowest-priced electric scooter in our lineup. EMI from ₹1,599/month.",
       },
       {
         iconName: "Zap",
@@ -249,16 +249,16 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     tint: "bg-gradient-to-br from-amber-100 via-orange-100 to-yellow-100",
     onTint: "text-slate-900",
     positioning:
-      "Best-price two-up electric scooter built for the daily ride. Lithium-ion at ₹58,000, lead-acid at ₹44,000. 25 km/h, no licence, no registration.",
+      "Best-price two-up electric scooter built for the daily ride. Lithium-ion at ₹64,000, lead-acid at ₹48,000. 25 km/h, no licence, no registration.",
     storyTitle: "Two-rider ready, single-rider priced",
     storyBody:
-      "Sniper Duo is built around the most common Indian use case: one rider on the daily commute, a pillion on the weekend. A wider, padded dual seat, sturdy grab rail and a chassis tuned for two-up weight, all kept inside the no-licence 25 km/h envelope. Two chemistries cover two budgets: lithium-ion at ₹58,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹44,000 with a 50 km+ range and a 6-hour charge.",
+      "Sniper Duo is built around the most common Indian use case: one rider on the daily commute, a pillion on the weekend. A wider, padded dual seat, sturdy grab rail and a chassis tuned for two-up weight, all kept inside the no-licence 25 km/h envelope. Two chemistries cover two budgets: lithium-ion at ₹64,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹48,000 with a 50 km+ range and a 6-hour charge.",
     pillars: [
       {
         iconName: "Wallet",
-        title: "Starts at ₹44,000",
+        title: "Starts at ₹48,000",
         proof:
-          "The Sniper Duo Lead Acid is ₹44,000 on-road, our most accessible two-up scooter. EMI from ₹1,599/month.",
+          "The Sniper Duo Lead Acid is ₹48,000 on-road, our most accessible two-up scooter. EMI from ₹1,749/month.",
       },
       {
         iconName: "Users",

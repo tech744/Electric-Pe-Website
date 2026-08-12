@@ -34,11 +34,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Koramangala rider",
       body: [
         "A petrol scooter in Koramangala does not run cheap. Between the short trips that never let the engine warm up, the idling at the 80 Feet Road signals and the weekly fuel queues, monthly running costs of one and a half to two thousand rupees are routine. The same distance on an ElectricPe scooter costs a small fraction of that because you are charging from your apartment's regular 5A socket overnight at home electricity rates.",
-        "On-road pricing starts at ₹40,000 for the Xypro, and EMIs begin at around ₹1,449 per month with same-day approval at the showroom. Put together the fuel you stop spending and the EMI you start paying, and the monthly outflow often lands lower than what you were already burning on petrol.",
+        "On-road pricing starts at ₹45,000 for the Xypro, and EMIs begin at around ₹1,599 per month with same-day approval at the showroom. Put together the fuel you stop spending and the EMI you start paying, and the monthly outflow often lands lower than what you were already burning on petrol.",
       ],
       bullets: [
         "Charges fully on any home 5A socket in about four hours.",
-        "EMI options from roughly ₹1,449 per month for the entry Xypro trim.",
+        "EMI options from roughly ₹1,599 per month for the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal cost.",
         "Real-world range of 80 km or more covers a full week of Koramangala running on a single overnight charge.",
       ],
@@ -53,7 +53,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Koramangala",
       body: [
-        "The Xypro is the right pick for the classic Koramangala commuter - founder, freelancer or student doing five to fifteen kilometres a day across blocks and into Indiranagar or HSR. On-road from ₹40,000, it is the lightest of the three to thread through cafe strips and to park outside small shops on 5th Block.",
+        "The Xypro is the right pick for the classic Koramangala commuter - founder, freelancer or student doing five to fifteen kilometres a day across blocks and into Indiranagar or HSR. On-road from ₹45,000, it is the lightest of the three to thread through cafe strips and to park outside small shops on 5th Block.",
         "The Jett, from ₹55,000 on-road, is the family-friendly choice. If two people in the household share the scooter, or if you are riding a child to school in 3rd Block before heading to work, the extra payload comfort and cushier ride pay off every morning. The 4ALL, from ₹56,000, is built for the rider who treats their scooter as a full daily car replacement - longer range for trips into central Bengaluru and back, with the same easy 5A home charging.",
       ],
     },
@@ -85,11 +85,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Yeswanthpur rider",
       body: [
         "A 110 cc petrol scooter doing typical Yeswanthpur duty - APMC yard, Yeshwanthpur railway station drops, school runs, evening Malleswaram trips - burns through fuel faster than its owner notices, especially because so much of that running is in stop-start traffic where mileage tanks. Switching to electric collapses that monthly bill to the cost of a few units of household electricity.",
-        "ElectricPe scooters charge on the regular 5A socket in your home in about four hours, with no separate wall-box or wiring work. The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month, which often lands below what a Yeswanthpur household was already paying for petrol every month.",
+        "ElectricPe scooters charge on the regular 5A socket in your home in about four hours, with no separate wall-box or wiring work. The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month, which often lands below what a Yeswanthpur household was already paying for petrol every month.",
       ],
       bullets: [
         "Charges in around four hours from a standard 5A wall socket.",
-        "EMI options begin at roughly ₹1,449 per month with same-day approval.",
+        "EMI options begin at roughly ₹1,599 per month with same-day approval.",
         "Zero road tax, zero RTO fee, zero compulsory yearly insurance.",
         "80 km plus real-world range comfortably covers a week of local Yeswanthpur duty.",
       ],
@@ -104,7 +104,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Yeswanthpur",
       body: [
-        "The Xypro is the right starter for a Yeswanthpur commuter doing short, frequent trips inside a five-kilometre radius - APMC, Metro station, school, neighbourhood market. On-road from ₹40,000, it is the lightest scooter to park in tight gaps along the older streets.",
+        "The Xypro is the right starter for a Yeswanthpur commuter doing short, frequent trips inside a five-kilometre radius - APMC, Metro station, school, neighbourhood market. On-road from ₹45,000, it is the lightest scooter to park in tight gaps along the older streets.",
         "The Jett, from ₹55,000 on-road, suits a family that shares one scooter between two riders or rides pillion with a child. The 4ALL, from ₹56,000, is the longest-range option in the line-up and is the one to pick if your weekly running stretches into Malleswaram, Hebbal or Sanjaynagar on top of the local Yeswanthpur trips.",
       ],
     },
@@ -136,11 +136,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Kalyan Nagar rider",
       body: [
         "A petrol scooter doing typical Kalyan Nagar duty - school drops in HRBR, groceries on Hennur Main Road, the occasional family run to Indiranagar or Manyata - burns more fuel than most owners realise, simply because the engine spends so much time idling at signals. The same distance on an ElectricPe scooter is a tiny fraction of that cost because you are charging from a normal 5A socket overnight on home electricity rates.",
-        "The Xypro starts at ₹40,000 on-road. EMIs begin at roughly ₹1,449 per month with same-day approval, which is often less than what a Kalyan Nagar family was already spending on petrol every month.",
+        "The Xypro starts at ₹45,000 on-road. EMIs begin at roughly ₹1,599 per month with same-day approval, which is often less than what a Kalyan Nagar family was already spending on petrol every month.",
       ],
       bullets: [
         "About four hours to a full charge on any home 5A socket.",
-        "EMI from roughly ₹1,449 per month for the entry Xypro trim.",
+        "EMI from roughly ₹1,599 per month for the entry Xypro trim.",
         "No road tax, no RTO registration fee, no annual licence renewal.",
         "Real-world range of 80 km or more covers a full week of in-layout running.",
       ],
@@ -155,7 +155,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Kalyan Nagar",
       body: [
-        "For the typical Kalyan Nagar commuter doing short, frequent trips inside the layout and into Banaswadi, the Xypro at ₹40,000 on-road is the lightest, easiest pick. It is the one to choose if you want a low-fuss daily vehicle that fits any covered parking spot.",
+        "For the typical Kalyan Nagar commuter doing short, frequent trips inside the layout and into Banaswadi, the Xypro at ₹45,000 on-road is the lightest, easiest pick. It is the one to choose if you want a low-fuss daily vehicle that fits any covered parking spot.",
         "The Jett at ₹55,000 on-road is built for the rider who carries a pillion regularly - a parent and child for school drops, or two adults sharing the household scooter. The 4ALL at ₹56,000 is the range king of the line-up and earns its place for residents whose weekly running stretches into central Bengaluru or up to Hebbal on top of the daily layout duty.",
       ],
     },
@@ -187,11 +187,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a JP Nagar rider",
       body: [
         "A 110 cc petrol scooter doing the standard JP Nagar circuit - school drops in 2nd Phase, groceries in 6th Phase, an evening on Bannerghatta Road - burns fuel faster than the average owner tracks, because the engine spends so much time crawling in low gears. The same distance on an ElectricPe scooter costs a fraction of that, because you are charging from your house's regular 5A socket overnight.",
-        "The Xypro starts at ₹40,000 on-road, with EMIs from roughly ₹1,449 per month and same-day approval at the showroom. For most JP Nagar families, the EMI is lower than the petrol bill they replace, and the running cost difference is pure monthly saving on top.",
+        "The Xypro starts at ₹45,000 on-road, with EMIs from roughly ₹1,599 per month and same-day approval at the showroom. For most JP Nagar families, the EMI is lower than the petrol bill they replace, and the running cost difference is pure monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,599 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance renewal.",
         "Real-world range of 80 km plus covers a full week of JP Nagar running.",
       ],
@@ -206,7 +206,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for JP Nagar",
       body: [
-        "The Xypro at ₹40,000 on-road is the right starter for the typical JP Nagar commuter - short, daily, single-rider trips across the phases. It is the lightest scooter in the line-up and the easiest to park in the tighter older lanes of 1st and 2nd Phase.",
+        "The Xypro at ₹45,000 on-road is the right starter for the typical JP Nagar commuter - short, daily, single-rider trips across the phases. It is the lightest scooter in the line-up and the easiest to park in the tighter older lanes of 1st and 2nd Phase.",
         "The Jett at ₹55,000 on-road is the family pick - more pillion comfort for school runs and weekend trips to the BG Road retail strip. The 4ALL at ₹56,000 is the longest-range option and the right call for a rider whose week includes runs into Jayanagar, BTM and central Bengaluru on top of the local JP Nagar duty.",
       ],
     },
@@ -238,11 +238,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a CV Raman Nagar rider",
       body: [
         "A petrol scooter doing typical CV Raman Nagar duty - school in the morning, market trip in the afternoon, Indiranagar run in the evening - racks up fuel cost out of proportion to the actual distance, because the engine never gets a chance to warm up properly in slow city traffic. An ElectricPe scooter doing the same distance costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. The EMI often comes in below the petrol bill it replaces.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. The EMI often comes in below the petrol bill it replaces.",
       ],
       bullets: [
         "About four hours to a full charge on any home 5A socket.",
-        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,599 per month on the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of CV Raman Nagar trips on one overnight charge.",
       ],
@@ -257,7 +257,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for CV Raman Nagar",
       body: [
-        "The Xypro at ₹40,000 on-road is the natural fit for the single-rider commuter in CV Raman Nagar - daily errands, market runs, a quick trip into Indiranagar. It is the lightest of the three and the easiest to park along the older neighbourhood lanes.",
+        "The Xypro at ₹45,000 on-road is the natural fit for the single-rider commuter in CV Raman Nagar - daily errands, market runs, a quick trip into Indiranagar. It is the lightest of the three and the easiest to park along the older neighbourhood lanes.",
         "The Jett at ₹55,000 on-road suits a household where two riders share the scooter or where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the one to pick if your weekly running stretches across to Whitefield, Marathahalli or up toward Hebbal on top of the local CV Raman Nagar trips.",
       ],
     },
@@ -289,11 +289,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Yelahanka rider",
       body: [
         "A petrol scooter doing standard Yelahanka duty - school in the morning, market in the afternoon, an evening run to the railway station for a relative - burns more fuel than the actual distance suggests, because so much of it is short, cold-engine running. An ElectricPe scooter doing the same trips costs a fraction, charged overnight on regular household electricity.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Yelahanka households, the EMI lands below the previous petrol bill, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Yelahanka households, the EMI lands below the previous petrol bill, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Charges fully on any home 5A socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,599 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance.",
         "80 km plus real-world range covers a week of Yelahanka running on one charge.",
       ],
@@ -308,7 +308,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Yelahanka",
       body: [
-        "The Xypro at ₹40,000 on-road is the easiest pick for the typical Yelahanka rider - short, daily, single-rider trips inside the layout. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
+        "The Xypro at ₹45,000 on-road is the easiest pick for the typical Yelahanka rider - short, daily, single-rider trips inside the layout. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
         "The Jett at ₹55,000 on-road is built for a household where two riders share the scooter or where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for residents who occasionally ride down to Hebbal or out to the central city on top of the daily New Town running.",
       ],
     },
@@ -340,11 +340,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Indiranagar rider",
       body: [
         "A 110 cc petrol scooter doing typical Indiranagar duty - short hops between blocks, an evening on 100 Feet Road, a trip into Koramangala - racks up a monthly fuel bill out of proportion to the actual distance, because the engine spends most of its life crawling at signals. An ElectricPe scooter doing the same trips costs a small fraction, charged from your apartment's regular 5A socket overnight.",
-        "The Xypro starts at ₹40,000 on-road, with EMIs from roughly ₹1,449 per month and same-day approval at the showroom. For most Indiranagar households, the monthly EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹45,000 on-road, with EMIs from roughly ₹1,599 per month and same-day approval at the showroom. For most Indiranagar households, the monthly EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any home 5A socket in about four hours.",
-        "EMI options from roughly ₹1,449 per month for the entry Xypro trim.",
+        "EMI options from roughly ₹1,599 per month for the entry Xypro trim.",
         "No road tax, no RTO fee, no annual licence renewal cost.",
         "80 km plus real-world range covers a full week of Indiranagar running.",
       ],
@@ -359,7 +359,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Indiranagar",
       body: [
-        "The Xypro at ₹40,000 on-road is the obvious pick for a single-rider Indiranagar commuter - daily metro runs, dinner trips, weekend errands. It is the lightest scooter in the line-up and the easiest to park along the cramped 100 Feet Road kerbside slots.",
+        "The Xypro at ₹45,000 on-road is the obvious pick for a single-rider Indiranagar commuter - daily metro runs, dinner trips, weekend errands. It is the lightest scooter in the line-up and the easiest to park along the cramped 100 Feet Road kerbside slots.",
         "The Jett at ₹55,000 on-road is the family-friendly pick when two riders share the scooter or when a pillion is the daily norm. The 4ALL at ₹56,000 is the longest-range option and earns its place for an Indiranagar rider whose week includes runs out to Whitefield or down to Koramangala and HSR on top of the local trips.",
       ],
     },
@@ -391,11 +391,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a HSR Layout rider",
       body: [
         "A petrol scooter doing typical HSR duty - daily school drop in Sector 1, a Sarjapur Road grocery run, an evening on the BDA Complex strip - racks up a monthly fuel bill that surprises most owners when they actually total it up. An ElectricPe scooter doing the same distance costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most HSR households, the EMI sits below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most HSR households, the EMI sits below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month for the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month for the Xypro entry trim.",
         "No road tax, no RTO registration fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of HSR Layout running.",
       ],
@@ -410,7 +410,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for HSR Layout",
       body: [
-        "The Xypro at ₹40,000 on-road is the right pick for the single-rider HSR commuter doing inside-the-layout trips and the occasional run to the BDA Complex. It is the lightest, easiest scooter in the line-up.",
+        "The Xypro at ₹45,000 on-road is the right pick for the single-rider HSR commuter doing inside-the-layout trips and the occasional run to the BDA Complex. It is the lightest, easiest scooter in the line-up.",
         "The Jett at ₹55,000 on-road suits a family that shares one scooter or runs daily school drops with a child as pillion. The 4ALL at ₹56,000 is the longest-range option and is the right call for an HSR rider whose week includes runs out to Sarjapur tech offices or across to Koramangala on top of the local sector trips.",
       ],
     },
@@ -442,11 +442,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Bommanahalli rider",
       body: [
         "Petrol scooters on the Hosur Road corridor burn fuel especially hard, because so much of the running is in stop-start traffic where mileage collapses. An ElectricPe scooter doing the same daily distance costs a small fraction of that, charged overnight from a regular 5A socket on home electricity rates.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Bommanahalli households, the EMI ends up below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Bommanahalli households, the EMI ends up below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the entry Xypro trim.",
+        "EMI from roughly ₹1,599 per month on the entry Xypro trim.",
         "No road tax, no RTO registration, no compulsory annual insurance.",
         "80 km plus real-world range covers a full week of Bommanahalli running.",
       ],
@@ -461,7 +461,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Bommanahalli",
       body: [
-        "The Xypro at ₹40,000 on-road is the practical pick for a single-rider commuter doing local Bommanahalli running and the occasional Silk Board crossing. It is the lightest and easiest of the three to park along service roads.",
+        "The Xypro at ₹45,000 on-road is the practical pick for a single-rider commuter doing local Bommanahalli running and the occasional Silk Board crossing. It is the lightest and easiest of the three to park along service roads.",
         "The Jett at ₹55,000 on-road is the family option, with better pillion comfort for school drops or shared rides. The 4ALL at ₹56,000 is the longest-range scooter and the right call for a rider whose week includes runs into Electronic City Phase 1, HSR or BTM on top of local Bommanahalli trips.",
       ],
     },
@@ -493,11 +493,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Kudlu rider",
       body: [
         "A petrol scooter doing typical Kudlu duty - quick school drop, market run, occasional Sarjapur Road errand - burns more fuel than the actual distance would suggest, because the trips are short and never let the engine warm up. The same distance on an ElectricPe scooter costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Kudlu households, that EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Kudlu households, that EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month for the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month for the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a week of Kudlu running on one charge.",
       ],
@@ -512,7 +512,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Kudlu",
       body: [
-        "The Xypro at ₹40,000 on-road is the obvious starter for a single-rider Kudlu commuter doing short local trips and the occasional Hosur Road crossing. It is the lightest and easiest to park around the older Kudlu Gate stretches.",
+        "The Xypro at ₹45,000 on-road is the obvious starter for a single-rider Kudlu commuter doing short local trips and the occasional Hosur Road crossing. It is the lightest and easiest to park around the older Kudlu Gate stretches.",
         "The Jett at ₹55,000 on-road is the right choice when a pillion is part of the daily routine - shared rides, child drops, weekend family runs. The 4ALL at ₹56,000 is the longest-range option and is the one to pick if your week includes regular runs into HSR, Bommanahalli or down to Electronic City on top of the local Kudlu trips.",
       ],
     },
@@ -544,11 +544,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Whitefield rider",
       body: [
         "Whitefield commuters who keep a petrol scooter for inside-the-area trips routinely under-estimate how much fuel goes into short, slow, stop-start running. The same distance on an ElectricPe scooter costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Whitefield households, the EMI lands below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Whitefield households, the EMI lands below the petrol bill it replaces, and the running cost difference is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range comfortably covers a full week of Whitefield running.",
       ],
@@ -563,7 +563,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Whitefield",
       body: [
-        "The Xypro at ₹40,000 on-road is the right starter for the single-rider Whitefield commuter doing short, daily, inside-the-area trips. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
+        "The Xypro at ₹45,000 on-road is the right starter for the single-rider Whitefield commuter doing short, daily, inside-the-area trips. It is the lightest of the three and the most fuss-free for a first-time electric owner.",
         "The Jett at ₹55,000 on-road is the family pick when a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for a Whitefield rider whose week includes runs out to Marathahalli, Bellandur or down toward Sarjapur Road on top of local trips.",
       ],
     },
@@ -595,11 +595,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Electronic City rider",
       body: [
         "A petrol scooter doing typical Electronic City duty - shuttle stop drops, weekend grocery trips, evening food runs - racks up more fuel cost than the distance suggests, because most of the running is short and slow. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Electronic City households the EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Electronic City households the EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Electronic City running.",
       ],
@@ -614,7 +614,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Electronic City",
       body: [
-        "The Xypro at ₹40,000 on-road is the obvious pick for a single-rider Electronic City commuter doing short, in-cluster trips. It is the lightest scooter in the line-up and the easiest to park around the densely-built Phase 1 service lanes.",
+        "The Xypro at ₹45,000 on-road is the obvious pick for a single-rider Electronic City commuter doing short, in-cluster trips. It is the lightest scooter in the line-up and the easiest to park around the densely-built Phase 1 service lanes.",
         "The Jett at ₹55,000 on-road suits a household where a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option in the line-up and is the right call for a rider whose weekly running stretches up to Bommanahalli, HSR or BTM on top of local Electronic City trips.",
       ],
     },
@@ -646,11 +646,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Marathahalli rider",
       body: [
         "Petrol scooters on the ORR corridor burn fuel especially hard, because so much of the running is in queueing traffic where mileage tanks. An ElectricPe scooter doing the same daily distance costs a small fraction, charged overnight from a regular 5A socket on household electricity.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Marathahalli households the EMI lands below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Marathahalli households the EMI lands below the petrol bill it replaces, and the running cost gap is pure monthly saving.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Marathahalli running.",
       ],
@@ -665,7 +665,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Marathahalli",
       body: [
-        "The Xypro at ₹40,000 on-road is the right pick for a single-rider Marathahalli commuter doing short, frequent trips inside the residential cluster. It is the lightest of the three and the easiest to park along service-road kerbs.",
+        "The Xypro at ₹45,000 on-road is the right pick for a single-rider Marathahalli commuter doing short, frequent trips inside the residential cluster. It is the lightest of the three and the easiest to park along service-road kerbs.",
         "The Jett at ₹55,000 on-road suits a household where two riders share the scooter or a pillion is part of the daily routine. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into Bellandur, Whitefield or down to Sarjapur Road on top of the local Marathahalli trips.",
       ],
     },
@@ -697,11 +697,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Bannerghatta rider",
       body: [
         "A petrol scooter doing typical Bannerghatta duty - school in the morning, hospital visit in the afternoon, retail run in the evening - racks up a fuel bill out of proportion to the distance because the engine spends so much time crawling. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight on a regular 5A socket.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Bannerghatta households the EMI lands below the petrol bill it replaces.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Bannerghatta households the EMI lands below the petrol bill it replaces.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Bannerghatta running.",
       ],
@@ -716,7 +716,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Bannerghatta",
       body: [
-        "The Xypro at ₹40,000 on-road is the right starter for a single-rider Bannerghatta commuter doing daily local trips along the corridor. It is the lightest and easiest to park along the service-road retail strips.",
+        "The Xypro at ₹45,000 on-road is the right starter for a single-rider Bannerghatta commuter doing daily local trips along the corridor. It is the lightest and easiest to park along the service-road retail strips.",
         "The Jett at ₹55,000 on-road suits a family that shares one scooter or carries a pillion on school drops. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into JP Nagar, BTM or up to central Bengaluru on top of the local BG Road duty.",
       ],
     },
@@ -748,11 +748,11 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
       heading: "Cost and savings for a Dommasandra rider",
       body: [
         "A petrol scooter doing typical Dommasandra duty - station drops, school runs, weekend grocery trips - burns more fuel than the distance suggests, simply because so much of it is short, slow running. An ElectricPe scooter doing the same trips costs a small fraction, charged overnight from a regular 5A socket on household electricity rates.",
-        "The Xypro starts at ₹40,000 on-road and EMIs begin at roughly ₹1,449 per month with same-day approval. For most Dommasandra households the EMI lands below the petrol bill it replaces, and the running cost gap is monthly saving on top.",
+        "The Xypro starts at ₹45,000 on-road and EMIs begin at roughly ₹1,599 per month with same-day approval. For most Dommasandra households the EMI lands below the petrol bill it replaces, and the running cost gap is monthly saving on top.",
       ],
       bullets: [
         "Full charge from any 5A home socket in about four hours.",
-        "EMI from roughly ₹1,449 per month on the Xypro entry trim.",
+        "EMI from roughly ₹1,599 per month on the Xypro entry trim.",
         "No road tax, no RTO fee, no annual licence renewal.",
         "80 km plus real-world range covers a full week of Dommasandra running.",
       ],
@@ -767,7 +767,7 @@ export const LF_LOC_BENGALURU: Record<string, LongformSection[]> = {
     {
       heading: "Choose Xypro, Jett or 4ALL for Dommasandra",
       body: [
-        "The Xypro at ₹40,000 on-road is the right pick for a single-rider Dommasandra commuter doing short, daily trips inside the community and along the immediate Sarjapur stretch. It is the lightest and easiest of the three to handle for a first-time electric owner.",
+        "The Xypro at ₹45,000 on-road is the right pick for a single-rider Dommasandra commuter doing short, daily trips inside the community and along the immediate Sarjapur stretch. It is the lightest and easiest of the three to handle for a first-time electric owner.",
         "The Jett at ₹55,000 on-road suits a household where a pillion is part of the daily routine - shared rides, child drops, weekend family runs. The 4ALL at ₹56,000 is the longest-range option and is the right call for a rider whose week includes runs into Bellandur, Marathahalli or down toward Electronic City on top of the local Dommasandra trips.",
       ],
     },
