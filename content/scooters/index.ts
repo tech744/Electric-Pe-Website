@@ -324,9 +324,9 @@ export const scooters: Scooter[] = [
     },
   },
   {
-    brand: "vibe",
+    brand: "igris",
     variantSlug: "lithium-ion",
-    name: "Vibe Lithium Ion",
+    name: "Igris Lithium Ion",
     tagline: "Modern-style daily ride. Lithium efficiency, light to handle",
     priceOnRoad: 77000,
     emiFrom: 2749,
@@ -371,15 +371,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram", "jaipur", "mysuru"],
     seo: {
-      title: "Vibe Lithium Ion | 80 km+ Modern Electric Scooter | ElectricPe",
+      title: "Igris Lithium Ion | 80 km+ Modern Electric Scooter | ElectricPe",
       description:
-        "Vibe Lithium Ion electric scooter with modern styling. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,749/month.",
+        "Igris Lithium Ion electric scooter with modern styling. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,749/month.",
     },
   },
   {
-    brand: "vibe",
+    brand: "igris",
     variantSlug: "lead-acid",
-    name: "Vibe Lead Acid",
+    name: "Igris Lead Acid",
     tagline: "Same modern look, lighter on the wallet",
     priceOnRoad: 57000,
     emiFrom: 2049,
@@ -413,7 +413,7 @@ export const scooters: Scooter[] = [
     featureBullets: [
       "50 km+ real-world range for predictable daily use",
       "Charges in 6 hours on any regular 5A socket",
-      "Same modern Vibe silhouette as the lithium variant",
+      "Same modern Igris silhouette as the lithium variant",
       "Six colour options to choose from",
       "Replaceable lead-acid battery, easy to service",
     ],
@@ -423,15 +423,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram", "jaipur"],
     seo: {
-      title: "Vibe Lead Acid | 50 km+ Modern EV Scooter | ElectricPe",
+      title: "Igris Lead Acid | 50 km+ Modern EV Scooter | ElectricPe",
       description:
-        "Vibe Lead Acid electric scooter. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,049/month.",
+        "Igris Lead Acid electric scooter. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,049/month.",
     },
   },
   {
-    brand: "rapter",
+    brand: "drakon",
     variantSlug: "lithium-ion",
-    name: "Raptor 2.0 Lithium Ion",
+    name: "Drakon Lithium Ion",
     tagline: "Sporty urban presence with no-paperwork ride",
     priceOnRoad: 79000,
     emiFrom: 2849,
@@ -476,15 +476,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram", "mysuru", "hubballi"],
     seo: {
-      title: "Raptor 2.0 Lithium Ion | 80 km+ Sport-Style EV Scooter | ElectricPe",
+      title: "Drakon Lithium Ion | 80 km+ Sport-Style EV Scooter | ElectricPe",
       description:
-        "Raptor 2.0 Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,849/month.",
+        "Drakon Lithium Ion electric scooter with bold sport stance. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,849/month.",
     },
   },
   {
-    brand: "rapter",
+    brand: "drakon",
     variantSlug: "lead-acid",
-    name: "Raptor 2.0 Lead Acid",
+    name: "Drakon Lead Acid",
     tagline: "Same sport stance, lighter on the wallet",
     priceOnRoad: 58000,
     emiFrom: 2099,
@@ -518,7 +518,7 @@ export const scooters: Scooter[] = [
     featureBullets: [
       "50 km+ real-world range for predictable daily use",
       "Charges in 6 hours on any regular 5A socket",
-      "Same sport-stance body as the lithium Raptor 2.0",
+      "Same sport-stance body as the lithium Drakon",
       "Six colour options to choose from",
       "Replaceable lead-acid battery, easy to service",
     ],
@@ -528,15 +528,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram"],
     seo: {
-      title: "Raptor 2.0 Lead Acid | 50 km+ Sport-Style EV Scooter | ElectricPe",
+      title: "Drakon Lead Acid | 50 km+ Sport-Style EV Scooter | ElectricPe",
       description:
-        "Raptor 2.0 Lead Acid electric scooter with sport stance. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,099/month.",
+        "Drakon Lead Acid electric scooter with sport stance. 50 km+ range, 6h charge, six colour options. No licence required. Component-level warranty. EMI from ₹2,099/month.",
     },
   },
   {
-    brand: "sniper-duo",
+    brand: "kaido",
     variantSlug: "lithium-ion",
-    name: "Sniper Duo Lithium Ion",
+    name: "Kaido Lithium Ion",
     tagline: "Two-up daily commute, lithium speed of charging",
     priceOnRoad: 64000,
     emiFrom: 2299,
@@ -581,15 +581,15 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram"],
     seo: {
-      title: "Sniper Duo Lithium Ion | 80 km+ Two-Up EV Scooter | ElectricPe",
+      title: "Kaido Lithium Ion | 80 km+ Two-Up EV Scooter | ElectricPe",
       description:
-        "Sniper Duo Lithium Ion electric scooter built for two-up daily riding. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,299/month.",
+        "Kaido Lithium Ion electric scooter built for two-up daily riding. 80 km+ range, 25 km/h, 4h charge, six colour options. No licence required. EMI from ₹2,299/month.",
     },
   },
   {
-    brand: "sniper-duo",
+    brand: "kaido",
     variantSlug: "lead-acid",
-    name: "Sniper Duo Lead Acid",
+    name: "Kaido Lead Acid",
     tagline: "Best-price two-up commute, proven battery chemistry",
     priceOnRoad: 48000,
     emiFrom: 1749,
@@ -623,7 +623,7 @@ export const scooters: Scooter[] = [
     featureBullets: [
       "50 km+ real-world range for predictable daily use",
       "Charges in 6 hours on any regular 5A socket",
-      "Same two-up body as the lithium Sniper Duo",
+      "Same two-up body as the lithium Kaido",
       "Six colour options to choose from",
       "Component-level 1-year warranty on battery, charger, motor and controller",
     ],
@@ -633,9 +633,9 @@ export const scooters: Scooter[] = [
     testimonialIds: [],
     availabilityCities: ["bengaluru", "delhi", "gurugram"],
     seo: {
-      title: "Sniper Duo Lead Acid | 50 km+ Two-Up EV Scooter | ElectricPe",
+      title: "Kaido Lead Acid | 50 km+ Two-Up EV Scooter | ElectricPe",
       description:
-        "Sniper Duo Lead Acid electric scooter built for two-up daily riding. 50 km+ range, 25 km/h, 6h charge, six colour options. No licence required. EMI from ₹1,749/month.",
+        "Kaido Lead Acid electric scooter built for two-up daily riding. 50 km+ range, 25 km/h, 6h charge, six colour options. No licence required. EMI from ₹1,749/month.",
     },
   },
 ];

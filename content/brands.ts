@@ -169,9 +169,9 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 
-  vibe: {
-    slug: "vibe",
-    displayName: "Vibe",
+  igris: {
+    slug: "igris",
+    displayName: "Igris",
     tagline: "Modern style. Daily comfort.",
     cutout: "/img/cutouts/vibe_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-rose-100 via-red-100 to-pink-100",
@@ -180,7 +180,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Modern-style electric scooter built for everyday urban riding. Lithium-ion at ₹77,000, lead-acid at ₹57,000. 25 km/h, no licence, no registration.",
     storyTitle: "Daily commute, with a bit more style",
     storyBody:
-      "Vibe was designed for riders who want their daily scooter to look the part. A sleeker silhouette, LED-style lighting and a clean modern stance, paired with the same licence-free, 25 km/h ride and the same any-5A-socket charging the rest of our lineup runs on. Two chemistries cover two budgets: lithium-ion at ₹77,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹57,000 with a 50 km+ range and a 6-hour charge.",
+      "Igris was designed for riders who want their daily scooter to look the part. A sleeker silhouette, LED-style lighting and a clean modern stance, paired with the same licence-free, 25 km/h ride and the same any-5A-socket charging the rest of our lineup runs on. Two chemistries cover two budgets: lithium-ion at ₹77,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹57,000 with a 50 km+ range and a 6-hour charge.",
     pillars: [
       {
         iconName: "Sparkles",
@@ -192,22 +192,22 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "Zap",
         title: "80 km+ range on lithium",
         proof:
-          "The Vibe Lithium Ion delivers 80 km+ of real-world range on a single 4-hour charge from any regular 5A home socket. No special wiring, no installer visit.",
+          "The Igris Lithium Ion delivers 80 km+ of real-world range on a single 4-hour charge from any regular 5A home socket. No special wiring, no installer visit.",
       },
       {
         iconName: "ShieldCheck",
         title: "No licence, no RTO",
         proof:
-          "Both Vibe variants cap at 25 km/h, which qualifies them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
+          "Both Igris variants cap at 25 km/h, which qualifies them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
       },
     ],
     bestFor: ["Daily commute", "Young urban riders", "Style-conscious buyers"],
     trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 
-  rapter: {
-    slug: "rapter",
-    displayName: "Raptor 2.0",
+  drakon: {
+    slug: "drakon",
+    displayName: "Drakon",
     tagline: "Urban presence. Sporty stance.",
     cutout: "/img/cutouts/rapter_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-sky-100 via-blue-100 to-indigo-100",
@@ -216,7 +216,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Premium urban electric scooter with a bolder, sportier stance. Lithium-ion at ₹79,000, lead-acid at ₹58,000. 25 km/h, no licence, no registration.",
     storyTitle: "More presence, same simple rules",
     storyBody:
-      "Raptor 2.0 is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹79,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
+      "Drakon is for riders who want a bigger road presence without giving up the no-paperwork advantage of a low-speed EV. A larger front fairing, a windshield-ready cowl and a sportier seat profile sit on the same proven 25 km/h chassis. Two variants: lithium-ion at ₹79,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹58,000 with a 50 km+ range and a 6-hour charge. Six colours: red, black, blue, grey, white and green.",
     pillars: [
       {
         iconName: "Gauge",
@@ -228,22 +228,22 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "Zap",
         title: "80 km+ range on lithium",
         proof:
-          "The Raptor 2.0 Lithium Ion returns 80 km+ on a single 4-hour charge from any regular 5A socket. Detachable battery for charging indoors when parking is awkward.",
+          "The Drakon Lithium Ion returns 80 km+ on a single 4-hour charge from any regular 5A socket. Detachable battery for charging indoors when parking is awkward.",
       },
       {
         iconName: "ShieldCheck",
         title: "No licence, no RTO",
         proof:
-          "Both Raptor 2.0 variants are speed-limited to 25 km/h, qualifying as low-speed EVs under Indian motor-vehicle rules. No DL, no registration, no road tax.",
+          "Both Drakon variants are speed-limited to 25 km/h, qualifying as low-speed EVs under Indian motor-vehicle rules. No DL, no registration, no road tax.",
       },
     ],
     bestFor: ["Daily commute", "Riders wanting more presence", "Premium urban use"],
     trustChips: ["Road-legal", "Made in India", "Low running cost", "No licence required"],
   },
 
-  "sniper-duo": {
-    slug: "sniper-duo",
-    displayName: "Sniper Duo",
+  kaido: {
+    slug: "kaido",
+    displayName: "Kaido",
     tagline: "Two-rider ready. Best-price commute.",
     cutout: "/img/cutouts/sniper-duo_brand_banner-cutout.png",
     tint: "bg-gradient-to-br from-amber-100 via-orange-100 to-yellow-100",
@@ -252,13 +252,13 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
       "Best-price two-up electric scooter built for the daily ride. Lithium-ion at ₹64,000, lead-acid at ₹48,000. 25 km/h, no licence, no registration.",
     storyTitle: "Two-rider ready, single-rider priced",
     storyBody:
-      "Sniper Duo is built around the most common Indian use case: one rider on the daily commute, a pillion on the weekend. A wider, padded dual seat, sturdy grab rail and a chassis tuned for two-up weight, all kept inside the no-licence 25 km/h envelope. Two chemistries cover two budgets: lithium-ion at ₹64,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹48,000 with a 50 km+ range and a 6-hour charge.",
+      "Kaido is built around the most common Indian use case: one rider on the daily commute, a pillion on the weekend. A wider, padded dual seat, sturdy grab rail and a chassis tuned for two-up weight, all kept inside the no-licence 25 km/h envelope. Two chemistries cover two budgets: lithium-ion at ₹64,000 with an 80 km+ range and a 4-hour charge, lead-acid at ₹48,000 with a 50 km+ range and a 6-hour charge.",
     pillars: [
       {
         iconName: "Wallet",
         title: "Starts at ₹48,000",
         proof:
-          "The Sniper Duo Lead Acid is ₹48,000 on-road, our most accessible two-up scooter. EMI from ₹1,749/month.",
+          "The Kaido Lead Acid is ₹48,000 on-road, our most accessible two-up scooter. EMI from ₹1,749/month.",
       },
       {
         iconName: "Users",
@@ -270,7 +270,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
         iconName: "ShieldCheck",
         title: "No licence, no RTO",
         proof:
-          "Both Sniper Duo variants cap at 25 km/h, qualifying them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
+          "Both Kaido variants cap at 25 km/h, qualifying them as low-speed EVs under Indian motor-vehicle rules. Ride home the same day, no DL, no registration, no road tax.",
       },
     ],
     bestFor: ["Daily commute", "Two-up riding", "Best-price first EV"],
@@ -278,7 +278,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
   },
 };
 
-export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all", "vibe", "rapter", "sniper-duo"];
+export const BRAND_ORDER: BrandSlug[] = ["xypro", "jett", "4all", "igris", "drakon", "kaido"];
 
 export function getBrandTheme(slug: string): BrandTheme | undefined {
   return BRAND_THEMES[slug as BrandSlug];

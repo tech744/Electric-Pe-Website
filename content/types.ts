@@ -4,7 +4,7 @@
  */
 
 export type UseCase = "commute" | "delivery" | "student" | "family";
-export type BrandSlug = "xypro" | "jett" | "4all" | "vibe" | "rapter" | "sniper-duo";
+export type BrandSlug = "xypro" | "jett" | "4all" | "igris" | "drakon" | "kaido";
 export type BatteryType = "lithium-ion" | "lead-acid";
 export type FearTag =
   | "battery"

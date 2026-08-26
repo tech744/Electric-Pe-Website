@@ -28,9 +28,9 @@ const BRANDS = [
   },
   { slug: "jett", name: "Jett", tagline: "Family-first, comfort-first" },
   { slug: "4all", name: "4ALL", tagline: "No-licence, no-hassle EV" },
-  { slug: "vibe", name: "Vibe", tagline: "Modern style, daily comfort" },
-  { slug: "rapter", name: "Raptor 2.0", tagline: "Sporty urban presence" },
-  { slug: "sniper-duo", name: "Sniper Duo", tagline: "Two-up ready, best-price commute" },
+  { slug: "igris", name: "Igris", tagline: "Modern style, daily comfort" },
+  { slug: "drakon", name: "Drakon", tagline: "Sporty urban presence" },
+  { slug: "kaido", name: "Kaido", tagline: "Two-up ready, best-price commute" },
 ];
 
 export function Header() {

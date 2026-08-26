@@ -40,6 +40,15 @@ const nextConfig: NextConfig = {
         destination: "/stores/mathura/mathura-sonkh-road",
         permanent: true,
       },
+      // Brand rename (Aug 2026): Sniper Duo -> Kaido, Vibe -> Igris, Raptor 2.0 -> Drakon.
+      // Keep the old /ev/<slug> URLs (and their /<variant> children) resolving so
+      // indexed links and existing campaigns carry over to the new slugs.
+      { source: "/ev/sniper-duo", destination: "/ev/kaido", permanent: true },
+      { source: "/ev/sniper-duo/:variant", destination: "/ev/kaido/:variant", permanent: true },
+      { source: "/ev/vibe", destination: "/ev/igris", permanent: true },
+      { source: "/ev/vibe/:variant", destination: "/ev/igris/:variant", permanent: true },
+      { source: "/ev/rapter", destination: "/ev/drakon", permanent: true },
+      { source: "/ev/rapter/:variant", destination: "/ev/drakon/:variant", permanent: true },
       ...legacyBlogRedirects,
     ];
   },
