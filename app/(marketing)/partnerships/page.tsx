@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Factory, Plug, Battery, Cog } from "lucide-react";
+import { ArrowRight, Battery } from "lucide-react";
 import { Section, SectionHeader } from "@/components/ui/section";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
@@ -10,7 +10,7 @@ import { PartnershipHero } from "@/components/marketing/partnership-hero";
 export const metadata: Metadata = {
   title: "Partnerships | Grow with India's EV Retail Network",
   description:
-    "Partner with ElectricPe: EV OEMs, charger manufacturers, CPOs, and CMS adopters. Tap into 126+ Mobility Centers and 25,000+ charging stations.",
+    "Partner with ElectricPe. List your electric scooter across 126+ branded Mobility Centers in 15+ cities, with retail, finance, and service handled for you.",
   alternates: { canonical: "/partnerships" },
 };
 
@@ -20,24 +20,6 @@ const TRACKS = [
     title: "EV OEM",
     text: "List your scooter at 126+ branded Mobility Centers. We handle retail, finance, and service.",
     href: "/partnerships/ev-oem",
-  },
-  {
-    icon: Plug,
-    title: "Charger OEM",
-    text: "Distribute your charger nationally through our retail + installation network.",
-    href: "/partnerships/charger-oem",
-  },
-  {
-    icon: Factory,
-    title: "CPO",
-    text: "Get listed on our aggregator app (25,000+ stations). Use our CMS to manage yours.",
-    href: "/partnerships/cpo",
-  },
-  {
-    icon: Cog,
-    title: "CMS",
-    text: "Our OCPP 1.6J + 2.0.1 charger-management software, white-labelable.",
-    href: "/cms",
   },
 ];
 
@@ -54,12 +36,12 @@ export default function PartnershipsPage() {
       <PartnershipHero
         eyebrow="Partnerships"
         title="Grow with India's EV retail network."
-        description="Whether you're an OEM, charger maker, CPO, or fleet operator, ElectricPe's service-first retail network is built for long-term partnerships."
+        description="If you build electric two-wheelers, ElectricPe's service-first retail network is built for long-term partnerships."
       />
 
       <Section>
-        <SectionHeader eyebrow="Four tracks" title="Pick the track that fits you" />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <SectionHeader eyebrow="Partnership track" title="Where we partner today" />
+        <div className="grid grid-cols-1 gap-4 md:gap-6 max-w-md mx-auto">
           {TRACKS.map(({ icon: Icon, title, text, href }) => (
             <Link key={title} href={href} className="group">
               <Card interactive className="p-6 h-full">

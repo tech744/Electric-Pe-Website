@@ -4,6 +4,78 @@ import type { NextConfig } from "next";
 // root-level posts, and the interim /blog/ URLs.
 import legacyBlogRedirects from "./content/blog/legacy-redirects.json";
 
+// Charging business retired (Sep 2026). Every page dedicated to charging
+// infrastructure has been deleted -- the city/vehicle/highway/use-case
+// directory, the /ev-charging-stations hub, and the B2B charging pages
+// (CPO, charger OEM, CMS). These paths were indexed, so each one is kept
+// alive as a permanent redirect to the homepage rather than left to 404.
+const RETIRED_CHARGING_PATHS = [
+  // Hub
+  "/ev-charging-stations",
+  // City directory
+  "/ev-charging-stations-ahmedabad",
+  "/ev-charging-stations-alwar",
+  "/ev-charging-stations-belagavi",
+  "/ev-charging-stations-bengaluru",
+  "/ev-charging-stations-bhubaneswar",
+  "/ev-charging-stations-chandigarh",
+  "/ev-charging-stations-chennai",
+  "/ev-charging-stations-coimbatore",
+  "/ev-charging-stations-delhi",
+  "/ev-charging-stations-faridabad",
+  "/ev-charging-stations-ghaziabad",
+  "/ev-charging-stations-gurugram",
+  "/ev-charging-stations-guwahati",
+  "/ev-charging-stations-hubballi",
+  "/ev-charging-stations-hyderabad",
+  "/ev-charging-stations-indore",
+  "/ev-charging-stations-jaipur",
+  "/ev-charging-stations-kochi",
+  "/ev-charging-stations-kolkata",
+  "/ev-charging-stations-lucknow",
+  "/ev-charging-stations-mangaluru",
+  "/ev-charging-stations-meerut",
+  "/ev-charging-stations-mumbai",
+  "/ev-charging-stations-mysuru",
+  "/ev-charging-stations-nagpur",
+  "/ev-charging-stations-nashik",
+  "/ev-charging-stations-noida",
+  "/ev-charging-stations-pune",
+  "/ev-charging-stations-shivamogga",
+  "/ev-charging-stations-surat",
+  "/ev-charging-stations-thiruvananthapuram",
+  "/ev-charging-stations-tirupati",
+  "/ev-charging-stations-tumakuru",
+  "/ev-charging-stations-vadodara",
+  "/ev-charging-stations-vijayawada",
+  "/ev-charging-stations-visakhapatnam",
+  // Vehicle x city
+  "/ev-charging-bengaluru-ather-450x",
+  "/ev-charging-bengaluru-ola-s1",
+  "/ev-charging-chennai-tvs-iqube",
+  "/ev-charging-delhi-hero-vida",
+  "/ev-charging-delhi-ola-s1",
+  "/ev-charging-hyderabad-ather-450x",
+  "/ev-charging-pune-bajaj-chetak",
+  // Highway corridors
+  "/ev-charging-bengaluru-chennai-highway",
+  "/ev-charging-bengaluru-mysuru-highway",
+  "/ev-charging-delhi-agra-highway",
+  "/ev-charging-delhi-jaipur-highway",
+  "/ev-charging-hyderabad-bengaluru-highway",
+  "/ev-charging-mumbai-pune-expressway",
+  // Use cases
+  "/corporate-ev-charging-india",
+  "/ev-charging-for-apartments-india",
+  "/ev-charging-subscription-plan-india",
+  "/ev-fleet-charging-india",
+  "/home-ev-charger-installation-india",
+  // B2B charging-infrastructure pages
+  "/cms",
+  "/partnerships/charger-oem",
+  "/partnerships/cpo",
+];
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
@@ -24,10 +96,18 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      { source: "/ev-charging-station", destination: "/ev-charging-stations", permanent: true },
-      { source: "/ev-charging-station/categories/:slug*", destination: "/ev-charging-stations", permanent: true },
-      { source: "/ev-charging-station/:slug*", destination: "/ev-charging-stations", permanent: true },
-      { source: "/electric-charging-station/:slug*", destination: "/ev-charging-stations", permanent: true },
+      // Every retired charging URL lands on the homepage. The wildcards below
+      // also catch the pre-Next.js WordPress station URLs, which used to point
+      // at /ev-charging-stations -- that hub is gone too, so they go to / now.
+      ...RETIRED_CHARGING_PATHS.map((source) => ({
+        source,
+        destination: "/",
+        permanent: true,
+      })),
+      { source: "/ev-charging-station", destination: "/", permanent: true },
+      { source: "/ev-charging-station/categories/:slug*", destination: "/", permanent: true },
+      { source: "/ev-charging-station/:slug*", destination: "/", permanent: true },
+      { source: "/electric-charging-station/:slug*", destination: "/", permanent: true },
       { source: "/tag/:slug*", destination: "/blogs", permanent: true },
       { source: "/blog", destination: "/blogs", permanent: true },
       { source: "/career-category/:slug*", destination: "/careers", permanent: true },

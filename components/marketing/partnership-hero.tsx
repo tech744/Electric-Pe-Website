@@ -44,9 +44,9 @@ export function PartnershipHero({
 
           <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl">
             <Stat value={globals.stats.storesOpen} label="Mobility Centers" />
-            <Stat value={globals.stats.stationsCount} label="Stations in app" />
-            <Stat value={globals.stats.networksCount} label="Partner networks" />
             <Stat value={globals.stats.citiesServed} label="Cities" />
+            <Stat value={globals.stats.vehiclesSold} label="Scooters sold" />
+            <Stat value={globals.stats.happyOwners} label="Owners served" />
           </div>
         </div>
       </Container>

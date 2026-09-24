@@ -17,15 +17,11 @@ const STATIC_PATHS: { path: string; priority: number; changefreq: "weekly" | "mo
   { path: "/press", priority: 0.3, changefreq: "monthly" },
   { path: "/partnerships", priority: 0.4, changefreq: "monthly" },
   { path: "/partnerships/ev-oem", priority: 0.3, changefreq: "monthly" },
-  { path: "/partnerships/charger-oem", priority: 0.3, changefreq: "monthly" },
-  { path: "/partnerships/cpo", priority: 0.3, changefreq: "monthly" },
-  { path: "/cms", priority: 0.4, changefreq: "monthly" },
   { path: "/privacy", priority: 0.1, changefreq: "yearly" },
   { path: "/terms", priority: 0.1, changefreq: "yearly" },
   { path: "/returns", priority: 0.1, changefreq: "yearly" },
   { path: "/warranty", priority: 0.1, changefreq: "yearly" },
   { path: "/book-test-ride", priority: 0.9, changefreq: "monthly" },
-  { path: "/ev-charging-stations", priority: 0.7, changefreq: "weekly" },
 ];
 
 export function GET(): Response {
