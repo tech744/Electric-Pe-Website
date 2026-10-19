@@ -137,7 +137,10 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "4all",
     displayName: "4ALL",
     tagline: "Best range. Zero hassle.",
-    cutout: "/img/cutouts/4all-white-cutout.png",
+    // The first matte of this shot deleted the white handlebar cover and left
+    // the mirror screw floating. Re-cut; the filename carries a version so a
+    // cached copy of a broken cut can never be served off the old URL.
+    cutout: "/img/cutouts/4all-white-cutout-v5.png",
     tint: "bg-gradient-to-b from-stone-600 via-stone-700 to-neutral-900",
     onTint: "text-white",
     positioning:

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import {
   BadgeCheck,
   Droplets,
@@ -22,10 +21,7 @@ import { FactoryVideo } from "@/components/marketing/factory-video";
 import { BrochureCta } from "@/components/marketing/brochure-cta";
 import { BecomeADealerForm } from "@/components/forms/become-a-dealer-form";
 import { globals } from "@/content/globals";
-import { scooters } from "@/content/scooters";
-import { BRAND_THEMES } from "@/content/brands";
 import { buildWhatsAppLink } from "@/lib/utils/whatsapp";
-import { cn } from "@/lib/utils/cn";
 
 export const metadata: Metadata = {
   title: "Become a Dealer | ElectricPe Electric Scooter Dealership",
@@ -36,7 +32,7 @@ export const metadata: Metadata = {
 
 const HERO_PROOF = [
   { icon: Factory, label: "In-house manufacturing" },
-  { icon: Layers, label: "6 brands, lead-acid + lithium" },
+  { icon: Layers, label: "6 models, lead-acid + lithium" },
   { icon: LifeBuoy, label: "Finance and service support" },
 ] as const;
 
@@ -155,36 +151,13 @@ const HIGHLIGHTS = [
   },
   {
     title: "A line-up for every buyer",
-    text: "Six brands across lead-acid and lithium-ion, including no-licence low-speed models that open up a much wider customer base.",
+    text: "Six models across lead-acid and lithium-ion, all no-licence low-speed EVs, which opens up a much wider customer base.",
   },
   {
     title: "Retail support, not just stock",
     text: "Store branding, EMI and finance tie-ups, technician training, and a service SLA we publish every month.",
   },
 ];
-
-/**
- * The six brands a dealer can stock, with the entry price read off the live
- * catalogue rather than retyped from the brochure - so what we quote a dealer
- * can never drift from what a customer sees on the product page.
- */
-const RANGE = (
-  ["xypro", "kaido", "4all", "drakon", "igris", "jett"] as const
-).map((slug) => {
-  const theme = BRAND_THEMES[slug];
-  return {
-    slug,
-    name: theme.displayName,
-    tagline: theme.tagline,
-    cutout: theme.cutout,
-    tint: theme.tint,
-    fromPrice: Math.min(
-      ...scooters.filter((s) => s.brand === slug).map((s) => s.priceOnRoad),
-    ),
-  };
-});
-
-const inr = (n: number) => `₹${n.toLocaleString("en-IN")}`;
 
 export default function BecomeADealerPage() {
   return (
@@ -604,85 +577,6 @@ export default function BecomeADealerPage() {
             ))}
           </div>
         </div>
-      </Section>
-
-      {/* What is actually on the floor. Prices come from the live catalogue so
-          this table and the product pages can never disagree. */}
-      <Section className="bg-[var(--color-surface-muted)]">
-        <SectionHeader
-          eyebrow="The line-up"
-          title="Six brands your showroom can stock"
-          description="Every model ships in both lead-acid and lithium-ion. All six are low-speed EVs, so your customers do not need a licence or registration to ride one."
-        />
-
-        <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-          {RANGE.map((r) => (
-            <li key={r.slug}>
-              <Link
-                href={`/ev/${r.slug}`}
-                className="group block overflow-hidden rounded-2xl border border-[var(--color-border)] bg-white transition-shadow hover:shadow-[var(--shadow-lg)]"
-              >
-                <div
-                  className={cn(
-                    "relative flex h-44 items-center justify-center p-5",
-                    r.tint,
-                  )}
-                >
-                  <Image
-                    src={r.cutout}
-                    alt={`ElectricPe ${r.name} electric scooter`}
-                    width={340}
-                    height={220}
-                    sizes="(max-width: 640px) 90vw, (max-width: 1024px) 45vw, 30vw"
-                    className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-[1.04]"
-                  />
-                </div>
-                <div className="flex items-start justify-between gap-4 p-5">
-                  <div>
-                    <h3 className="font-display text-lg font-bold text-[var(--color-text)]">
-                      {r.name}
-                    </h3>
-                    <p className="mt-1 text-sm text-[var(--color-text-muted)]">
-                      {r.tagline}
-                    </p>
-                  </div>
-                  <p className="shrink-0 text-right">
-                    <span className="block text-xs text-[var(--color-text-muted)]">
-                      From
-                    </span>
-                    <span className="font-display font-bold text-[var(--color-text)]">
-                      {inr(r.fromPrice)}
-                    </span>
-                  </p>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-
-        <div className="mt-8 grid gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            { v: "50 / 80 km", l: "Range per charge, lead-acid / lithium" },
-            { v: "6 / 4 hrs", l: "Charge time, lead-acid / lithium" },
-            { v: "3 years", l: "Lithium battery warranty" },
-            { v: "No licence", l: "Low-speed EV, no registration" },
-          ].map((s) => (
-            <div key={s.l} className="bg-white px-5 py-4">
-              <p className="font-display text-lg font-bold text-[var(--color-text)]">
-                {s.v}
-              </p>
-              <p className="mt-0.5 text-sm text-[var(--color-text-muted)]">
-                {s.l}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <p className="mt-4 text-sm text-[var(--color-text-muted)]">
-          Lead-acid battery and the motor, controller and charger carry 1 year /
-          10,000 km. Prices shown are customer on-road; dealer pricing and
-          margins are shared on the call.
-        </p>
       </Section>
 
       <Section>
