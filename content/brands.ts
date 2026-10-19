@@ -65,7 +65,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "xypro",
     displayName: "Xypro",
     tagline: "Best price. No licence, no registration.",
-    cutout: "/img/cutouts/xypro_brand_banner-cutout.png",
+    cutout: "/img/cutouts/xypro-grey-cutout.png",
     tint: "bg-gradient-to-br from-sky-100 via-indigo-100 to-rose-100",
     onTint: "text-slate-900",
     positioning:
@@ -101,7 +101,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "jett",
     displayName: "Jett",
     tagline: "Timeless elegance meets daily comfort.",
-    cutout: "/img/cutouts/jett_brand_banner-cutout.png",
+    cutout: "/img/cutouts/jett-product-shot-cutout.png",
     tint: "bg-gradient-to-b from-red-950 via-red-900 to-red-950",
     onTint: "text-white",
     positioning:
@@ -137,7 +137,7 @@ export const BRAND_THEMES: Record<BrandSlug, BrandTheme> = {
     slug: "4all",
     displayName: "4ALL",
     tagline: "Best range. Zero hassle.",
-    cutout: "/img/cutouts/4all_brand_banner-cutout.png",
+    cutout: "/img/cutouts/4all-white-cutout.png",
     tint: "bg-gradient-to-b from-stone-600 via-stone-700 to-neutral-900",
     onTint: "text-white",
     positioning:

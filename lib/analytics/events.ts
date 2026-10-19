@@ -35,6 +35,8 @@ export const EVENTS = {
   SERVICE_REQUEST_SUBMITTED: "service_request_submitted",
   APP_DOWNLOAD_CLICK: "app_download_click",
   PARTNERSHIP_LEAD: "partnership_lead",
+  DEALER_ENQUIRY_SUBMITTED: "dealer_enquiry_submitted",
+  BROCHURE_REQUESTED: "brochure_requested",
 } as const;
 
 export type EventName = (typeof EVENTS)[keyof typeof EVENTS];

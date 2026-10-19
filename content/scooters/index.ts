@@ -27,10 +27,10 @@ export const scooters: Scooter[] = [
       {
         name: "Cherry Red",
         hex: "#C62828",
-        gallery: ["/img/xypro_brand_banner.webp"],
+        gallery: ["/img/xypro-grey.webp"],
       },
     ],
-    heroGallery: ["/img/xypro_brand_banner.webp"],
+    heroGallery: ["/img/xypro-grey.webp"],
     featureBullets: [
       "80 km+ real-world range on a single charge",
       "Charges in 4 hours on any regular 5A socket",
@@ -81,10 +81,10 @@ export const scooters: Scooter[] = [
       warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
-      { name: "Pearl White", hex: "#F5F5F5", gallery: ["/img/xypro_brand_banner.webp"] },
-      { name: "Matte Black", hex: "#1D2939", gallery: ["/img/xypro_brand_banner.webp"] },
+      { name: "Pearl White", hex: "#F5F5F5", gallery: ["/img/xypro-grey.webp"] },
+      { name: "Matte Black", hex: "#1D2939", gallery: ["/img/xypro-grey.webp"] },
     ],
-    heroGallery: ["/img/xypro_brand_banner.webp"],
+    heroGallery: ["/img/xypro-grey.webp"],
     featureBullets: [
       "50 km+ real-world range on a single charge",
       "Charges in 6 hours on any regular 5A socket",
@@ -139,9 +139,9 @@ export const scooters: Scooter[] = [
       warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
-      { name: "Crimson", hex: "#B71C1C", gallery: ["/img/jett_brand_banner.webp"] },
+      { name: "Crimson", hex: "#B71C1C", gallery: ["/img/jett-product-shot.webp"] },
     ],
-    heroGallery: ["/img/jett_brand_banner.webp"],
+    heroGallery: ["/img/jett-product-shot.webp"],
     featureBullets: [
       "80 km+ range, enough for two daily commutes + errands",
       "Cushioned dual-seat with lumbar support",
@@ -191,9 +191,9 @@ export const scooters: Scooter[] = [
       warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
-      { name: "Matte Black", hex: "#1D2939", gallery: ["/img/jett_brand_banner.webp"] },
+      { name: "Matte Black", hex: "#1D2939", gallery: ["/img/jett-product-shot.webp"] },
     ],
-    heroGallery: ["/img/jett_brand_banner.webp"],
+    heroGallery: ["/img/jett-product-shot.webp"],
     featureBullets: [
       "50 km+ range for predictable daily use",
       "Charges in 6 hours on a regular 5A socket",
@@ -242,9 +242,9 @@ export const scooters: Scooter[] = [
       warranty: "Lithium Battery 3y · Charger, Motor & Controller 1y",
     },
     colors: [
-      { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all_brand_banner.webp"] },
+      { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all-white.webp"] },
     ],
-    heroGallery: ["/img/4all_brand_banner.webp"],
+    heroGallery: ["/img/4all-white.webp"],
     featureBullets: [
       "80 km+ real-world range on a single charge",
       "No licence, no registration. Ride it home the same day",
@@ -294,9 +294,9 @@ export const scooters: Scooter[] = [
       warranty: "Battery, Charger, Motor & Controller 1y",
     },
     colors: [
-      { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all_brand_banner.webp"] },
+      { name: "Cloud White", hex: "#FAFAFA", gallery: ["/img/4all-white.webp"] },
     ],
-    heroGallery: ["/img/4all_brand_banner.webp"],
+    heroGallery: ["/img/4all-white.webp"],
     featureBullets: [
       "50 km+ range, best in its price bracket",
       "Charges in 6 hours on any 5A socket",

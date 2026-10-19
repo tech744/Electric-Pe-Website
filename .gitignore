@@ -45,6 +45,9 @@ pdf_content.txt
 /Electricpe-*.png
 !README.md
 !public/llms.txt
+# The customer-facing brochure is a shipped asset, not an internal doc - it is
+# linked from /about-us and /become-a-dealer and has to be in the deploy.
+!public/docs/*.pdf
 
 # vercel
 .vercel

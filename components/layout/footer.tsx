@@ -27,6 +27,7 @@ const FOOTER_LINKS = {
   ],
   Network: [
     { label: "Store Locator", href: "/stores" },
+    { label: "Become a Dealer", href: "/become-a-dealer" },
   ],
   Company: [
     { label: "About Us", href: "/about-us" },

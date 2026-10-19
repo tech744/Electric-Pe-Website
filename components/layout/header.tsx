@@ -18,6 +18,7 @@ const PRIMARY_NAV: NavItem[] = [
   { label: "Service", href: "/service" },
   { label: "EMI Calculator", href: "/emi" },
   { label: "Blogs", href: "/blogs" },
+  { label: "About us", href: "/about-us" },
 ];
 
 const BRANDS = [
@@ -165,12 +166,14 @@ export function Header() {
               <span className="hidden xl:inline">{globals.supportPhone}</span>
             </a>
 
+            {/* Single primary CTA. Test rides are still reachable from the
+                announcement bar, the homepage hero, and every product page. */}
             <Button
               asChild
               size="md"
               className="hidden md:inline-flex"
             >
-              <Link href="/book-test-ride">Book Free Test Ride</Link>
+              <Link href="/become-a-dealer">Become a Dealer</Link>
             </Button>
 
             <button
@@ -249,7 +252,7 @@ export function Header() {
                 size="lg"
                 onClick={() => setMobileOpen(false)}
               >
-                <Link href="/book-test-ride">Book Free Test Ride</Link>
+                <Link href="/become-a-dealer">Become a Dealer</Link>
               </Button>
               <Button
                 asChild

@@ -132,6 +132,60 @@ export const partnershipLeadSchema = z.object({
 });
 export type PartnershipLeadInput = z.infer<typeof partnershipLeadSchema>;
 
+/**
+ * Dealer enquiry options.
+ *
+ * The `*_VALUES` tuples are the single source of truth: the Zod enum is built
+ * from them and the label maps are typed as `Record<Union, string>`, so adding
+ * a value without a label (or vice versa) is a compile error. The form renders
+ * from these and the notification email reads the same labels.
+ */
+export const DEALER_INVESTMENT_VALUES = [
+  "5-10L",
+  "10-20L",
+  "20-30L",
+  "30L+",
+] as const;
+export type DealerInvestmentRange = (typeof DEALER_INVESTMENT_VALUES)[number];
+export const DEALER_INVESTMENT_LABELS: Record<DealerInvestmentRange, string> = {
+  "5-10L": "₹5–10 Lakhs",
+  "10-20L": "₹10–20 Lakhs",
+  "20-30L": "₹20–30 Lakhs",
+  "30L+": "₹30 Lakhs +",
+};
+
+export const DEALER_BUSINESS_VALUES = [
+  "existing-2w-dealership",
+  "other",
+] as const;
+export type DealerBusinessNature = (typeof DEALER_BUSINESS_VALUES)[number];
+export const DEALER_BUSINESS_LABELS: Record<DealerBusinessNature, string> = {
+  "existing-2w-dealership": "Existing 2-wheeler dealership",
+  other: "Other",
+};
+
+/** POST /api/dealer-enquiry */
+export const dealerEnquirySchema = z.object({
+  name: nameSchema,
+  phone: indianPhoneSchema,
+  email: emailSchema,
+  location: z
+    .string()
+    .trim()
+    .min(2, "Tell us the city or district you want to cover")
+    .max(120, "Location is too long"),
+  investmentRange: z.enum(DEALER_INVESTMENT_VALUES, {
+    errorMap: () => ({ message: "Select an investment range" }),
+  }),
+  businessNature: z.enum(DEALER_BUSINESS_VALUES, {
+    errorMap: () => ({ message: "Select your current line of business" }),
+  }),
+  remarks: z.string().trim().max(2000, "Please keep remarks under 2000 characters").optional(),
+  consent: consentSchema,
+  captchaToken: z.string().optional(),
+});
+export type DealerEnquiryInput = z.infer<typeof dealerEnquirySchema>;
+
 /** POST /api/careers-apply */
 export const careersApplySchema = z.object({
   jobSlug: z.string().min(2).max(80),

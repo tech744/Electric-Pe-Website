@@ -15,6 +15,7 @@ const STATIC_PATHS: { path: string; priority: number; changefreq: "weekly" | "mo
   { path: "/blogs", priority: 0.7, changefreq: "weekly" },
   { path: "/careers", priority: 0.4, changefreq: "weekly" },
   { path: "/press", priority: 0.3, changefreq: "monthly" },
+  { path: "/become-a-dealer", priority: 0.7, changefreq: "monthly" },
   { path: "/partnerships", priority: 0.4, changefreq: "monthly" },
   { path: "/partnerships/ev-oem", priority: 0.3, changefreq: "monthly" },
   { path: "/privacy", priority: 0.1, changefreq: "yearly" },
