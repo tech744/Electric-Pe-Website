@@ -7,6 +7,7 @@ import {
 import { getClientIp, rateLimit } from "@/lib/analytics/rate-limit";
 import { postLeadToZoho } from "@/lib/integrations/zoho-crm";
 import { sendLeadEmail } from "@/lib/integrations/lead-email";
+import { saveDealershipEnquiry } from "@/lib/integrations/dealership-enquiry";
 
 export const runtime = "nodejs";
 
@@ -40,10 +41,25 @@ export async function POST(request: Request) {
   const investment = DEALER_INVESTMENT_LABELS[input.investmentRange];
   const business = DEALER_BUSINESS_LABELS[input.businessNature];
 
-  // Both sinks are awaited but neither can fail the request: a dealer enquiry
-  // is too valuable to lose to a CRM or mail outage, and the reference code is
-  // what the applicant quotes when the team calls back.
-  const [crm, mail] = await Promise.all([
+  // Every sink is awaited but none of them can fail the request: a dealer
+  // enquiry is too valuable to lose to a database, CRM or mail outage, and the
+  // reference code is what the applicant quotes when the team calls back.
+  const [db, crm, mail] = await Promise.all([
+    saveDealershipEnquiry({
+      name: input.name,
+      phoneNo: input.phone,
+      email: input.email,
+      location: input.location,
+      // The bucket key, not the ₹ label - it is what the API's own example
+      // sends and what their reports group on.
+      investmentRange: input.investmentRange,
+      natureOfBusiness: business,
+      // Carry the reference into remarks so a row in their database can be
+      // matched to the notification email the team is looking at.
+      remarks: [input.remarks?.trim(), `Ref: ${reference}`]
+        .filter(Boolean)
+        .join(" · "),
+    }),
     postLeadToZoho({
       source: "become-a-dealer",
       name: input.name,
@@ -76,9 +92,10 @@ export async function POST(request: Request) {
     }),
   ]);
 
-  if (!crm.ok || !mail.ok) {
+  if (!db.ok || !crm.ok || !mail.ok) {
     console.error("[dealer-enquiry] Lead delivery degraded", {
       reference,
+      db: db.error,
       crm: crm.error,
       mail: mail.error,
     });
