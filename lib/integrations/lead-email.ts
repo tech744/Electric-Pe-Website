@@ -1,24 +1,29 @@
 /**
- * Internal email notification for website leads.
+ * Internal email notification for website leads, sent over SMTP.
  *
- * Deliberately dependency-free - we POST to Resend's REST API with `fetch`,
- * the same shape as lib/integrations/zoho-crm.ts, so no mail SDK enters the
- * bundle and the lockfile stays untouched.
+ * Nodemailer against our own mailbox rather than a transactional email API:
+ * the mailbox already exists and is already paid for, there is no sender
+ * domain to verify with a third party, and a handful of lead notifications a
+ * day is nowhere near the volume that would justify an ESP.
  *
- * Fully env-gated and graceful: with no credentials the call is a no-op that
- * resolves `{ ok: true }`, exactly like the Zoho webhook, so forms keep working
- * in dev and in any environment where mail has not been wired up yet.
+ * Fully env-gated and graceful: with no SMTP credentials the call is a no-op
+ * that resolves `{ ok: true }`, exactly like the Zoho webhook, so forms keep
+ * working in dev and in any environment where mail has not been wired up yet.
  *
- * To switch mail providers, replace the body of `deliver()` - the rest of the
- * app only knows about `sendLeadEmail`.
+ * To switch mail providers, replace the body of `sendLeadEmail` - the rest of
+ * the app only knows about that function.
  *
  * Environment:
- *   RESEND_API_KEY      API key from resend.com (required to send)
- *   LEAD_NOTIFY_EMAILS  comma-separated recipients (required to send)
- *   LEAD_NOTIFY_FROM    verified sender, e.g. "ElectricPe <website@electricpe.com>"
+ *   SMTP_HOST           e.g. smtp.gmail.com (required to send)
+ *   SMTP_USER           full mailbox address (required to send)
+ *   SMTP_PASS           app password, NOT the account password (required to send)
+ *   SMTP_PORT           587 for STARTTLS (default), 465 for implicit TLS
+ *   LEAD_NOTIFY_EMAILS  comma-separated recipients; overrides DEFAULT_RECIPIENTS
+ *   LEAD_NOTIFY_FROM    sender header; must be SMTP_USER or one of its verified
+ *                       aliases, because Gmail rejects anything else
  */
 
-const RESEND_ENDPOINT = "https://api.resend.com/emails";
+import nodemailer, { type Transporter } from "nodemailer";
 
 export type LeadEmail = {
   subject: string;
@@ -38,11 +43,62 @@ function escapeHtml(value: string): string {
     .replace(/"/g, "&quot;");
 }
 
+/**
+ * Who gets a lead when LEAD_NOTIFY_EMAILS is not set.
+ *
+ * Checked in deliberately. These are the people who actually chase the
+ * enquiries, and a forgotten environment variable on a fresh deploy must not
+ * quietly send every dealership lead into a void - the whole point of this
+ * file is that a lead never goes missing. Set LEAD_NOTIFY_EMAILS to change the
+ * list without a release.
+ */
+const DEFAULT_RECIPIENTS = [
+  "sumit.singh@electricpe.com",
+  "harsh.jindal@electricpe.com",
+  "rohit@electricpe.com",
+  // Our own address, so delivery can be verified end to end. Drop this once
+  // the client confirms the three above are receiving the mails.
+  "jatin.chhabra@viithiisys.com",
+];
+
 function recipients(): string[] {
-  return (process.env.LEAD_NOTIFY_EMAILS ?? "")
+  const configured = (process.env.LEAD_NOTIFY_EMAILS ?? "")
     .split(",")
     .map((address) => address.trim())
     .filter(Boolean);
+  return configured.length > 0 ? configured : DEFAULT_RECIPIENTS;
+}
+
+/**
+ * Built once and reused. On a warm serverless instance this keeps nodemailer's
+ * connection pool alive, so the second lead of the day does not pay for
+ * another TCP handshake, TLS negotiation and SMTP login.
+ */
+let cached: Transporter | null = null;
+
+function transport(): Transporter | null {
+  const host = process.env.SMTP_HOST;
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+  if (!host || !user || !pass) return null;
+  if (cached) return cached;
+
+  const port = Number(process.env.SMTP_PORT ?? 587);
+  cached = nodemailer.createTransport({
+    host,
+    port,
+    // 465 is TLS from the first byte; 587 opens in the clear and upgrades
+    // with STARTTLS, which nodemailer does on its own.
+    secure: port === 465,
+    auth: { user, pass },
+    // A mail server having a bad day must not hold a lead submission open.
+    // Every caller treats a failure as "logged, not raised", so giving up is
+    // always better than hanging.
+    connectionTimeout: 10_000,
+    greetingTimeout: 10_000,
+    socketTimeout: 15_000,
+  });
+  return cached;
 }
 
 function renderHtml(email: LeadEmail): string {
@@ -72,15 +128,13 @@ function renderText(email: LeadEmail): string {
 export async function sendLeadEmail(
   email: LeadEmail,
 ): Promise<{ ok: boolean; error?: string }> {
-  const apiKey = process.env.RESEND_API_KEY;
+  const mailer = transport();
   const to = recipients();
-  const from =
-    process.env.LEAD_NOTIFY_FROM ?? "ElectricPe Website <website@electricpe.com>";
 
-  if (!apiKey || to.length === 0) {
+  if (!mailer || to.length === 0) {
     if (process.env.NODE_ENV !== "production") {
       console.info(
-        "[lead-email] Skipping send - RESEND_API_KEY / LEAD_NOTIFY_EMAILS unset (dev).",
+        "[lead-email] Skipping send - SMTP_HOST / SMTP_USER / SMTP_PASS unset (dev).",
         { subject: email.subject, rows: email.rows },
       );
     }
@@ -88,22 +142,17 @@ export async function sendLeadEmail(
   }
 
   try {
-    const res = await fetch(RESEND_ENDPOINT, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from,
-        to,
-        subject: email.subject,
-        html: renderHtml(email),
-        text: renderText(email),
-        ...(email.replyTo ? { reply_to: email.replyTo } : {}),
-      }),
+    await mailer.sendMail({
+      from:
+        process.env.LEAD_NOTIFY_FROM ??
+        `ElectricPe Website <${process.env.SMTP_USER}>`,
+      to,
+      subject: email.subject,
+      html: renderHtml(email),
+      text: renderText(email),
+      ...(email.replyTo ? { replyTo: email.replyTo } : {}),
     });
-    return { ok: res.ok, error: res.ok ? undefined : `HTTP ${res.status}` };
+    return { ok: true };
   } catch (err) {
     return {
       ok: false,
