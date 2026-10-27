@@ -19,8 +19,10 @@ import {
   DEALER_INVESTMENT_LABELS,
   DEALER_BUSINESS_VALUES,
   DEALER_BUSINESS_LABELS,
+  INDIAN_STATES,
   type DealerInvestmentRange,
   type DealerBusinessNature,
+  type IndianState,
 } from "@/lib/validation/booking";
 import { track, EVENTS } from "@/lib/analytics/events";
 
@@ -28,7 +30,8 @@ export function BecomeADealerForm() {
   const [name, setName] = React.useState("");
   const [phone, setPhone] = React.useState("");
   const [email, setEmail] = React.useState("");
-  const [location, setLocation] = React.useState("");
+  const [city, setCity] = React.useState("");
+  const [stateName, setStateName] = React.useState<IndianState | "">("");
   const [investmentRange, setInvestmentRange] =
     React.useState<DealerInvestmentRange | "">("");
   const [businessNature, setBusinessNature] =
@@ -45,7 +48,8 @@ export function BecomeADealerForm() {
       name,
       phone,
       email,
-      location,
+      city,
+      state: stateName,
       investmentRange,
       businessNature,
       remarks,
@@ -140,7 +144,7 @@ export function BecomeADealerForm() {
             placeholder="10-digit mobile"
           />
         </FormField>
-        <FormField id="d-email" label="Email" required error={errors.email}>
+        <FormField id="d-email" label="Email" error={errors.email}>
           <Input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -151,19 +155,40 @@ export function BecomeADealerForm() {
         </FormField>
       </div>
 
-      <FormField
-        id="d-location"
-        label="Location"
-        required
-        error={errors.location}
-        hint="City or district you want the dealership in"
-      >
-        <Input
-          value={location}
-          onChange={(e) => setLocation(e.target.value)}
-          placeholder="e.g. Nashik, Maharashtra"
-        />
-      </FormField>
+      <div className="grid md:grid-cols-2 gap-4">
+        <FormField
+          id="d-city"
+          label="City"
+          required
+          error={errors.city}
+          hint="City or district you want the dealership in"
+        >
+          <Input
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+            autoComplete="address-level2"
+            placeholder="e.g. Nashik"
+          />
+        </FormField>
+
+        <FormField id="d-state" label="State" required error={errors.state}>
+          <Select
+            value={stateName}
+            onValueChange={(v) => setStateName(v as IndianState)}
+          >
+            <SelectTrigger id="d-state">
+              <SelectValue placeholder="Select a state" />
+            </SelectTrigger>
+            <SelectContent>
+              {INDIAN_STATES.map((value) => (
+                <SelectItem key={value} value={value}>
+                  {value}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </FormField>
+      </div>
 
       <div className="grid md:grid-cols-2 gap-4">
         <FormField

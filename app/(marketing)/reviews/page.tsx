@@ -8,9 +8,10 @@ import { Button } from "@/components/ui/button";
 import { testimonials } from "@/content/testimonials";
 import { getCity } from "@/content/cities";
 import { scooters } from "@/content/scooters";
+import { globals } from "@/content/globals";
 
 export const metadata: Metadata = {
-  title: "Customer Reviews | 2,500+ Verified Owners",
+  title: "Customer Reviews | 1 Lakh+ Verified Owners",
   description:
     "Read real reviews from ElectricPe scooter owners across India. Every testimonial is verified: real name, real city, real model.",
   alternates: { canonical: "/reviews" },
@@ -47,7 +48,9 @@ export default function ReviewsPage() {
                 <p className="text-sm text-[var(--color-text-muted)]">Avg rating</p>
               </div>
               <div>
-                <p className="text-number-stat text-[var(--color-brand)]">2,500+</p>
+                <p className="text-number-stat text-[var(--color-brand)]">
+                    {globals.stats.vehiclesSold}
+                  </p>
                 <p className="text-sm text-[var(--color-text-muted)]">Owners</p>
               </div>
               <div>

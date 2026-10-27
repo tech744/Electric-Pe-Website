@@ -10,7 +10,7 @@ import { PartnershipHero } from "@/components/marketing/partnership-hero";
 export const metadata: Metadata = {
   title: "Partnerships | Grow with India's EV Retail Network",
   description:
-    "Partner with ElectricPe. List your electric scooter across 126+ branded Mobility Centers in 15+ cities, with retail, finance, and service handled for you.",
+    "Partner with ElectricPe. List your electric scooter across 100+ branded Mobility Centers in 15+ cities, with retail, finance, and service handled for you.",
   alternates: { canonical: "/partnerships" },
 };
 
@@ -18,7 +18,7 @@ const TRACKS = [
   {
     icon: Battery,
     title: "EV OEM",
-    text: "List your scooter at 126+ branded Mobility Centers. We handle retail, finance, and service.",
+    text: "List your scooter at 100+ branded Mobility Centers. We handle retail, finance, and service.",
     href: "/partnerships/ev-oem",
   },
 ];

@@ -26,7 +26,7 @@ import { buildWhatsAppLink } from "@/lib/utils/whatsapp";
 export const metadata: Metadata = {
   title: "Become a Dealer | ElectricPe Electric Scooter Dealership",
   description:
-    "Open an ElectricPe electric scooter dealership. ₹100 Cr+ raised, backed by Anupam Mittal, our own plants and 126+ company-owned showrooms, 24x7 spares and service. Share your details and our team will call you.",
+    "Open an ElectricPe electric scooter dealership. ₹100 Cr+ raised, backed by Anupam Mittal, our own plants and 100+ company-owned showrooms, 24x7 spares and service. Share your details and our team will call you.",
   alternates: { canonical: "/become-a-dealer" },
 };
 
@@ -189,7 +189,7 @@ export default function BecomeADealerPage() {
             <div className="lg:col-span-6">
               <p className="text-eyebrow mb-3">Become a dealer</p>
               <h1 className="text-display-xl">
-                Build an EV business with a manufacturer behind you.
+                Build an EV business with a brand behind you.
               </h1>
               <p className="mt-5 text-lg text-[var(--color-text-muted)] leading-relaxed">
                 ElectricPe manufactures its own electric two-wheelers and
@@ -331,7 +331,7 @@ export default function BecomeADealerPage() {
       </Section>
 
       {/* The strongest argument in the brochure: we are not asking dealers to
-          do something we have not done ourselves 126 times over. */}
+          do something we have not done ourselves 100 times over. */}
       <Section className="bg-[var(--color-surface-muted)]">
         <SectionHeader
           eyebrow="Why dealers choose us"

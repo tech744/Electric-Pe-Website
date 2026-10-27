@@ -10,7 +10,7 @@ import { PartnershipHero } from "@/components/marketing/partnership-hero";
 export const metadata: Metadata = {
   title: { absolute: "EV OEM Partnership | Distribute via ElectricPe" },
   description:
-    "Scale distribution for your electric scooter brand through ElectricPe's 126+ Mobility Centers. Retail, financing, service, all bundled.",
+    "Scale distribution for your electric scooter brand through ElectricPe's 100+ Mobility Centers. Retail, financing, service, all bundled.",
   alternates: { canonical: "/partnerships/ev-oem" },
 };
 
@@ -18,7 +18,7 @@ const PILLARS = [
   {
     icon: Users,
     title: "Real customer reach",
-    text: "126+ Mobility Centers generating 1,000+ test rides per month across Tier 1–2 cities.",
+    text: "100+ Mobility Centers generating 1,000+ test rides per month across Tier 1–2 cities.",
   },
   {
     icon: Wrench,
@@ -43,7 +43,7 @@ export default function EvOemPage() {
       <PartnershipHero
         eyebrow="EV OEM Partnership"
         title="Stop building showrooms. Start selling."
-        description="ElectricPe's store network sold 2,500+ scooters last year across 15+ cities. If you're an electric-scooter OEM, our retail + service infrastructure replaces years of distribution cost."
+        description="ElectricPe's store network has sold 1 Lakh+ scooters across 15+ cities. If you're an electric-scooter OEM, our retail + service infrastructure replaces years of distribution cost."
       />
 
       <Section>

@@ -175,7 +175,7 @@ export function Hero() {
             </li>
             <li className="inline-flex items-center gap-1.5">
               <Store className="h-4 w-4 text-[var(--color-brand)]" aria-hidden />
-              126+ Mobility Centers
+              100+ Mobility Centers
             </li>
           </motion.ul>
         </div>

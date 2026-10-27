@@ -40,6 +40,10 @@ export async function POST(request: Request) {
   const reference = `DL-${Date.now().toString(36).toUpperCase()}`;
   const investment = DEALER_INVESTMENT_LABELS[input.investmentRange];
   const business = DEALER_BUSINESS_LABELS[input.businessNature];
+  // The form collects city and state separately so the team can filter by
+  // territory; every downstream sink still wants one human-readable line.
+  const location = `${input.city}, ${input.state}`;
+  const email = input.email?.trim() || undefined;
 
   // Every sink is awaited but none of them can fail the request: a dealer
   // enquiry is too valuable to lose to a database, CRM or mail outage, and the
@@ -48,8 +52,8 @@ export async function POST(request: Request) {
     saveDealershipEnquiry({
       name: input.name,
       phoneNo: input.phone,
-      email: input.email,
-      location: input.location,
+      email,
+      location,
       // The bucket key, not the ₹ label - it is what the API's own example
       // sends and what their reports group on.
       investmentRange: input.investmentRange,
@@ -64,27 +68,29 @@ export async function POST(request: Request) {
       source: "become-a-dealer",
       name: input.name,
       phone: input.phone,
-      email: input.email,
-      city: input.location,
+      email,
+      city: input.city,
       interest: "dealership",
       notes: `${business} · ${investment} investment. ${input.remarks ?? ""}`.trim(),
       meta: {
         reference,
-        location: input.location,
+        location,
+        state: input.state,
         investmentRange: input.investmentRange,
         businessNature: input.businessNature,
       },
     }),
     sendLeadEmail({
-      subject: `New dealership enquiry - ${input.location} (${reference})`,
+      subject: `New dealership enquiry - ${location} (${reference})`,
       intro: `${input.name} wants to open an ElectricPe dealership.`,
-      replyTo: input.email,
+      replyTo: email,
       rows: [
         { label: "Reference", value: reference },
         { label: "Name", value: input.name },
         { label: "Phone", value: `+91 ${input.phone}` },
-        { label: "Email", value: input.email },
-        { label: "Location", value: input.location },
+        { label: "Email", value: email ?? "-" },
+        { label: "City", value: input.city },
+        { label: "State", value: input.state },
         { label: "Investment range", value: investment },
         { label: "Current business", value: business },
         { label: "Remarks", value: input.remarks?.trim() || "-" },

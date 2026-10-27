@@ -124,7 +124,7 @@ const MILESTONES = [
   },
   {
     year: "2026",
-    title: "Expanding to 126+ stores",
+    title: "100+ stores and an extensive franchise network",
     text: "Growing into Delhi NCR, West India, and Tier-2 city clusters.",
   },
 ];
