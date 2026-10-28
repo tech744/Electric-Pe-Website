@@ -40,8 +40,8 @@ export async function POST(request: Request) {
   const reference = `DL-${Date.now().toString(36).toUpperCase()}`;
   const investment = DEALER_INVESTMENT_LABELS[input.investmentRange];
   const business = DEALER_BUSINESS_LABELS[input.businessNature];
-  // The form collects city and state separately so the team can filter by
-  // territory; every downstream sink still wants one human-readable line.
+  // City and state go upstream as their own fields, but several sinks still
+  // want the combined line, so build it once here.
   const location = `${input.city}, ${input.state}`;
   const email = input.email?.trim() || undefined;
 
@@ -53,6 +53,8 @@ export async function POST(request: Request) {
       name: input.name,
       phoneNo: input.phone,
       email,
+      city: input.city,
+      state: input.state,
       location,
       // The bucket key, not the ₹ label - it is what the API's own example
       // sends and what their reports group on.

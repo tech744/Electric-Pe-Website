@@ -23,6 +23,15 @@ export type DealershipEnquiry = {
   /** 10 digits, no country code - the schema strips +91 before we get here. */
   phoneNo: string;
   email?: string;
+  /**
+   * City and state are stored as separate columns upstream; `location` is the
+   * same thing as one line. All three are sent because their API kept the
+   * combined field when the split columns were added, and a report built on
+   * either one keeps working.
+   */
+  city?: string;
+  /** Full state name, e.g. "Maharashtra" - not a two-letter code. */
+  state?: string;
   location?: string;
   /** Bucket key, e.g. "20-30L" - the API stores these verbatim. */
   investmentRange?: string;
