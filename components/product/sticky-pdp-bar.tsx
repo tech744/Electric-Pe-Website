@@ -31,6 +31,7 @@ export function StickyPdpBar({ scooter }: { scooter: Scooter }) {
         "transition-transform duration-[var(--duration-base)] ease-[var(--ease-standard)]",
         visible ? "translate-y-0" : "translate-y-full pointer-events-none",
       )}
+      data-floating-ui
     >
       <div className="container-page flex items-center gap-3 md:gap-5 py-3">
         <div className="relative h-12 w-14 md:h-14 md:w-20 rounded-lg overflow-hidden bg-[var(--color-surface-muted)] shrink-0 hidden sm:block">

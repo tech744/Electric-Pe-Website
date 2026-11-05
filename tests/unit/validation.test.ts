@@ -11,6 +11,7 @@ describe("bookTestRideSchema", () => {
     phone: "9876543210",
     email: "priya@example.com",
     city: "bengaluru",
+    pincode: "560001",
     model: "xypro-lithium-ion",
     preferredDate: "2026-05-03",
     preferredSlot: "morning",
@@ -72,12 +73,19 @@ describe("contactSchema", () => {
 });
 
 describe("newsletterSchema", () => {
-  it("accepts a valid email", () => {
-    const r = newsletterSchema.safeParse({ email: "hello@example.com" });
+  it("accepts a valid email with consent", () => {
+    const r = newsletterSchema.safeParse({
+      email: "hello@example.com",
+      consent: true,
+    });
     expect(r.success).toBe(true);
   });
   it("rejects garbage email", () => {
-    const r = newsletterSchema.safeParse({ email: "nope" });
+    const r = newsletterSchema.safeParse({ email: "nope", consent: true });
+    expect(r.success).toBe(false);
+  });
+  it("rejects a subscription without consent", () => {
+    const r = newsletterSchema.safeParse({ email: "hello@example.com" });
     expect(r.success).toBe(false);
   });
 });

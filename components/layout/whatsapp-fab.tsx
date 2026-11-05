@@ -34,6 +34,7 @@ export function WhatsAppFab() {
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)] focus-visible:ring-offset-2",
         visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-3 pointer-events-none",
       )}
+      data-floating-ui
     >
       <MessageCircle className="h-6 w-6" aria-hidden />
       <span className="sr-only">Chat on WhatsApp</span>

@@ -13,6 +13,7 @@ import { scooters } from "@/content/scooters";
 import { getStoresByCity } from "@/content/stores";
 import { bookTestRideSchema } from "@/lib/validation/booking";
 import { track, EVENTS } from "@/lib/analytics/events";
+import { globals } from "@/content/globals";
 
 type Slot = "morning" | "afternoon" | "evening";
 type Currently = "petrol" | "ev" | "none";
@@ -509,8 +510,16 @@ export function BookTestRideForm({
               className="mt-1 h-4 w-4 rounded border-[var(--color-border-strong)] text-[var(--color-brand)] focus:ring-[var(--color-ring)]"
             />
             <span className="text-sm text-[var(--color-text-muted)]">
-              I agree to receive updates on WhatsApp/SMS/email about my test ride, and
-              accept ElectricPe's{" "}
+              I agree that ElectricPe may use my name, phone number and the details
+              above to arrange this test ride and contact me about it on WhatsApp, SMS,
+              email or phone. I can withdraw this at any time by writing to{" "}
+              <a
+                href={`mailto:${globals.dpoEmail}`}
+                className="text-[var(--color-brand)] underline"
+              >
+                {globals.dpoEmail}
+              </a>
+              . See our{" "}
               <Link href="/privacy" className="text-[var(--color-brand)] underline">
                 privacy policy
               </Link>

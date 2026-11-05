@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy" },
 };
 
-const LAST_UPDATED = "2026-04-01";
+const LAST_UPDATED = "2026-11-05";
 
 export default function PrivacyPage() {
   return (
@@ -50,12 +50,17 @@ export default function PrivacyPage() {
                 city.
               </li>
               <li>
-                <strong>Transaction data:</strong> Scooter purchased, EMI details,
-                service records, charging sessions on the ElectricPe app.
+                <strong>Transaction data:</strong> Scooter purchased, EMI details, and
+                service records.
               </li>
               <li>
-                <strong>Technical data:</strong> IP address, device type, browser, and
-                analytics events (GA4 + Microsoft Clarity).
+                <strong>Technical data:</strong> IP address, device type, browser, pages
+                viewed, and the actions you take on the site. On the website this is
+                only collected if you accept analytics and advertising cookies - see{" "}
+                <a href="#cookies" className="text-[var(--color-brand)] underline">
+                  Cookies and tracking
+                </a>
+                .
               </li>
               <li>
                 <strong>Communications data:</strong> WhatsApp messages, emails, and
@@ -67,7 +72,7 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-5 space-y-1.5">
               <li>To process your purchase, financing, warranty, and service requests.</li>
               <li>To confirm test rides and send appointment reminders over WhatsApp.</li>
-              <li>To improve our product, retail network, and charging aggregator.</li>
+              <li>To improve our product and retail network.</li>
               <li>To comply with legal and regulatory obligations in India.</li>
               <li>To send you marketing communications, but only if you opt in.</li>
             </ul>
@@ -87,12 +92,23 @@ export default function PrivacyPage() {
                 transactional communication.
               </li>
               <li>
-                <strong>Analytics:</strong> Google Analytics 4 (aggregated, anonymised)
-                and Microsoft Clarity (session replay, heatmaps).
+                <strong>Analytics:</strong> Google Analytics 4, and only if you accept
+                analytics cookies.
               </li>
               <li>
-                <strong>Charging networks:</strong> Only when you initiate a session
-                through the ElectricPe app, limited to the network you chose.
+                <strong>Advertising:</strong> Meta (Facebook and Instagram) through the
+                Meta Pixel, so we can measure our ads and show them to people who have
+                visited this site. Only if you accept advertising cookies.
+              </li>
+              <li>
+                <strong>Website hosting:</strong> Vercel, which hosts this site and
+                records anonymous page-performance measurements.
+              </li>
+              <li>
+                <strong>Enquiry handling:</strong> When you submit a form, the details
+                reach our sales and service teams by email, and are stored in our own
+                systems and CRM. Our website development partner can also receive these
+                notifications while the site is being maintained.
               </li>
             </ul>
             <p>
@@ -120,20 +136,56 @@ export default function PrivacyPage() {
             <p>
               To exercise these rights, write to our Data Protection Officer at{" "}
               <a
-                href="mailto:dpo@electricpe.com"
+                href={`mailto:${globals.dpoEmail}`}
                 className="text-[var(--color-brand)] underline"
               >
-                dpo@electricpe.com
+                {globals.dpoEmail}
               </a>
               . We respond within 7 days.
             </p>
 
-            <h2 className="text-h2 mt-8">Cookies</h2>
+            <h2 className="text-h2 mt-8" id="cookies">
+              Cookies and tracking
+            </h2>
             <p>
-              We use strictly-necessary cookies (session, city preference) and
-              analytics cookies (GA4, Clarity). No ad-targeting cookies without your
-              explicit consent. You can disable analytics cookies in your browser, and the
-              site will work normally.
+              The first time you visit, we ask whether you accept analytics and
+              advertising cookies. Nothing in those two categories runs until you
+              accept - no analytics script, no advertising pixel, and no cookie they
+              would set.
+            </p>
+            <ul className="list-disc pl-5 space-y-1.5">
+              <li>
+                <strong>Strictly necessary</strong> (always on): your preferred city,
+                stored as <code>ep_city</code>, and your cookie choice itself. These
+                carry no advertising identifier and the site cannot work without them.
+              </li>
+              <li>
+                <strong>Analytics</strong> (only if you accept): Google Analytics 4,
+                which tells us which pages people use. Cookies <code>_ga</code>,{" "}
+                <code>_gid</code>.
+              </li>
+              <li>
+                <strong>Advertising</strong> (only if you accept): the Meta Pixel, which
+                lets us measure our Facebook and Instagram ads and show them to people
+                who have visited the site. Cookies <code>_fbp</code>, <code>_fbc</code>.
+              </li>
+            </ul>
+            <p>
+              You can change or withdraw your choice at any time using the{" "}
+              <strong>Cookie preferences</strong> link at the bottom of every page.
+              Withdrawing is one click, exactly like accepting: we stop the scripts and
+              delete the analytics and advertising cookies already in your browser. The
+              site works normally either way.
+            </p>
+
+            <h2 className="text-h2 mt-8">Transfers outside India</h2>
+            <p>
+              Google, Meta and Vercel process data on servers outside India. Where that
+              happens, it is limited to the categories described above, under those
+              providers' contractual data-protection terms, and only to countries not
+              restricted by the Central Government under the DPDP Act. Your identity,
+              transaction and communications data stays with us and our Indian
+              partners.
             </p>
 
             <h2 className="text-h2 mt-8">Children</h2>
@@ -141,10 +193,10 @@ export default function PrivacyPage() {
               ElectricPe services are intended for users 18 years and older. If you
               believe a child has shared personal data with us, email{" "}
               <a
-                href="mailto:dpo@electricpe.com"
+                href={`mailto:${globals.dpoEmail}`}
                 className="text-[var(--color-brand)] underline"
               >
-                dpo@electricpe.com
+                {globals.dpoEmail}
               </a>{" "}
               and we will delete it.
             </p>
@@ -163,10 +215,10 @@ export default function PrivacyPage() {
               <br />
               Email:{" "}
               <a
-                href="mailto:dpo@electricpe.com"
+                href={`mailto:${globals.dpoEmail}`}
                 className="text-[var(--color-brand)] underline"
               >
-                dpo@electricpe.com
+                {globals.dpoEmail}
               </a>
               <br />
               CIN: {globals.legalEntity.cin}

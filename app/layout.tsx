@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { SITE, absoluteUrl } from "@/lib/utils/site";
 import { JsonLd, organizationSchema, websiteSchema } from "@/lib/seo/jsonld";
 import { Analytics } from "@/components/analytics/analytics";
+import { ConsentBanner } from "@/components/analytics/consent-banner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <JsonLd data={[organizationSchema, websiteSchema]} />
         <Analytics />
+        <ConsentBanner />
         {children}
       </body>
     </html>

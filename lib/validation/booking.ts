@@ -75,6 +75,9 @@ export type ContactInput = z.infer<typeof contactSchema>;
 export const newsletterSchema = z.object({
   email: emailSchema,
   source: z.string().max(40).optional(),
+  // An email address is personal data and a newsletter is marketing, so the
+  // DPDP Act wants a recorded opt-in here just as much as on a lead form.
+  consent: consentSchema,
 });
 export type NewsletterInput = z.infer<typeof newsletterSchema>;
 
@@ -113,6 +116,9 @@ export const savingsReportSchema = z.object({
   electricityRate: z.number().positive().max(50),
   monthlySavingsInr: z.number().nonnegative(),
   annualSavingsInr: z.number().nonnegative(),
+  // The calculator is anonymous until someone asks for the report by email -
+  // at that point it is a lead, and it needs the same opt-in as one.
+  consent: consentSchema,
   captchaToken: z.string().optional(),
 });
 export type SavingsReportInput = z.infer<typeof savingsReportSchema>;

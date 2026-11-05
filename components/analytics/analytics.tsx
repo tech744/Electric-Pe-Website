@@ -1,28 +1,52 @@
+"use client";
+
+import * as React from "react";
 import Script from "next/script";
+import {
+  CONSENT_CHANGED_EVENT,
+  readConsent,
+  type ConsentDecision,
+} from "@/lib/analytics/consent";
 
 /**
- * Analytics + remarketing.
+ * Analytics + remarketing, behind consent.
  *
- * Hoth audit on the new site flagged: (a) no analytics tool detected,
- * (b) no Facebook Pixel. Both addressed here.
+ * Under the DPDP Act a tracker may not run until the visitor has agreed to
+ * it, so none of these scripts are rendered at all until the stored decision
+ * reads "granted". That is why this is a client component: the server has no
+ * way to know what the visitor chose, and a script in the initial HTML would
+ * already have fired by the time we could remove it.
  *
- * Configuration:
- *   - GA4   : set NEXT_PUBLIC_GA_ID in env (e.g. "G-XXXXXXXXXX"). Empty
- *             value disables GA4 entirely.
- *   - Pixel : NEXT_PUBLIC_FB_PIXEL_ID, falls back to the production
- *             pixel ID lifted from the live-site audit so we don't lose
- *             remarketing while env is being wired up.
+ * There is deliberately no <noscript> pixel fallback. It cannot be gated on a
+ * choice the visitor has not made yet, so it would track every no-JS visitor
+ * unconditionally - which is the exact thing this file exists to prevent.
  *
- * Both scripts use Next.js' `afterInteractive` strategy so they don't
- * block initial paint. The pixel noscript fallback uses an <img> as
- * required by Meta's installation guide.
+ * Configuration - every id is optional, and an unset id disables that tool:
+ *   NEXT_PUBLIC_GA_ID         GA4, e.g. "G-XXXXXXXXXX"
+ *   NEXT_PUBLIC_FB_PIXEL_ID   Meta Pixel
+ *
+ * None of these fall back to a hardcoded id. A pixel that keeps firing after
+ * its environment variable is removed is indistinguishable from a bug, and in
+ * an audit it reads as tracking the operator did not know about.
  */
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "";
-const FB_PIXEL_ID =
-  process.env.NEXT_PUBLIC_FB_PIXEL_ID ?? "1480267782518513";
+const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FB_PIXEL_ID ?? "";
 
 export function Analytics() {
+  const [consent, setConsent] = React.useState<ConsentDecision | null>(null);
+
+  React.useEffect(() => {
+    setConsent(readConsent());
+    const onChange = (event: Event) => {
+      setConsent((event as CustomEvent<ConsentDecision>).detail);
+    };
+    window.addEventListener(CONSENT_CHANGED_EVENT, onChange);
+    return () => window.removeEventListener(CONSENT_CHANGED_EVENT, onChange);
+  }, []);
+
+  if (consent !== "granted") return null;
+
   return (
     <>
       {GA_ID && (
@@ -43,32 +67,20 @@ export function Analytics() {
       )}
 
       {FB_PIXEL_ID && (
-        <>
-          <Script id="fb-pixel" strategy="afterInteractive">
-            {`
-              !function(f,b,e,v,n,t,s)
-              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-              n.queue=[];t=b.createElement(e);t.async=!0;
-              t.src=v;s=b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t,s)}(window,document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '${FB_PIXEL_ID}');
-              fbq('track', 'PageView');
-            `}
-          </Script>
-          <noscript>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              height="1"
-              width="1"
-              style={{ display: "none" }}
-              src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
-              alt=""
-            />
-          </noscript>
-        </>
+        <Script id="fb-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '${FB_PIXEL_ID}');
+            fbq('track', 'PageView');
+          `}
+        </Script>
       )}
     </>
   );

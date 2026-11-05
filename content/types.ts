@@ -238,6 +238,8 @@ export type GlobalSettings = {
   whatsappNumber: string;
   supportPhone: string;
   supportEmail: string;
+  /** DPDP grievance / data-rights contact. */
+  dpoEmail: string;
   social: {
     instagram: string;
     youtube: string;

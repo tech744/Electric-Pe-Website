@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/select";
 import { contactSchema } from "@/lib/validation/booking";
 import { track, EVENTS } from "@/lib/analytics/events";
+import { globals } from "@/content/globals";
 
 type Topic = "sales" | "service" | "partnership" | "press" | "other";
 
@@ -157,7 +158,15 @@ export function ContactForm() {
           className="mt-1 h-4 w-4 rounded border-[var(--color-border-strong)]"
         />
         <span className="text-sm text-[var(--color-text-muted)]">
-          I agree to be contacted about my enquiry and accept ElectricPe's{" "}
+          I agree that ElectricPe may use my name and contact details to respond to
+          this enquiry. I can withdraw this at any time by writing to{" "}
+          <a
+            href={`mailto:${globals.dpoEmail}`}
+            className="text-[var(--color-brand)] underline"
+          >
+            {globals.dpoEmail}
+          </a>
+          . See our{" "}
           <Link href="/privacy" className="text-[var(--color-brand)] underline">
             privacy policy
           </Link>

@@ -25,6 +25,7 @@ import {
   type IndianState,
 } from "@/lib/validation/booking";
 import { track, EVENTS } from "@/lib/analytics/events";
+import { globals } from "@/content/globals";
 
 export function BecomeADealerForm() {
   const [name, setName] = React.useState("");
@@ -257,8 +258,16 @@ export function BecomeADealerForm() {
           className="mt-1 h-4 w-4 rounded border-[var(--color-border-strong)]"
         />
         <span className="text-sm text-[var(--color-text-muted)]">
-          I agree to be contacted about this dealership enquiry and accept
-          ElectricPe's{" "}
+          I agree that ElectricPe may use the details above to assess this dealership
+          enquiry and contact me about it by phone, WhatsApp or email. I can withdraw
+          this at any time by writing to{" "}
+          <a
+            href={`mailto:${globals.dpoEmail}`}
+            className="text-[var(--color-brand)] underline"
+          >
+            {globals.dpoEmail}
+          </a>
+          . See our{" "}
           <Link href="/privacy" className="text-[var(--color-brand)] underline">
             privacy policy
           </Link>

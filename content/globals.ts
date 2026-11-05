@@ -23,6 +23,9 @@ export const globals: GlobalSettings = {
   whatsappNumber: "918951817700",
   supportPhone: "+918951817700",
   supportEmail: "contact@electricpe.com",
+  /** DPDP grievance contact. Named in the privacy policy and on every
+   *  form that asks for personal data, so it lives in one place. */
+  dpoEmail: "dpo@electricpe.com",
   social: {
     instagram: "https://www.instagram.com/goelectricpe",
     youtube: "https://youtube.com/@goelectricpe",

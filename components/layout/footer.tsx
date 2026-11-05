@@ -5,6 +5,7 @@ import { Instagram, Youtube, Facebook, Linkedin, Twitter, MapPin } from "lucide-
 import { globals } from "@/content/globals";
 import { Container } from "@/components/ui/container";
 import { stores } from "@/content/stores";
+import { CookiePreferencesLink } from "@/components/analytics/consent-banner";
 
 const FOOTER_LINKS = {
   Shop: [
@@ -164,6 +165,9 @@ export function Footer() {
               <Link href="/warranty" className="hover:text-[var(--color-brand)]">
                 Warranty
               </Link>
+            </li>
+            <li>
+              <CookiePreferencesLink className="hover:text-[var(--color-brand)]" />
             </li>
             <li>Made in India 🇮🇳</li>
           </ul>

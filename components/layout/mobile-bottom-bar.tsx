@@ -46,6 +46,7 @@ export function MobileBottomBar() {
         hidden ? "translate-y-full" : "translate-y-0",
       )}
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+      data-floating-ui
     >
       <nav
         className="grid grid-cols-3 h-16"
