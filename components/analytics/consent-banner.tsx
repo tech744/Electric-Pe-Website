@@ -14,10 +14,14 @@ import {
 /**
  * Cookie consent bar.
  *
- * Accept and Reject are the same size, the same weight and sit next to each
+ * The two buttons are the same size, the same weight and sit next to each
  * other. Making refusal harder than acceptance is the dark pattern the DPDP
  * Act is written against, and a banner that nudges is worse than no banner at
  * all - it documents that we knew consent was needed and shaped the answer.
+ *
+ * "Accept necessary only" rather than "Reject", because that is what the
+ * button does: the strictly necessary cookies stay either way, and a visitor
+ * who reads "Reject" may reasonably expect the site to stop working.
  *
  * It is not a modal. Nothing is tracking while the visitor ignores it, so
  * trapping them in a dialog would buy compliance nothing and cost every
@@ -97,7 +101,7 @@ export function ConsentBanner() {
         </p>
         <div className="mt-4 flex flex-col gap-2.5 sm:flex-row">
           <Button size="md" onClick={() => choose("granted")} className="sm:flex-1">
-            Accept
+            Accept all
           </Button>
           <Button
             size="md"
@@ -105,7 +109,7 @@ export function ConsentBanner() {
             onClick={() => choose("denied")}
             className="sm:flex-1"
           >
-            Reject
+            Accept necessary only
           </Button>
         </div>
       </div>

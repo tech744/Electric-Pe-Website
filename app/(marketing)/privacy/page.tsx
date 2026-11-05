@@ -143,6 +143,14 @@ export default function PrivacyPage() {
               </a>
               . We respond within 7 days.
             </p>
+            <p>
+              We act on these requests in our own database directly. Where we have
+              already shared your data with a partner - a finance company you applied
+              through, for example - we pass your request on, but each of them runs
+              its own process under its own policy, and some can only remove the
+              identifiers that link that data back to you. We will tell you who we
+              passed the request to so you can follow it up with them.
+            </p>
 
             <h2 className="text-h2 mt-8" id="cookies">
               Cookies and tracking
